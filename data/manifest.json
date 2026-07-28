@@ -2,8 +2,8 @@
  "project": "Thesis Tracker — Adjacent Neural Organoids (ACO / DCHS1)",
  "guide_version": "2026-07-28.1",
  "mirror_version": "2026-07-28.1",
- "updated": "2026-07-28T23:45:47+02:00",
- "source_updateTime": "2026-07-28T21:36:37.413216Z",
+ "updated": "2026-07-29T00:31:44+02:00",
+ "source_updateTime": "2026-07-28T22:02:40.047692Z",
  "timezone": "Europe/Berlin",
  "generated_by": "scripts/mirror.py (GitHub Action)",
  "note": "Read-only mirror of the live app data. Plain query-free URLs. The app (https://ataefes.github.io/Thesis-Tracker/) is the source of truth.",
@@ -86,7 +86,7 @@
   },
   "completedTasks": {
    "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/completedTasks.json",
-   "records": 18
+   "records": 19
   },
   "skippedTasks": {
    "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/skippedTasks.json",
@@ -94,11 +94,11 @@
   },
   "log": {
    "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/log.json",
-   "records": 13
+   "records": 14
   },
   "due": {
    "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/due.json",
-   "records": 5
+   "records": 4
   }
  }
 }
