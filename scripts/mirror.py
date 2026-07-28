@@ -80,7 +80,12 @@ def unwrap(v):
 def clean_row(row):
     if not isinstance(row, dict):
         return row
-    return {k: val for k, val in row.items() if k not in DROP_ROW_KEYS}
+    out = {k: val for k, val in row.items() if k not in DROP_ROW_KEYS}
+    # Normalise casing: the app stores status inconsistently (FIXED vs fixed,
+    # DIED vs died). Lowercase it so a single filter catches every match.
+    if isinstance(out.get("status"), str):
+        out["status"] = out["status"].strip().lower()
+    return out
 
 
 def parse_date(s):

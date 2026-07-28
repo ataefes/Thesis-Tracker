@@ -110,6 +110,20 @@ flags — is intentionally not mirrored.)
 Each `due` row: `date` (ISO), `title`, `source` (`schedule` / `thaw` / `protocol` /
 `schedule-embedded`), `overdue` (bool), `days_from_today` (int), `notes`.
 
+### ⚠️ Staleness self-check — do this every time before trusting due.json
+
+This is a **mirror**, not live: it refreshes ~every 15 min, plus ~5 min CDN cache, so it can
+lag a just-made app edit by up to ~20 min.
+
+1. Read the `today` field in `due.json` and compare it to the **real current date**.
+   - If `today` **≠** real today, the mirror has not run yet today. The list is from
+     `today`. **Tell the user how old the data is** and that a very recent edit may not
+     show, and suggest confirming in the app. Do **not** present it as "today".
+2. `overdue` and `days_from_today` are **frozen at mirror time**. Only trust them if
+   `due.json` `today` **==** the real today. Otherwise **recompute** each item's status
+   yourself from its `date` vs the real today (e.g. an item dated for `today`'s value may no
+   longer be "in 1 day"; a `days_from_today: 1` from yesterday is due **today** now).
+
 For raw fields behind an item, open the matching table file. Task-id scheme (if you ever
 need it): schedule → `sched:<_id>`, thaw → `thaw:<_id>`, run step → `proto:<run _id>:<day>`.
 
@@ -118,7 +132,8 @@ need it): schedule → `sched:<_id>`, thaw → `thaw:<_id>`, run step → `proto
 ## 6. Worked examples
 
 - **"What do I need to do today / this week?"** → `due.json` only.
-- **"Which plates are fixed?"** → `plates.json`; rows with `status` = `FIXED`.
+- **"Which plates are fixed?"** → `plates.json`; rows with `status` = `fixed`. (All `status`
+  values are lowercased in the mirror — `fixed`/`died`/`active` — so match lowercase.)
 - **"What did Rebecca ask me?"** → `supervisor.json`; rows with `done` = false.
 - **"Antibody dilution for Pax6?"** → `staining.json`; row `marker`=`Pax6` → `pdil`.
 - **"How many days into the F1 run am I?"** → `runs.json`; row `name`="F1": today − `start`.
@@ -128,6 +143,7 @@ need it): schedule → `sched:<_id>`, thaw → `thaw:<_id>`, run step → `proto
 ## 7. Freshness & limits
 
 - Files refresh ~every 15 min (GitHub Action) and `raw.githubusercontent.com` caches ~5 min,
-  so data can be up to ~20 min behind a just-made app edit. `manifest.json`/each file's
-  `updated` tells you how fresh. For an edit made seconds ago, say it may not be reflected yet.
+  so data can be up to ~20 min behind a just-made app edit. Use `manifest.json`/each file's
+  `updated`, and especially the `due.json` `today` self-check in §5, to judge freshness. For
+  an edit made seconds ago, say it may not be reflected yet and offer to re-check shortly.
 - Read-only. To change data, the user edits the app; it flows back here on the next refresh.
