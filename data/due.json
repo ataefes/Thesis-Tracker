@@ -1,16 +1,16 @@
 {
- "updated": "2026-07-28T23:30:04+02:00",
+ "updated": "2026-07-28T23:42:59+02:00",
  "today": "2026-07-28",
  "timezone": "Europe/Berlin",
  "count": 5,
  "items": [
   {
    "date": "2026-07-28",
-   "title": "Coating/prep: Coat plates TODAY (28.07) — one day before thawing",
-   "source": "schedule-embedded",
+   "title": "Coat plates for the 5-line NPC thaw (F1, F1 GFP, WTC CAAX RFP, Nr1 RFP, HPS)",
+   "source": "schedule",
    "overdue": false,
    "days_from_today": 0,
-   "notes": "From the coating field of: PRIORITY — Thaw 5 NPC cell lines: F1, F1 GFP, WTC CAAX RFP, Nr1 RFP, HPS"
+   "notes": "One day before thawing. Use the same matrix as the last successful condition — do not change coating and medium in the same step."
   },
   {
    "date": "2026-07-29",

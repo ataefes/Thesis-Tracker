@@ -23,6 +23,12 @@ try:
 except Exception:
     TZ = datetime.timezone.utc
 
+# Bump GUIDE_VERSION whenever CLAUDE_DATA_ACCESS.md changes, and put the same
+# string at the top of that file. An assistant compares the two to tell whether
+# it is reading a cached old guide or the current one.
+GUIDE_VERSION = "2026-07-28.1"
+MIRROR_VERSION = "2026-07-28.1"
+
 MAIN_URL = ("https://firestore.googleapis.com/v1/projects/master-thesis-ata/"
             "databases/(default)/documents/thesisTracker/main")
 RAW_BASE = "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/"
@@ -202,6 +208,7 @@ def main():
 
     manifest = {
         "project": "Thesis Tracker — Adjacent Neural Organoids (ACO / DCHS1)",
+        "guide_version": GUIDE_VERSION, "mirror_version": MIRROR_VERSION,
         "updated": now_iso, "source_updateTime": update_time,
         "timezone": str(TZ), "generated_by": "scripts/mirror.py (GitHub Action)",
         "note": "Read-only mirror of the live app data. Plain query-free URLs. "

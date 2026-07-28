@@ -1,5 +1,9 @@
 # Thesis Tracker — live data access for Claude
 
+**guide_version: 2026-07-28.1** — cross-check against `manifest.json`'s `guide_version`. If
+they differ, you are reading a **cached old copy of this guide** (re-fetch, or start a fresh
+conversation) — trust `manifest.json`'s value as the current one.
+
 This tells an assistant (e.g. Claude in a claude.ai Project) how to read the current data
 of the Thesis Tracker on demand — "what do I need to do today?", "which plates are fixed?",
 "what day is my NPC run on?". Fetch fresh each time.
