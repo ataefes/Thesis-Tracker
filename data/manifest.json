@@ -1,0 +1,102 @@
+{
+ "project": "Thesis Tracker — Adjacent Neural Organoids (ACO / DCHS1)",
+ "updated": "2026-07-28T23:07:26+02:00",
+ "source_updateTime": "2026-07-28T21:07:25.840679Z",
+ "timezone": "Europe/Berlin",
+ "generated_by": "scripts/mirror.py (GitHub Action)",
+ "note": "Read-only mirror of the live app data. Plain query-free URLs. The app (https://ataefes.github.io/Thesis-Tracker/) is the source of truth.",
+ "files": {
+  "plates": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/plates.json",
+   "records": 23
+  },
+  "schedule": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/schedule.json",
+   "records": 22
+  },
+  "runs": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/runs.json",
+   "records": 6
+  },
+  "thaw": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/thaw.json",
+   "records": 10
+  },
+  "imaging": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/imaging.json",
+   "records": 6
+  },
+  "staining": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/staining.json",
+   "records": 8
+  },
+  "treatments": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/treatments.json",
+   "records": 8
+  },
+  "drugs": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/drugs.json",
+   "records": 8
+  },
+  "viruses": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/viruses.json",
+   "records": 1
+  },
+  "reagents": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/reagents.json",
+   "records": 20
+  },
+  "media": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/media.json",
+   "records": 5
+  },
+  "coatings": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/coatings.json",
+   "records": 1
+  },
+  "splits": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/splits.json",
+   "records": 0
+  },
+  "timeline": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/timeline.json",
+   "records": 8
+  },
+  "questions": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/questions.json",
+   "records": 3
+  },
+  "reading": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/reading.json",
+   "records": 3
+  },
+  "experiments": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/experiments.json",
+   "records": 4
+  },
+  "insights": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/insights.json",
+   "records": 1
+  },
+  "supervisor": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/supervisor.json",
+   "records": 0
+  },
+  "completedTasks": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/completedTasks.json",
+   "records": 18
+  },
+  "skippedTasks": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/skippedTasks.json",
+   "records": 5
+  },
+  "log": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/log.json",
+   "records": 13
+  },
+  "due": {
+   "url": "https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/due.json",
+   "records": 5
+  }
+ }
+}

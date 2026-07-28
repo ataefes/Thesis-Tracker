@@ -1,0 +1,13 @@
+{
+ "updated": "2026-07-28T23:07:26+02:00",
+ "source_updateTime": "2026-07-28T21:07:25.840679Z",
+ "table": "skippedTasks",
+ "records": 5,
+ "rows": [
+  "proto:runs0:2",
+  "sched:rmre11l38y72h",
+  "sched:rmre11l389nwh",
+  "sched:rmre11l38i0m8",
+  "sched:rmre11l38r6bm"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "updated": "2026-07-28T23:07:26+02:00",
+ "source_updateTime": "2026-07-28T21:07:25.840679Z",
+ "table": "completedTasks",
+ "records": 18,
+ "rows": [
+  "sched:schedule0",
+  "sched:schedule1",
+  "sched:schedule2",
+  "thaw:thaw0",
+  "thaw:thaw1",
+  "thaw:thaw2",
+  "thaw:thaw3",
+  "thaw:thaw4",
+  "sched:schedule3",
+  "sched:rmrf3drztj191",
+  "sched:rmre11l38kziq",
+  "sched:rmre11l38qwxr",
+  "sched:rmre11l38blht",
+  "sched:rmre11l38mjc6",
+  "sched:rmre11l38373y",
+  "sched:rmre11l38pcpr",
+  "sched:rmre11l38md8q",
+  "sched:rmre11l382qf9"
+ ]
+}

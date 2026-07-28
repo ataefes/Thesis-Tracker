@@ -1,0 +1,104 @@
+{
+ "updated": "2026-07-28T23:07:26+02:00",
+ "source_updateTime": "2026-07-28T21:07:25.840679Z",
+ "table": "drugs",
+ "records": 8,
+ "rows": [
+  {
+   "drug": "Rapamycin",
+   "_id": "drugs0",
+   "note": "",
+   "have": "yes",
+   "stock": "27.4 µM & 2.74 µM in DMSO",
+   "stab": "24–72 h",
+   "form": "Ready 2.5 mg/mL in DMSO",
+   "test": "10 / 100 / 1000 nM (9.1 / 91.4 / 914.5 ng/mL)",
+   "cat": "R8781 · Sigma-Aldrich",
+   "store": "−20 °C"
+  },
+  {
+   "_id": "drugs1",
+   "drug": "ALLN",
+   "note": "Aldehyde — relatively unstable.",
+   "have": "yes",
+   "cat": "208719-5MG · Sigma-Aldrich",
+   "form": "Solid 5 mg; 10 mg/mL in DMSO",
+   "test": "5 / 25 / 50 µM (2 / 10 / 20 µg/mL)",
+   "stock": "5 mM",
+   "stab": "4–12 h",
+   "store": "4 °C powder; −20 °C dissolved"
+  },
+  {
+   "_id": "drugs2",
+   "drug": "EFNB2 (recomb. protein)",
+   "have": "yes",
+   "note": "Protein gradually degrades / adsorbs.",
+   "cat": "—",
+   "form": "Recombinant protein",
+   "test": "1 / 2 / 4 µL per well (2.6 plate)",
+   "stock": "50 µg/mL",
+   "stab": "12–48 h",
+   "store": ""
+  },
+  {
+   "store": "",
+   "form": "",
+   "test": "2 mM & 0.2 mM (as last time)",
+   "cat": "[TBD]",
+   "stab": "",
+   "stock": "",
+   "note": "\"Like last time\" = 2 mM and 0.2 mM (confirmed 10.07).",
+   "have": "yes",
+   "_id": "drugs3",
+   "drug": "Metformin"
+  },
+  {
+   "drug": "Tubastatin A",
+   "_id": "drugs4",
+   "have": "no",
+   "note": "Solubility to confirm.",
+   "stab": "24–72 h",
+   "stock": "~10 mM (confirm)",
+   "test": "1 / 10 / 100 µM (0.35 / 3.49 / 34.9 µg/mL)",
+   "cat": "TA9491596779-10MG · Sigma-Aldrich",
+   "form": "Solid 10 mg; DMSO ~10 mM?",
+   "store": "−80 / −20 °C"
+  },
+  {
+   "store": "−80 / −20 °C",
+   "test": "0.5 / 5 / 50 µM (0.23 / 2.3 / 23 µg/mL)",
+   "cat": "TA9H9A9A44B2 · Sigma-Aldrich",
+   "form": "Solid; water / PBS (NaOH?) 1–10 mM?",
+   "stock": "1–10 mM (confirm)",
+   "stab": "6–24 h (oxidizes)",
+   "note": "Oxidizes readily — fresh daily if possible.",
+   "have": "no",
+   "_id": "drugs5",
+   "drug": "5-MTHF (5-methyl-THF)"
+  },
+  {
+   "stab": "24–48 h",
+   "stock": "10–50 mM (confirm)",
+   "form": "DMSO 10–50 mM?",
+   "test": "1 / 10 / 100 µM (0.41 / 4.1 / 41 µg/mL)",
+   "cat": "TA9H9A9A4696-10MG · Sigma-Aldrich",
+   "store": "",
+   "drug": "Forskolin",
+   "_id": "drugs6",
+   "have": "no",
+   "note": ""
+  },
+  {
+   "_id": "drugs7",
+   "drug": "Verapamil",
+   "have": "no",
+   "note": "",
+   "test": "5 / 25 / 50 µM (2.27 / 11.35 / 22.7 µg/mL)",
+   "cat": "TA9H9876F42B-10MG · Sigma-Aldrich",
+   "form": "Solid; water 10–100 mM?",
+   "stock": "10–100 mM (confirm)",
+   "stab": "24–72 h",
+   "store": "−80 / −20 °C"
+  }
+ ]
+}
