@@ -26,7 +26,7 @@ except Exception:
 # Bump GUIDE_VERSION whenever CLAUDE_DATA_ACCESS.md changes, and put the same
 # string at the top of that file. An assistant compares the two to tell whether
 # it is reading a cached old guide or the current one.
-GUIDE_VERSION = "2026-07-28.1"
+GUIDE_VERSION = "2026-07-29.1"
 MIRROR_VERSION = "2026-07-28.1"
 
 MAIN_URL = ("https://firestore.googleapis.com/v1/projects/master-thesis-ata/"

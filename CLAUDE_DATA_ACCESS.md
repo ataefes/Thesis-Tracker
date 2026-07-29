@@ -1,6 +1,6 @@
 # Thesis Tracker — live data access for Claude
 
-**guide_version: 2026-07-28.1** — cross-check against `manifest.json`'s `guide_version`. If
+**guide_version: 2026-07-29.1** — cross-check against `manifest.json`'s `guide_version`. If
 they differ, you are reading a **cached old copy of this guide** (re-fetch, or start a fresh
 conversation) — trust `manifest.json`'s value as the current one.
 
@@ -60,7 +60,7 @@ ran (freshness). `due.json` and `manifest.json` have their own top-level shape.
 | File | What it is | Main columns |
 |---|---|---|
 | `due` | **Precomputed** today + next 8 days (see §5) | rows: `date`, `title`, `source`, `overdue`, `days_from_today`, `notes` |
-| `plates` | Every plate | `plate` (name/id), `start` (seeding date), `lines`, `dens`, `status` (active/FIXED/DIED), `treatment`, `imaging`, `dup`, `fixDate`, `note` |
+| `plates` | Every plate | `plate` (name/id), `start` (seeding date), `lines`, `dens`, `status` (lowercased: active/fixed/died), `treatment`, `imaging`, `dup`, `fixDate`, `note` |
 | `schedule` | Dated tasks & reminders | `date`, `task`, `coating`, `notes` |
 | `runs` | Protocol runs in progress | `name`, `protocol`, `start` (**Day 0 date**), `done` (comma-list of done day numbers), `cancelled`, `notes` |
 | `thaw` | iPSC thaw / culture | `date`, `line`, `pthaw`, `medium`, `coating`, `nextsplit` (**next split due**), `pafter`, `notes` |
@@ -116,8 +116,11 @@ Each `due` row: `date` (ISO), `title`, `source` (`schedule` / `thaw` / `protocol
 
 ### ⚠️ Staleness self-check — do this every time before trusting due.json
 
-This is a **mirror**, not live: it refreshes ~every 15 min, plus ~5 min CDN cache, so it can
-lag a just-made app edit by up to ~20 min.
+This is a **mirror**, not live. A GitHub Action refreshes it, but GitHub heavily throttles
+scheduled jobs on public repos — in practice it runs **every few hours, not every 15 min**,
+and can lag longer. On top of that, `raw.githubusercontent.com` caches ~5 min and your own
+fetch tool may cache a URL for ~15 min. So a just-made app edit can take a while to appear,
+and if you fetched earlier in a long conversation you may be holding an old copy.
 
 1. Read the `today` field in `due.json` and compare it to the **real current date**.
    - If `today` **≠** real today, the mirror has not run yet today. The list is from
@@ -146,8 +149,22 @@ need it): schedule → `sched:<_id>`, thaw → `thaw:<_id>`, run step → `proto
 
 ## 7. Freshness & limits
 
-- Files refresh ~every 15 min (GitHub Action) and `raw.githubusercontent.com` caches ~5 min,
-  so data can be up to ~20 min behind a just-made app edit. Use `manifest.json`/each file's
-  `updated`, and especially the `due.json` `today` self-check in §5, to judge freshness. For
-  an edit made seconds ago, say it may not be reflected yet and offer to re-check shortly.
+Three timestamps, three different meanings — don't confuse them:
+- **`manifest.updated`** = when the **mirror last ran** (advances every run, ~every few
+  hours). A recent value here means the pipeline is alive; it does **not** mean the data
+  changed.
+- **`source_updateTime`** (in `manifest.json` and each file) = when the **app data last
+  changed**. If this is old, the user simply hasn't edited anything since — that's normal,
+  not a failure.
+- **`due.json.today`** = the date the "what's due" list was computed for → the staleness
+  self-check in §5. If it ≠ the real today, warn and recompute.
+
+Caching: GitHub throttles the scheduled refresh to **every few hours** (not 15 min), and
+raw/​your-fetch caches add minutes on top. So:
+- An edit made seconds/minutes ago may not be reflected yet — say so and offer to re-check.
+- If you suspect you're holding a cached copy (e.g. `guide_version` here ≠ `manifest`'s, or
+  `due.json.today` is old), the **cache-free** path is the GitHub contents API, which returns
+  the current file (base64 in `.content`, decode it), e.g.
+  `https://api.github.com/repos/ataefes/Thesis-Tracker/contents/data/plates.json` — or just
+  start a fresh conversation so nothing is cached.
 - Read-only. To change data, the user edits the app; it flows back here on the next refresh.

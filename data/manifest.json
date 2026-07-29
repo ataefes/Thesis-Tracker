@@ -1,8 +1,8 @@
 {
  "project": "Thesis Tracker — Adjacent Neural Organoids (ACO / DCHS1)",
- "guide_version": "2026-07-28.1",
+ "guide_version": "2026-07-29.1",
  "mirror_version": "2026-07-28.1",
- "updated": "2026-07-29T14:17:35+02:00",
+ "updated": "2026-07-29T15:53:50+02:00",
  "source_updateTime": "2026-07-28T22:02:40.047692Z",
  "timezone": "Europe/Berlin",
  "generated_by": "scripts/mirror.py (GitHub Action)",
