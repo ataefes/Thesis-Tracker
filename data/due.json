@@ -1,8 +1,8 @@
 {
- "updated": "2026-07-30T22:34:23+02:00",
+ "updated": "2026-07-30T23:47:37+02:00",
  "today": "2026-07-30",
  "timezone": "Europe/Berlin",
- "count": 4,
+ "count": 3,
  "items": [
   {
    "date": "2026-07-29",
@@ -11,14 +11,6 @@
    "overdue": true,
    "days_from_today": -1,
    "notes": "5 lines: 1) F1  2) F1 GFP  3) WTC CAAX RFP  4) Nr1 RFP  5) HPS. Log each thaw in iPSC Thaw & Culture (passage, medium, ROCK 1:1000, wells). Keep coating and medium unchanged from the last successful condition — do NOT change both at once (see Methodology Insights)."
-  },
-  {
-   "date": "2026-07-29",
-   "title": "Media change + confluence check (with supervisor) — split if needed",
-   "source": "schedule",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": "Co-working with supervisor. Check confluence on the surviving lines (WTC CAAX, F1?) and split only if ready. If a condition must change, change coating OR medium at this split, never both."
   },
   {
    "date": "2026-07-31",
