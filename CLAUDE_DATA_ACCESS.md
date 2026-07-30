@@ -1,6 +1,6 @@
 # Thesis Tracker — live data access for Claude
 
-**guide_version: 2026-07-29.1** — cross-check against `manifest.json`'s `guide_version`. If
+**guide_version: 2026-07-30.1** — cross-check against `manifest.json`'s `guide_version`. If
 they differ, you are reading a **cached old copy of this guide** (re-fetch, or start a fresh
 conversation) — trust `manifest.json`'s value as the current one.
 
@@ -33,10 +33,19 @@ completed/skipped already removed and dates already worked out (no date math nee
 https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/due.json
 ```
 
+**All lab-record tables in ONE fetch** (~28 KB): plates, runs, thaw, experiments, imaging,
+staining, treatments, coatings, splits, drugs, viruses, reagents — use this if fetching
+individual table files is flaky in your tool. Records are under `.tables.<name>`:
+```
+https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/records.json
+```
+
 **Any single table** — swap `plates` for a table name from §3:
 ```
 https://raw.githubusercontent.com/ataefes/Thesis-Tracker/main/data/plates.json
 ```
+(If a single-file fetch fails but others succeed, it's usually a transient fetcher hiccup —
+retry it, use `records.json` above, or the cache-free GitHub contents API in §7.)
 
 Fetch only the file(s) a question needs. `due.json` answers "today / this week / what
 should I do". For everything else, fetch the specific table.

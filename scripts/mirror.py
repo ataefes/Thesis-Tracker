@@ -26,7 +26,7 @@ except Exception:
 # Bump GUIDE_VERSION whenever CLAUDE_DATA_ACCESS.md changes, and put the same
 # string at the top of that file. An assistant compares the two to tell whether
 # it is reading a cached old guide or the current one.
-GUIDE_VERSION = "2026-07-29.1"
+GUIDE_VERSION = "2026-07-30.1"
 MIRROR_VERSION = "2026-07-28.1"
 
 MAIN_URL = ("https://firestore.googleapis.com/v1/projects/master-thesis-ata/"
@@ -195,6 +195,17 @@ def main():
         with open(os.path.join(OUT_DIR, tbl + ".json"), "w", encoding="utf-8") as f:
             json.dump(out, f, ensure_ascii=False, indent=1)
         manifest_files[tbl] = {"url": RAW_BASE + tbl + ".json", "records": out["records"]}
+
+    # Consolidated "records" bundle — the lab-record tables in one small file, so an
+    # assistant whose fetcher is flaky on individual URLs can grab them all in one request.
+    RECORD_TABLES = ["plates", "runs", "thaw", "experiments", "imaging", "staining",
+                     "treatments", "coatings", "splits", "drugs", "viruses", "reagents"]
+    records = {"updated": now_iso, "source_updateTime": update_time,
+               "tables": {t: [clean_row(r) for r in (payload.get(t) or [])] for t in RECORD_TABLES}}
+    with open(os.path.join(OUT_DIR, "records.json"), "w", encoding="utf-8") as f:
+        json.dump(records, f, ensure_ascii=False, indent=1)
+    manifest_files["records"] = {"url": RAW_BASE + "records.json",
+                                 "records": sum(len(v) for v in records["tables"].values())}
 
     due_items = build_due(payload, today)
     due = {"updated": now_iso, "today": today.isoformat(), "timezone": str(TZ),
