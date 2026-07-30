@@ -1,20 +1,20 @@
 {
- "updated": "2026-07-30T12:05:07+02:00",
- "source_updateTime": "2026-07-30T09:49:39.317587Z",
+ "updated": "2026-07-30T14:02:32+02:00",
+ "source_updateTime": "2026-07-30T11:01:04.222360Z",
  "table": "supervisor",
  "records": 1,
  "rows": [
   {
-   "done": false,
-   "by": "Rebecca",
-   "priority": "high",
-   "at": 1785404978798,
-   "duration": "",
-   "draft": false,
-   "_id": "rms7c0ygenv1z",
-   "text": "remove your Data from the MICA. Transfer it to your hard drive. Make sure it got transferred and afterards delete it form the MICA",
-   "detail": "",
    "deadline": "",
+   "priority": "high",
+   "by": "Rebecca",
+   "done": false,
+   "at": 1785404978798,
+   "draft": false,
+   "text": "remove your Data from the MICA. Transfer it to your hard drive. Make sure it got transferred and afterards delete it form the MICA",
+   "_id": "rms7c0ygenv1z",
+   "duration": "",
+   "detail": "",
    "link": "s:imaging"
   }
  ]
