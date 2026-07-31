@@ -1,6 +1,6 @@
 {
- "updated": "2026-07-31T23:19:07+02:00",
- "today": "2026-07-31",
+ "updated": "2026-08-01T00:31:47+02:00",
+ "today": "2026-08-01",
  "timezone": "Europe/Berlin",
  "count": 3,
  "items": [
@@ -9,15 +9,15 @@
    "title": "PRIORITY — Thaw 5 NPC cell lines: F1, F1 GFP, WTC CAAX RFP, Nr1 RFP, HPS",
    "source": "schedule",
    "overdue": true,
-   "days_from_today": -2,
+   "days_from_today": -3,
    "notes": "5 lines: 1) F1  2) F1 GFP  3) WTC CAAX RFP  4) Nr1 RFP  5) HPS. Log each thaw in iPSC Thaw & Culture (passage, medium, ROCK 1:1000, wells). Keep coating and medium unchanged from the last successful condition — do NOT change both at once (see Methodology Insights)."
   },
   {
    "date": "2026-07-31",
    "title": "DEADLINE — Methods presentation: all techniques & major protocol steps executed so far",
    "source": "schedule",
-   "overdue": false,
-   "days_from_today": 0,
+   "overdue": true,
+   "days_from_today": -1,
    "notes": "Concise summary presentation. Goal: structure and outline the practical workflows as the foundation for the thesis Methodology section. Source material: Protocol Reference + My Runs + Experiment Log."
   },
   {
@@ -25,7 +25,7 @@
    "title": "Add virus — plate 16.6",
    "source": "schedule",
    "overdue": false,
-   "days_from_today": 5,
+   "days_from_today": 4,
    "notes": ""
   }
  ],
