@@ -207,6 +207,16 @@ def main():
     manifest_files["records"] = {"url": RAW_BASE + "records.json",
                                  "records": sum(len(v) for v in records["tables"].values())}
 
+    # Full render-ready snapshot for the APP's own read-fallback (not for an
+    # assistant — this keeps all UI-state tables and _cr/_upd verbatim so the
+    # app's migrate() sees it as unchanged and never reload-loops). When a
+    # viewer's device cannot reach firestore.googleapis.com (some phones/
+    # networks block it or its WebChannel), the app reads this plain CDN file
+    # from raw.githubusercontent.com instead, so it still shows real data.
+    full = {"updated": now_iso, "source_updateTime": update_time, "payload": payload}
+    with open(os.path.join(OUT_DIR, "full.json"), "w", encoding="utf-8") as f:
+        json.dump(full, f, ensure_ascii=False, separators=(",", ":"))
+
     due_items = build_due(payload, today)
     due = {"updated": now_iso, "today": today.isoformat(), "timezone": str(TZ),
            "count": len(due_items), "items": due_items,
