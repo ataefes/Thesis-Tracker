@@ -1,42 +1,42 @@
 {
- "updated": "2026-08-03T18:03:19+02:00",
+ "updated": "2026-08-03T20:02:55+02:00",
  "source_updateTime": "2026-08-01T22:43:00.932495Z",
  "table": "coatings",
  "records": 1,
  "rows": [
   {
    "matrix": "Matrigel",
+   "date": "28.07.2026",
+   "_id": "rms4plin1zpc0",
+   "note": "",
+   "line": "",
+   "map": {
+    "A3": "seeded",
+    "B2": "coated",
+    "B1": "coated",
+    "B3": "coated",
+    "A1": "seeded",
+    "A2": "seeded"
+   },
    "archived": false,
    "stepDone": {
     "0": "28.07.2026"
    },
+   "label": "",
+   "format": "6",
    "runId": "",
-   "date": "28.07.2026",
-   "note": "",
    "content": {
-    "A2": {
-     "line": "hps"
-    },
     "A1": {
-     "line": "1 rap",
-     "proto": "npc_diff"
+     "proto": "npc_diff",
+     "line": "1 rap"
     },
     "A3": {
      "line": "has"
+    },
+    "A2": {
+     "line": "hps"
     }
-   },
-   "label": "",
-   "format": "6",
-   "_id": "rms4plin1zpc0",
-   "map": {
-    "B2": "coated",
-    "A1": "seeded",
-    "B1": "coated",
-    "A2": "seeded",
-    "B3": "coated",
-    "A3": "seeded"
-   },
-   "line": ""
+   }
   }
  ]
 }
