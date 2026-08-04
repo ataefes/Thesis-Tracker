@@ -1,15 +1,15 @@
 {
- "updated": "2026-08-04T23:54:37+02:00",
- "today": "2026-08-04",
+ "updated": "2026-08-05T00:53:09+02:00",
+ "today": "2026-08-05",
  "timezone": "Europe/Berlin",
- "count": 21,
+ "count": 25,
  "items": [
   {
    "date": "2026-08-05",
    "title": "F1-GFP — Day 2: Half-media change — FFM + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 1,
+   "days_from_today": 0,
    "notes": ""
   },
   {
@@ -17,7 +17,7 @@
    "title": "HPS — Day 2: Half-media change — FFM + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 1,
+   "days_from_today": 0,
    "notes": ""
   },
   {
@@ -25,7 +25,7 @@
    "title": "F1 — Day 2: Half-media change — FFM + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 1,
+   "days_from_today": 0,
    "notes": ""
   },
   {
@@ -33,7 +33,7 @@
    "title": "Add virus — plate 16.6",
    "source": "schedule",
    "overdue": false,
-   "days_from_today": 1,
+   "days_from_today": 0,
    "notes": ""
   },
   {
@@ -41,7 +41,7 @@
    "title": "F1-GFP — Day 4: Half-media change — FFM + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 3,
+   "days_from_today": 2,
    "notes": ""
   },
   {
@@ -49,7 +49,7 @@
    "title": "HPS — Day 4: Half-media change — FFM + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 3,
+   "days_from_today": 2,
    "notes": ""
   },
   {
@@ -57,7 +57,7 @@
    "title": "F1 — Day 4: Half-media change — FFM + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 3,
+   "days_from_today": 2,
    "notes": ""
   },
   {
@@ -65,7 +65,7 @@
    "title": "F1-GFP — Day 5: Switch to NIM + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 4,
+   "days_from_today": 3,
    "notes": ""
   },
   {
@@ -73,7 +73,7 @@
    "title": "HPS — Day 5: Switch to NIM + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 4,
+   "days_from_today": 3,
    "notes": ""
   },
   {
@@ -81,7 +81,7 @@
    "title": "F1 — Day 5: Switch to NIM + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 4,
+   "days_from_today": 3,
    "notes": ""
   },
   {
@@ -89,7 +89,7 @@
    "title": "F1-GFP — Day 6: NIM + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 5,
+   "days_from_today": 4,
    "notes": ""
   },
   {
@@ -97,7 +97,7 @@
    "title": "HPS — Day 6: NIM + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 5,
+   "days_from_today": 4,
    "notes": ""
   },
   {
@@ -105,7 +105,7 @@
    "title": "F1 — Day 6: NIM + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 5,
+   "days_from_today": 4,
    "notes": ""
   },
   {
@@ -113,7 +113,7 @@
    "title": "F1-GFP — Day 7: Dissociate EBs; plate 6 EBs/well in IDM-A + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 6,
+   "days_from_today": 5,
    "notes": ""
   },
   {
@@ -121,7 +121,7 @@
    "title": "HPS — Day 7: Dissociate EBs; plate 6 EBs/well in IDM-A + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 6,
+   "days_from_today": 5,
    "notes": ""
   },
   {
@@ -129,7 +129,7 @@
    "title": "F1 — Day 7: Dissociate EBs; plate 6 EBs/well in IDM-A + Noggin",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 6,
+   "days_from_today": 5,
    "notes": ""
   },
   {
@@ -137,7 +137,7 @@
    "title": "Add virus — plate 23.6",
    "source": "schedule",
    "overdue": false,
-   "days_from_today": 6,
+   "days_from_today": 5,
    "notes": ""
   },
   {
@@ -145,7 +145,7 @@
    "title": "F1-GFP — Day 8: Media change (IDM-A + Noggin)",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 7,
+   "days_from_today": 6,
    "notes": ""
   },
   {
@@ -153,7 +153,7 @@
    "title": "HPS — Day 8: Media change (IDM-A + Noggin)",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 7,
+   "days_from_today": 6,
    "notes": ""
   },
   {
@@ -161,12 +161,44 @@
    "title": "F1 — Day 8: Media change (IDM-A + Noggin)",
    "source": "protocol",
    "overdue": false,
-   "days_from_today": 7,
+   "days_from_today": 6,
    "notes": ""
   },
   {
    "date": "2026-08-12",
    "title": "Change to BrainPhys — plate 16.6",
+   "source": "schedule",
+   "overdue": false,
+   "days_from_today": 7,
+   "notes": ""
+  },
+  {
+   "date": "2026-08-13",
+   "title": "F1-GFP — Day 10: Media change (IDM-A + Noggin)",
+   "source": "protocol",
+   "overdue": false,
+   "days_from_today": 8,
+   "notes": ""
+  },
+  {
+   "date": "2026-08-13",
+   "title": "HPS — Day 10: Media change (IDM-A + Noggin)",
+   "source": "protocol",
+   "overdue": false,
+   "days_from_today": 8,
+   "notes": ""
+  },
+  {
+   "date": "2026-08-13",
+   "title": "F1 — Day 10: Media change (IDM-A + Noggin)",
+   "source": "protocol",
+   "overdue": false,
+   "days_from_today": 8,
+   "notes": ""
+  },
+  {
+   "date": "2026-08-13",
+   "title": "Calcium imaging — plate 16.6 (13 & 14 Aug)",
    "source": "schedule",
    "overdue": false,
    "days_from_today": 8,
