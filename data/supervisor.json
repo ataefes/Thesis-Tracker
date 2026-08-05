@@ -1,32 +1,32 @@
 {
- "updated": "2026-08-06T00:06:06+02:00",
+ "updated": "2026-08-06T01:17:01+02:00",
  "source_updateTime": "2026-08-05T11:23:54.206584Z",
  "table": "supervisor",
  "records": 2,
  "rows": [
   {
-   "detail": "",
-   "by": "Rebecca",
-   "priority": "normal",
    "done": false,
-   "deadline": "07.08.2026",
-   "_id": "rms8ya00t9hjw",
-   "at": 1785502818461,
-   "text": "Look into litterature and presentation so to know what and why you are doing? What is the research question/ hypothesis? What esperiments we perform in order to answer those question.  Do a Presetnation about that.",
+   "by": "Rebecca",
+   "detail": "",
+   "duration": "",
+   "priority": "normal",
    "draft": false,
+   "text": "Look into litterature and presentation so to know what and why you are doing? What is the research question/ hypothesis? What esperiments we perform in order to answer those question.  Do a Presetnation about that.",
+   "at": 1785502818461,
    "link": "s:schedule",
-   "duration": ""
+   "deadline": "07.08.2026",
+   "_id": "rms8ya00t9hjw"
   },
   {
    "at": 1785404978798,
-   "_id": "rms7c0ygenv1z",
    "deadline": "",
+   "link": "s:imaging",
+   "_id": "rms7c0ygenv1z",
+   "by": "Rebecca",
    "done": true,
    "priority": "high",
    "detail": "",
-   "by": "Rebecca",
    "duration": "",
-   "link": "s:imaging",
    "text": "remove your Data from the MICA. Transfer it to your hard drive. Make sure it got transferred and afterards delete it form the MICA",
    "draft": false
   }
