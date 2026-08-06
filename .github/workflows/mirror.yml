@@ -1,7 +1,7 @@
 name: Mirror Firestore → data/
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/17 * * * *"
   workflow_dispatch: {}
 concurrency:
   group: mirror
