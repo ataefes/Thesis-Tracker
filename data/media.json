@@ -1,47 +1,47 @@
 {
- "updated": "2026-08-07T08:41:42+02:00",
+ "updated": "2026-08-07T09:58:50+02:00",
  "source_updateTime": "2026-08-06T21:33:25.828945Z",
  "table": "media",
  "records": 5,
  "rows": [
   {
-   "notes": "iPSC maintenance",
    "storage": "4 °C; thaw 5× supplement, aliquot",
-   "name": "mTeSR Plus (complete)",
-   "_id": "media0",
    "comp": "40 mL basal + 10 mL 5× supplement = 50 mL",
-   "add": "ROCK (Y-27632) 1:1000 — thaw day only"
+   "_id": "media0",
+   "name": "mTeSR Plus (complete)",
+   "add": "ROCK (Y-27632) 1:1000 — thaw day only",
+   "notes": "iPSC maintenance"
   },
   {
-   "storage": "4 °C",
+   "notes": "Days 2–4 (differentiation protocol)",
+   "add": "Noggin 1:1000 (100 ng/mL) — add fresh before use",
    "name": "FFM — Forebrain First Medium",
    "_id": "media1",
-   "notes": "Days 2–4 (differentiation protocol)",
-   "comp": "DMEM/F12 38.45 mL + KSR 10 mL (1:5) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + β-ME 50 µL (1:1000) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
-   "add": "Noggin 1:1000 (100 ng/mL) — add fresh before use"
-  },
-  {
-   "add": "Noggin 1:1000 — add fresh",
-   "comp": "DMEM/F12 47.95 mL + N2 500 µL (1:100) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + Anti/Anti 500 µL (1:100) + Heparin 50 µL (1:1000) ≈ 50 mL",
-   "_id": "media2",
-   "name": "NIM — Neural Induction Medium",
    "storage": "4 °C",
-   "notes": "Days 5–6 (differentiation protocol)"
+   "comp": "DMEM/F12 38.45 mL + KSR 10 mL (1:5) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + β-ME 50 µL (1:1000) + Anti/Anti 500 µL (1:100) ≈ 50 mL"
   },
   {
+   "storage": "4 °C",
+   "comp": "DMEM/F12 47.95 mL + N2 500 µL (1:100) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + Anti/Anti 500 µL (1:100) + Heparin 50 µL (1:1000) ≈ 50 mL",
+   "add": "Noggin 1:1000 — add fresh",
+   "notes": "Days 5–6 (differentiation protocol)",
+   "_id": "media2",
+   "name": "NIM — Neural Induction Medium"
+  },
+  {
+   "storage": "4 °C",
    "comp": "DMEM/F12 + GlutaMAX base ~48 mL + N2 500 µL (1:100) + B-27 (50×, no vit A) 1000 µL (1:50) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
    "add": "Filter-sterilise, then FGF2 1:500 + Laminin 1:1000",
-   "storage": "4 °C",
+   "notes": "From Day 14 onward",
    "_id": "media3",
-   "name": "NPC medium",
-   "notes": "From Day 14 onward"
+   "name": "NPC medium"
   },
   {
+   "comp": "",
+   "storage": "",
    "name": "",
    "_id": "media4",
-   "storage": "",
    "notes": "",
-   "comp": "",
    "add": ""
   }
  ]
