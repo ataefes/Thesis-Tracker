@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-07T13:54:49+02:00",
- "source_updateTime": "2026-08-06T21:33:25.828945Z",
+ "updated": "2026-08-07T14:41:40+02:00",
+ "source_updateTime": "2026-08-07T12:37:09.907612Z",
  "table": "insights",
  "records": 1,
  "rows": [
@@ -8,10 +8,10 @@
    "insight": "Changing the matrix coating AND the culture medium in the same split imposes lethal, cumulative stress — cells get no time to adapt to either change. Transitions must be staggered: change the coating at one split, then the medium at a later split (or vice versa).",
    "status": "to include",
    "date": "28.07.26",
-   "_id": "rms542ws0rn1s",
-   "topic": "Staggered transitions when changing culture conditions",
+   "section": "Methodology + Discussion",
    "evidence": "NPC batch (previous generation): only WTC CAAX clearly survived, F1 possibly — all other wells failed. Organoid plates started 23.06 (WTC, D1, Nr1) had to be discarded on 27.07 with severe dissociation, cells scattered far from the organoid core. Counter-example: David’s cells, where coating and medium were changed across different sequential splits, adapted and survived markedly better.",
-   "section": "Methodology + Discussion"
+   "_id": "rms542ws0rn1s",
+   "topic": "Staggered transitions when changing culture conditions"
   }
  ]
 }
