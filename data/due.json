@@ -1,49 +1,9 @@
 {
- "updated": "2026-08-08T14:28:33+02:00",
+ "updated": "2026-08-08T15:26:46+02:00",
  "today": "2026-08-08",
  "timezone": "Europe/Berlin",
- "count": 32,
+ "count": 27,
  "items": [
-  {
-   "date": "2026-08-05",
-   "title": "Add virus — plate 16.6",
-   "source": "schedule",
-   "overdue": true,
-   "days_from_today": -3,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-07",
-   "title": "F1-GFP — Day 4: Half-media change — FFM + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-07",
-   "title": "HPS — Day 4: Half-media change — FFM + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-07",
-   "title": "F1 — Day 4: Half-media change — FFM + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-07",
-   "title": "#1.RFP — Day 2: Half-media change — FFM + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
   {
    "date": "2026-08-08",
    "title": "F1-GFP — Day 5: Switch to NIM + Noggin",
