@@ -1,8 +1,8 @@
 {
- "updated": "2026-08-08T13:53:56+02:00",
- "source_updateTime": "2026-08-08T08:47:50.870480Z",
+ "updated": "2026-08-08T14:28:33+02:00",
+ "source_updateTime": "2026-08-08T12:28:32.585650Z",
  "table": "completedTasks",
- "records": 23,
+ "records": 22,
  "rows": [
   "sched:schedule0",
   "sched:schedule1",
@@ -25,7 +25,6 @@
   "sched:rms56ef7arlcn",
   "sched:rms542ws0db0x",
   "sched:rms542ws0qayi",
-  "sched:rms542ws0pnln",
-  "sched:rmre11l38jyea"
+  "sched:rms542ws0pnln"
  ]
 }
