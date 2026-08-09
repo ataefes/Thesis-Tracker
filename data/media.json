@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09T23:36:56+02:00",
+ "updated": "2026-08-10T00:02:47+02:00",
  "source_updateTime": "2026-08-09T12:50:37.622964Z",
  "table": "media",
  "records": 5,
@@ -13,36 +13,36 @@
    "name": "mTeSR Plus (complete)"
   },
   {
-   "name": "FFM — Forebrain First Medium",
-   "storage": "4 °C",
-   "comp": "DMEM/F12 38.45 mL + KSR 10 mL (1:5) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + β-ME 50 µL (1:1000) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
    "add": "Noggin 1:1000 (100 ng/mL) — add fresh before use",
+   "storage": "4 °C",
+   "name": "FFM — Forebrain First Medium",
+   "comp": "DMEM/F12 38.45 mL + KSR 10 mL (1:5) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + β-ME 50 µL (1:1000) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
    "_id": "media1",
    "notes": "Days 2–4 (differentiation protocol)"
   },
   {
-   "name": "NIM — Neural Induction Medium",
-   "comp": "DMEM/F12 47.95 mL + N2 500 µL (1:100) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + Anti/Anti 500 µL (1:100) + Heparin 50 µL (1:1000) ≈ 50 mL",
-   "storage": "4 °C",
-   "add": "Noggin 1:1000 — add fresh",
+   "notes": "Days 5–6 (differentiation protocol)",
    "_id": "media2",
-   "notes": "Days 5–6 (differentiation protocol)"
+   "add": "Noggin 1:1000 — add fresh",
+   "comp": "DMEM/F12 47.95 mL + N2 500 µL (1:100) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + Anti/Anti 500 µL (1:100) + Heparin 50 µL (1:1000) ≈ 50 mL",
+   "name": "NIM — Neural Induction Medium",
+   "storage": "4 °C"
   },
   {
-   "name": "NPC medium",
    "add": "Filter-sterilise, then FGF2 1:500 + Laminin 1:1000",
-   "comp": "DMEM/F12 + GlutaMAX base ~48 mL + N2 500 µL (1:100) + B-27 (50×, no vit A) 1000 µL (1:50) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
    "storage": "4 °C",
+   "name": "NPC medium",
+   "comp": "DMEM/F12 + GlutaMAX base ~48 mL + N2 500 µL (1:100) + B-27 (50×, no vit A) 1000 µL (1:50) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
    "_id": "media3",
    "notes": "From Day 14 onward"
   },
   {
-   "add": "",
-   "storage": "",
    "comp": "",
-   "notes": "",
+   "storage": "",
+   "name": "",
+   "add": "",
    "_id": "media4",
-   "name": ""
+   "notes": ""
   }
  ]
 }

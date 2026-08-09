@@ -1,364 +1,343 @@
 {
- "updated": "2026-08-09T23:36:56+02:00",
+ "updated": "2026-08-10T00:02:47+02:00",
  "source_updateTime": "2026-08-09T12:50:37.622964Z",
  "tables": {
   "plates": [
    {
-    "fixDate": "21.07.2026",
+    "dens": "1500 / 3000 / 5000 cells/well (by column)",
+    "treatment": "Virus",
+    "lines": "WTC (3col), #1 (3col), D2 (3col)",
+    "state": "active",
     "status": "fixed",
+    "plate": "Plate 1",
+    "fixDate": "21.07.2026",
+    "dup": "Plate 2",
     "_id": "plates0",
     "start": "29.04.26",
-    "imaging": "Ca, confocal",
-    "dup": "Plate 2",
     "note": "Fixed 22.06 (after confocal training). #1 had virus in 4 organoids + Ca imaging. Well E14 stained 10.07 (Ki-67 / GFP / SCN3A).",
-    "lines": "WTC (3col), #1 (3col), D2 (3col)",
-    "plate": "Plate 1",
-    "state": "active",
-    "dens": "1500 / 3000 / 5000 cells/well (by column)",
-    "treatment": "Virus"
+    "imaging": "Ca, confocal"
    },
    {
-    "imaging": "",
-    "start": "29.04.26",
-    "plate": "Plate 2",
-    "_id": "plates1",
-    "status": "fixed",
-    "lines": "WTC (3col), #1 (3col), D2 (3col)",
-    "treatment": "Virus",
     "dup": "Plate 1",
+    "dens": "1500 / 3000 / 5000 cells/well (by column)",
+    "plate": "Plate 2",
+    "start": "29.04.26",
+    "status": "fixed",
     "note": "Duplicate of Plate 1 (week 4).",
-    "dens": "1500 / 3000 / 5000 cells/well (by column)"
-   },
-   {
-    "lines": "#1 / #1+D2.GFP / D2.GFP / HPS.GFP / HPS.GFP+D2 / D2",
-    "dens": "",
-    "treatment": "—",
-    "dup": "Plate 4",
-    "note": "Replicate = Plate 4 (fixed).",
-    "plate": "Plate 3",
-    "start": "22.04.26",
     "imaging": "",
-    "status": "fixed",
-    "_id": "plates2"
-   },
-   {
-    "note": "Duplicate of Plate 3.",
-    "dup": "Plate 3",
-    "treatment": "—",
-    "dens": "",
-    "lines": "#1 / #1+D2.GFP / D2.GFP / HPS.GFP / HPS.GFP+D2 / D2",
-    "_id": "plates3",
-    "status": "fixed",
-    "plate": "Plate 4",
-    "start": "22.04.26",
-    "imaging": ""
-   },
-   {
-    "lines": "WTC, #1, D2",
-    "dens": "",
-    "treatment": "—",
-    "dup": "—",
-    "note": "Fixed after Ca imaging. Ata plate",
-    "imaging": "Ca",
-    "start": "21.04.26",
-    "plate": "Plate 5",
-    "status": "fixed",
-    "_id": "plates4"
-   },
-   {
-    "dens": "",
-    "note": "Switched to BrainPhys.",
+    "_id": "plates1",
     "treatment": "Virus",
-    "dup": "Plate 7",
-    "lines": "WTC+D2.GFP / #1+D2.GFP / D2+D2.GFP / HPS.GFP+D2 / HPS.GFP",
-    "status": "fixed",
-    "_id": "plates5",
-    "imaging": "",
-    "start": "07.05.26",
-    "plate": "Plate 6"
+    "lines": "WTC (3col), #1 (3col), D2 (3col)"
    },
    {
-    "status": "fixed",
-    "_id": "plates6",
-    "start": "07.05.26",
+    "plate": "Plate 3",
+    "dens": "",
+    "dup": "Plate 4",
+    "lines": "#1 / #1+D2.GFP / D2.GFP / HPS.GFP / HPS.GFP+D2 / D2",
+    "treatment": "—",
+    "_id": "plates2",
     "imaging": "",
+    "note": "Replicate = Plate 4 (fixed).",
+    "status": "fixed",
+    "start": "22.04.26"
+   },
+   {
+    "plate": "Plate 4",
+    "dens": "",
+    "dup": "Plate 3",
+    "lines": "#1 / #1+D2.GFP / D2.GFP / HPS.GFP / HPS.GFP+D2 / D2",
+    "treatment": "—",
+    "_id": "plates3",
+    "note": "Duplicate of Plate 3.",
+    "imaging": "",
+    "status": "fixed",
+    "start": "22.04.26"
+   },
+   {
+    "plate": "Plate 5",
+    "dens": "",
+    "dup": "—",
+    "lines": "WTC, #1, D2",
+    "_id": "plates4",
+    "treatment": "—",
+    "status": "fixed",
+    "imaging": "Ca",
+    "note": "Fixed after Ca imaging. Ata plate",
+    "start": "21.04.26"
+   },
+   {
+    "lines": "WTC+D2.GFP / #1+D2.GFP / D2+D2.GFP / HPS.GFP+D2 / HPS.GFP",
+    "_id": "plates5",
+    "treatment": "Virus",
+    "status": "fixed",
+    "imaging": "",
+    "note": "Switched to BrainPhys.",
+    "start": "07.05.26",
+    "plate": "Plate 6",
+    "dens": "",
+    "dup": "Plate 7"
+   },
+   {
     "plate": "Plate 7",
     "dens": "",
     "dup": "Plate 6",
-    "note": "Fixed week 4. Switched to BrainPhys.",
+    "_id": "plates6",
     "treatment": "Virus",
-    "lines": "WTC+D2.GFP / #1+D2.GFP / D2+D2.GFP / HPS.GFP+D2 / HPS.GFP"
+    "lines": "WTC+D2.GFP / #1+D2.GFP / D2+D2.GFP / HPS.GFP+D2 / HPS.GFP",
+    "start": "07.05.26",
+    "status": "fixed",
+    "imaging": "",
+    "note": "Fixed week 4. Switched to BrainPhys."
    },
    {
-    "lines": "WTC (3col), #1 (3col), D2 (3col)",
-    "note": "Fixed week 4. Switched to BrainPhys.",
     "dup": "Plate 9",
-    "treatment": "Virus",
     "dens": "",
     "plate": "Plate 8",
-    "imaging": "",
     "start": "07.05.26",
+    "imaging": "",
+    "note": "Fixed week 4. Switched to BrainPhys.",
+    "status": "fixed",
+    "treatment": "Virus",
     "_id": "plates7",
-    "status": "fixed"
+    "lines": "WTC (3col), #1 (3col), D2 (3col)"
    },
    {
-    "dens": "",
-    "treatment": "Virus",
+    "fixDate": "21.07.2026",
     "plate": "Plate 9",
-    "state": "active",
-    "lines": "WTC (3col), #1 (3col), D2 (3col)",
-    "note": "Switched to BrainPhys.",
     "dup": "Plate 8",
+    "_id": "plates8",
+    "note": "Switched to BrainPhys.",
     "imaging": "",
     "start": "07.05.26",
-    "fixDate": "21.07.2026",
-    "status": "active",
-    "_id": "plates8"
+    "dens": "",
+    "lines": "WTC (3col), #1 (3col), D2 (3col)",
+    "treatment": "Virus",
+    "state": "active",
+    "status": "active"
    },
    {
-    "treatment": "Virus",
-    "dup": "Plate 11",
+    "status": "died",
     "note": "Seeded 23.06 (non-mosaic). Discarded 27.07.26 — severe dissociation, cells detached and scattered far from the organoid core. [Confirm which of the 23.06 plates this covers — reported as WTC / D1 / Nr1.]",
-    "dens": "",
+    "imaging": "Live",
+    "start": "23.06.26",
     "lines": "WTC (3col), #1 (3col), D2 (3col)",
     "_id": "plates9",
-    "status": "died",
+    "treatment": "Virus",
+    "dup": "Plate 11",
     "plate": "Plate 10",
-    "imaging": "Live",
-    "start": "23.06.26"
-   },
-   {
-    "lines": "WTC (3col), #1 (3col), D2 (3col)",
-    "dens": "",
-    "dup": "Plate 10",
-    "treatment": "Virus",
-    "note": "Seeded 23.06 (non-mosaic). Discarded 27.07.26 — severe dissociation, cells detached and scattered far from the organoid core. [Confirm which of the 23.06 plates this covers — reported as WTC / D1 / Nr1.]",
-    "plate": "Plate 11",
-    "imaging": "Live",
-    "start": "23.06.26",
-    "status": "died",
-    "_id": "plates10"
-   },
-   {
-    "note": "Seeded 23.06 (mosaic). Discarded 27.07.26 — severe dissociation, cells detached and scattered far from the organoid core. [Confirm which of the 23.06 plates this covers — reported as WTC / D1 / Nr1.]",
-    "treatment": "Virus",
-    "dup": "Plate 13",
-    "dens": "",
-    "lines": "#1+D2.GFP / HPS.GFP / HPS.GFP+D2 / D2.GFP / WTC+D2.GFP",
-    "_id": "plates11",
-    "status": "died",
-    "plate": "Plate 12",
-    "imaging": "Live",
-    "start": "23.06.26"
-   },
-   {
-    "dens": "",
-    "treatment": "Virus",
-    "dup": "Plate 12",
-    "note": "Seeded 23.06 (mosaic). Discarded 27.07.26 — severe dissociation, cells detached and scattered far from the organoid core. [Confirm which of the 23.06 plates this covers — reported as WTC / D1 / Nr1.]",
-    "lines": "#1+D2.GFP / HPS.GFP / HPS.GFP+D2 / D2.GFP / WTC+D2.GFP",
-    "status": "died",
-    "_id": "plates12",
-    "start": "23.06.26",
-    "imaging": "Live",
-    "plate": "Plate 13"
-   },
-   {
-    "plate": "Plate 14",
-    "imaging": "Live",
-    "start": "17.06.26",
-    "status": "fixed",
-    "_id": "plates13",
-    "lines": "WTC (3col), D2.GFP (3col), WTC+D2.GFP (3col)",
-    "dens": "",
-    "note": "Densities pending.",
-    "treatment": "Drug",
-    "dup": "Plate 15"
-   },
-   {
-    "note": "Densities pending.",
-    "dup": "Plate 14",
-    "treatment": "Drug",
-    "dens": "",
-    "lines": "WTC (3col), D2.GFP (3col), WTC+D2.GFP (3col)",
-    "_id": "plates14",
-    "status": "active",
-    "plate": "Plate 15",
-    "imaging": "Live",
-    "start": "17.06.26"
-   },
-   {
-    "_id": "plates15",
-    "status": "active",
-    "plate": "Plate 16",
-    "start": "02.06.26",
-    "imaging": "",
-    "note": "#1 & D2 died, WTC tiny. Media removed; still in culture.",
-    "treatment": "Drug",
-    "dup": "Plate 17",
-    "dens": "",
-    "lines": "WTC (3col), #1 (3col), D2 (3col)"
-   },
-   {
-    "_id": "plates16",
-    "status": "fixed",
-    "plate": "Plate 17",
-    "imaging": "",
-    "start": "02.06.26",
-    "note": "#1 & D2 died, WTC tiny. Media removed; still in culture.",
-    "dup": "Plate 16",
-    "treatment": "Drug",
-    "dens": "",
-    "lines": "WTC (3col), #1 (3col), D2 (3col)"
-   },
-   {
-    "start": "02.06.26",
-    "imaging": "",
-    "plate": "Plate 18",
-    "_id": "plates17",
-    "status": "fixed",
-    "lines": "WTC+D2.GFP / #1+D2.GFP / HPS.GFP+D2 / HPS.GFP / D2.GFP",
-    "dup": "Plate 19",
-    "note": "Good growth. Densities pending.",
-    "treatment": "Drug",
     "dens": ""
    },
    {
-    "note": "Good growth.",
-    "dup": "Plate 18",
-    "treatment": "Drug",
-    "dens": "",
-    "lines": "WTC+D2.GFP / #1+D2.GFP / HPS.GFP+D2 / HPS.GFP / D2.GFP",
-    "_id": "plates18",
-    "status": "active",
-    "imaging": "",
-    "start": "02.06.26",
-    "plate": "Plate 19"
-   },
-   {
-    "dens": "",
-    "dup": "—",
-    "treatment": "Drug",
-    "note": "Used for the western blot",
-    "lines": "WTC (1col), D2 (1col)",
-    "status": "fixed",
-    "_id": "plates19",
-    "plate": "Plate 20",
-    "start": ">19.06.26",
-    "imaging": "Live"
-   },
-   {
-    "status": "active",
-    "_id": "plates20",
-    "plate": "Plate 21",
-    "start": ">19.06.26",
-    "imaging": "Live",
-    "dens": "",
-    "note": "Rebecca. Columns to be confirmed.",
-    "dup": "Plate 22",
-    "treatment": "Drug",
-    "lines": "D2 (3col)/ #1 (3col) / #1+D2.GFP / HPS.GFP / HPS.GFP+D2"
-   },
-   {
-    "plate": "Plate 22",
-    "start": ">19.06.26",
-    "imaging": "Live",
-    "status": "active",
-    "_id": "plates21",
-    "lines": "D2 (3col)/ #1 (3col) / #1+D2.GFP / HPS.GFP / HPS.GFP+D2",
-    "dens": "",
-    "treatment": "Drug",
-    "note": "Rebecca. Columns to be confirmed.",
-    "dup": "Plate 21"
-   },
-   {
-    "lines": "WTC + virus (M4) / WTC+D2.GFP (E11) / D2.GFP (E16)",
+    "_id": "plates10",
     "treatment": "Virus",
-    "dup": "—",
-    "note": "Rebecca’s confocal-training plate. M4 = WTC+virus, but virus/GFP did not work → no Ca imaging; M4 fixed & stained 10.07. E11 (WTC+D2.GFP) & E16 (D2.GFP) carry GFP already, so no virus given, but other imaging done. Reporters: GCaMP6s + mRuby.",
+    "lines": "WTC (3col), #1 (3col), D2 (3col)",
+    "start": "23.06.26",
+    "status": "died",
+    "imaging": "Live",
+    "note": "Seeded 23.06 (non-mosaic). Discarded 27.07.26 — severe dissociation, cells detached and scattered far from the organoid core. [Confirm which of the 23.06 plates this covers — reported as WTC / D1 / Nr1.]",
+    "plate": "Plate 11",
     "dens": "",
-    "start": "",
-    "imaging": "Confocal · live",
+    "dup": "Plate 10"
+   },
+   {
+    "start": "23.06.26",
+    "note": "Seeded 23.06 (mosaic). Discarded 27.07.26 — severe dissociation, cells detached and scattered far from the organoid core. [Confirm which of the 23.06 plates this covers — reported as WTC / D1 / Nr1.]",
+    "imaging": "Live",
+    "status": "died",
+    "treatment": "Virus",
+    "_id": "plates11",
+    "lines": "#1+D2.GFP / HPS.GFP / HPS.GFP+D2 / D2.GFP / WTC+D2.GFP",
+    "dup": "Plate 13",
+    "plate": "Plate 12",
+    "dens": ""
+   },
+   {
+    "status": "died",
+    "imaging": "Live",
+    "note": "Seeded 23.06 (mosaic). Discarded 27.07.26 — severe dissociation, cells detached and scattered far from the organoid core. [Confirm which of the 23.06 plates this covers — reported as WTC / D1 / Nr1.]",
+    "start": "23.06.26",
+    "lines": "#1+D2.GFP / HPS.GFP / HPS.GFP+D2 / D2.GFP / WTC+D2.GFP",
+    "_id": "plates12",
+    "treatment": "Virus",
+    "dup": "Plate 12",
+    "plate": "Plate 13",
+    "dens": ""
+   },
+   {
+    "note": "Densities pending.",
+    "imaging": "Live",
+    "status": "fixed",
+    "start": "17.06.26",
+    "lines": "WTC (3col), D2.GFP (3col), WTC+D2.GFP (3col)",
+    "treatment": "Drug",
+    "_id": "plates13",
+    "dup": "Plate 15",
+    "dens": "",
+    "plate": "Plate 14"
+   },
+   {
+    "start": "17.06.26",
+    "imaging": "Live",
+    "note": "Densities pending.",
+    "status": "active",
+    "treatment": "Drug",
+    "_id": "plates14",
+    "lines": "WTC (3col), D2.GFP (3col), WTC+D2.GFP (3col)",
+    "dup": "Plate 14",
+    "plate": "Plate 15",
+    "dens": ""
+   },
+   {
+    "lines": "WTC (3col), #1 (3col), D2 (3col)",
+    "treatment": "Drug",
+    "_id": "plates15",
+    "imaging": "",
+    "note": "#1 & D2 died, WTC tiny. Media removed; still in culture.",
+    "status": "active",
+    "start": "02.06.26",
+    "plate": "Plate 16",
+    "dens": "",
+    "dup": "Plate 17"
+   },
+   {
+    "dup": "Plate 16",
+    "dens": "",
+    "plate": "Plate 17",
+    "start": "02.06.26",
+    "imaging": "",
+    "note": "#1 & D2 died, WTC tiny. Media removed; still in culture.",
+    "status": "fixed",
+    "treatment": "Drug",
+    "_id": "plates16",
+    "lines": "WTC (3col), #1 (3col), D2 (3col)"
+   },
+   {
+    "dup": "Plate 19",
+    "plate": "Plate 18",
+    "dens": "",
+    "imaging": "",
+    "note": "Good growth. Densities pending.",
+    "status": "fixed",
+    "start": "02.06.26",
+    "lines": "WTC+D2.GFP / #1+D2.GFP / HPS.GFP+D2 / HPS.GFP / D2.GFP",
+    "treatment": "Drug",
+    "_id": "plates17"
+   },
+   {
+    "lines": "WTC+D2.GFP / #1+D2.GFP / HPS.GFP+D2 / HPS.GFP / D2.GFP",
+    "treatment": "Drug",
+    "_id": "plates18",
+    "note": "Good growth.",
+    "imaging": "",
+    "status": "active",
+    "start": "02.06.26",
+    "dens": "",
+    "plate": "Plate 19",
+    "dup": "Plate 18"
+   },
+   {
+    "dup": "—",
+    "dens": "",
+    "plate": "Plate 20",
+    "note": "Used for the western blot",
+    "imaging": "Live",
+    "status": "fixed",
+    "start": ">19.06.26",
+    "lines": "WTC (1col), D2 (1col)",
+    "treatment": "Drug",
+    "_id": "plates19"
+   },
+   {
+    "dens": "",
+    "plate": "Plate 21",
+    "dup": "Plate 22",
+    "lines": "D2 (3col)/ #1 (3col) / #1+D2.GFP / HPS.GFP / HPS.GFP+D2",
+    "_id": "plates20",
+    "treatment": "Drug",
+    "status": "active",
+    "imaging": "Live",
+    "note": "Rebecca. Columns to be confirmed.",
+    "start": ">19.06.26"
+   },
+   {
+    "dup": "Plate 21",
+    "plate": "Plate 22",
+    "dens": "",
+    "note": "Rebecca. Columns to be confirmed.",
+    "imaging": "Live",
+    "status": "active",
+    "start": ">19.06.26",
+    "lines": "D2 (3col)/ #1 (3col) / #1+D2.GFP / HPS.GFP / HPS.GFP+D2",
+    "treatment": "Drug",
+    "_id": "plates21"
+   },
+   {
     "plate": "Rebecca confocal",
+    "dens": "",
+    "dup": "—",
+    "treatment": "Virus",
     "_id": "rmreovuvv84s2",
+    "lines": "WTC + virus (M4) / WTC+D2.GFP (E11) / D2.GFP (E16)",
+    "start": "",
+    "note": "Rebecca’s confocal-training plate. M4 = WTC+virus, but virus/GFP did not work → no Ca imaging; M4 fixed & stained 10.07. E11 (WTC+D2.GFP) & E16 (D2.GFP) carry GFP already, so no virus given, but other imaging done. Reporters: GCaMP6s + mRuby.",
+    "imaging": "Confocal · live",
     "status": "fixed"
    }
   ],
   "runs": [
    {
-    "start": "06.07.26",
     "name": "F1.GFP",
-    "cancelled": true,
+    "done": "0",
+    "start": "06.07.26",
     "protocol": "npc_diff",
+    "cancelled": true,
     "_id": "rmrdi7se92vr2",
+    "notes": "NPC differentiation NOT continued for F1.GFP — cancelled. Steps stay listed here but are removed from Today.",
     "stepEdits": {
      "7": {
       "shift": 2
      }
-    },
-    "notes": "NPC differentiation NOT continued for F1.GFP — cancelled. Steps stay listed here but are removed from Today.",
-    "done": "0"
-   },
-   {
-    "protocol": "npc_diff",
-    "name": "F1",
-    "start": "08.07.26",
-    "done": "0,2,4,6,5,7,8,10,12,14",
-    "notes": "D0 = Wed 8 Jul (split 5 Jul). [NIM+Noggin switched one day late (Day 6); held one extra day, so dissociation moved to Day 8 (16 Jul) and later steps slip one day.]",
-    "stepEdits": {
-     "6": {
-      "note": "Switched to NIM+Noggin here (one day late). Holding one extra day on NIM+Noggin before dissociating."
-     },
-     "12": {
-      "shift": 1
-     },
-     "7": {
-      "note": "Delayed one day: dissociate on 16 Jul (Day 8) instead of 15 Jul, after the extra day on NIM+Noggin.",
-      "shift": 1
-     },
-     "8": {
-      "shift": 1
-     },
-     "10": {
-      "shift": 1
-     },
-     "5": {
-      "note": "Missed the Day-5 switch — actually moved to NIM+Noggin on Day 6."
-     }
-    },
-    "_id": "rmrdi7se9qwz3"
-   },
-   {
-    "name": "#1.RFP (9000 cells)",
-    "protocol": "npc_diff_9000",
-    "cancelled": true,
-    "start": "08.07.26",
-    "done": "0,3",
-    "_id": "rmrdi7se9325s",
-    "notes": "Extra experiment — #1.RFP at 9000 cells/well, likely for another project. Higher-density variant: Day-3 media change is done with hES media (differs from the standard 2000-cell protocol). D0 = Wed 8 Jul (split 5 Jul)."
-   },
-   {
-    "protocol": "npc_diff",
-    "name": "HPS",
-    "start": "10.07.26",
-    "done": "0,2,4,5,6,7,8,10,12,14",
-    "notes": "D0 = Fri 10 Jul (split → 3 wells Mon 6 Jul; confluency check ~Thu 9 Jul).",
-    "_id": "rmrdi7se9uz2c",
-    "stepEdits": {
-     "10": {
-      "shift": 1
-     },
-     "12": {
-      "shift": 1
-     }
     }
    },
    {
-    "name": "WTC CAAX",
-    "protocol": "npc_diff",
-    "start": "10.07.26",
-    "done": "0,2,4,5,6,7,8,10,12,14",
-    "_id": "rmrdi7se9qvzx",
+    "notes": "D0 = Wed 8 Jul (split 5 Jul). [NIM+Noggin switched one day late (Day 6); held one extra day, so dissociation moved to Day 8 (16 Jul) and later steps slip one day.]",
+    "_id": "rmrdi7se9qwz3",
+    "stepEdits": {
+     "7": {
+      "shift": 1,
+      "note": "Delayed one day: dissociate on 16 Jul (Day 8) instead of 15 Jul, after the extra day on NIM+Noggin."
+     },
+     "12": {
+      "shift": 1
+     },
+     "5": {
+      "note": "Missed the Day-5 switch — actually moved to NIM+Noggin on Day 6."
+     },
+     "6": {
+      "note": "Switched to NIM+Noggin here (one day late). Holding one extra day on NIM+Noggin before dissociating."
+     },
+     "10": {
+      "shift": 1
+     },
+     "8": {
+      "shift": 1
+     }
+    },
+    "name": "F1",
+    "done": "0,2,4,6,5,7,8,10,12,14",
+    "start": "08.07.26",
+    "protocol": "npc_diff"
+   },
+   {
+    "cancelled": true,
+    "_id": "rmrdi7se9325s",
+    "notes": "Extra experiment — #1.RFP at 9000 cells/well, likely for another project. Higher-density variant: Day-3 media change is done with hES media (differs from the standard 2000-cell protocol). D0 = Wed 8 Jul (split 5 Jul).",
+    "start": "08.07.26",
+    "name": "#1.RFP (9000 cells)",
+    "done": "0,3",
+    "protocol": "npc_diff_9000"
+   },
+   {
     "stepEdits": {
      "10": {
       "shift": 1
@@ -367,28 +346,44 @@
       "shift": 1
      }
     },
-    "notes": "D0 = Fri 10 Jul (split → 3 wells Mon 6 Jul; confluency check ~Thu 9 Jul)."
+    "_id": "rmrdi7se9uz2c",
+    "notes": "D0 = Fri 10 Jul (split → 3 wells Mon 6 Jul; confluency check ~Thu 9 Jul).",
+    "protocol": "npc_diff",
+    "start": "10.07.26",
+    "done": "0,2,4,5,6,7,8,10,12,14",
+    "name": "HPS"
    },
    {
-    "protocol": "npc_diff",
-    "name": "#1.RFP (2000 cells)",
-    "start": "08.07.26",
-    "done": "0,2,4,6,5,7,8,10,12,14",
-    "notes": "#1.RFP on the standard NPC differentiation protocol (2000 cells/well). D0 = Wed 8 Jul (split 5 Jul). [NIM+Noggin switched one day late (Day 6); held one extra day, so dissociation moved to Day 8 (16 Jul) and later steps slip one day.]",
     "stepEdits": {
-     "6": {
-      "note": "Switched to NIM+Noggin here (one day late). Holding one extra day on NIM+Noggin before dissociating."
+     "10": {
+      "shift": 1
      },
      "12": {
       "shift": 1
-     },
-     "5": {
-      "note": "Missed the Day-5 switch — actually moved to NIM+Noggin on Day 6."
-     },
+     }
+    },
+    "notes": "D0 = Fri 10 Jul (split → 3 wells Mon 6 Jul; confluency check ~Thu 9 Jul).",
+    "_id": "rmrdi7se9qvzx",
+    "protocol": "npc_diff",
+    "done": "0,2,4,5,6,7,8,10,12,14",
+    "name": "WTC CAAX",
+    "start": "10.07.26"
+   },
+   {
+    "stepEdits": {
      "8": {
       "shift": 1
      },
      "10": {
+      "shift": 1
+     },
+     "6": {
+      "note": "Switched to NIM+Noggin here (one day late). Holding one extra day on NIM+Noggin before dissociating."
+     },
+     "5": {
+      "note": "Missed the Day-5 switch — actually moved to NIM+Noggin on Day 6."
+     },
+     "12": {
       "shift": 1
      },
      "7": {
@@ -396,110 +391,115 @@
       "note": "Delayed one day: dissociate on 16 Jul (Day 8) instead of 15 Jul, after the extra day on NIM+Noggin."
      }
     },
-    "_id": "rmrew5gipc5nx"
+    "notes": "#1.RFP on the standard NPC differentiation protocol (2000 cells/well). D0 = Wed 8 Jul (split 5 Jul). [NIM+Noggin switched one day late (Day 6); held one extra day, so dissociation moved to Day 8 (16 Jul) and later steps slip one day.]",
+    "_id": "rmrew5gipc5nx",
+    "protocol": "npc_diff",
+    "name": "#1.RFP (2000 cells)",
+    "done": "0,2,4,6,5,7,8,10,12,14",
+    "start": "08.07.26"
+   },
+   {
+    "done": "0,2,4,5",
+    "name": "F1-GFP",
+    "notes": "",
+    "protocol": "npc_diff",
+    "start": "03.08.2026",
+    "lines": "",
+    "_id": "rmsek42u6z4ce"
    },
    {
     "notes": "",
-    "lines": "",
-    "protocol": "npc_diff",
-    "name": "F1-GFP",
-    "_id": "rmsek42u6z4ce",
-    "done": "0,2,4,5",
-    "start": "03.08.2026"
-   },
-   {
-    "start": "03.08.2026",
+    "name": "HPS",
     "done": "0,2,4,5",
     "_id": "rmsek44a5fwvm",
-    "name": "HPS",
-    "protocol": "npc_diff",
     "lines": "",
-    "notes": ""
+    "start": "03.08.2026",
+    "protocol": "npc_diff"
    },
    {
+    "start": "03.08.2026",
+    "protocol": "npc_diff",
+    "_id": "rmsek73rnlu5u",
     "lines": "",
     "name": "F1",
-    "protocol": "npc_diff",
-    "notes": "",
-    "start": "03.08.2026",
-    "_id": "rmsek73rnlu5u",
-    "done": "0,2,4,5"
+    "done": "0,2,4,5",
+    "notes": ""
    },
    {
-    "start": "05.08.2026",
     "_id": "rmshpejbwtieu",
-    "done": "0,2",
     "lines": "",
+    "start": "05.08.2026",
     "protocol": "npc_diff",
-    "name": "#1.RFP",
-    "notes": ""
+    "notes": "",
+    "done": "0,2",
+    "name": "#1.RFP"
    }
   ],
   "thaw": [
    {
+    "rock": "1:1000",
     "date": "02.07.26",
     "medium": "mTeSR (5×)",
-    "notes": "",
-    "wells": "1",
-    "line": "HPS iPSC",
-    "pafter": "P51",
-    "rock": "1:1000",
-    "coating": "[coated]",
-    "nextsplit": "04.07.26",
     "pthaw": "P50",
-    "_id": "thaw0"
-   },
-   {
-    "_id": "thaw1",
-    "pthaw": "P36",
+    "pafter": "P51",
+    "line": "HPS iPSC",
     "nextsplit": "04.07.26",
-    "date": "02.07.26",
-    "medium": "mTeSR (5×)",
-    "line": "WTC CAAX",
-    "wells": "1",
     "notes": "",
-    "pafter": "P37",
-    "rock": "1:1000",
-    "coating": "[coated]"
-   },
-   {
-    "nextsplit": "04.07.26",
-    "pthaw": "P27",
-    "_id": "thaw2",
-    "medium": "mTeSR (5×)",
-    "date": "02.07.26",
-    "notes": "",
-    "wells": "1",
-    "line": "F1 iPSC",
-    "pafter": "P28",
     "coating": "[coated]",
-    "rock": "1:1000"
-   },
-   {
-    "_id": "thaw3",
-    "nextsplit": "04.07.26",
-    "pthaw": "Px+5",
-    "pafter": "Px+6",
-    "rock": "1:1000",
-    "coating": "[coated]",
-    "medium": "mTeSR (5×)",
-    "date": "02.07.26",
-    "line": "F1.GFP",
-    "notes": "",
+    "_id": "thaw0",
     "wells": "1"
    },
    {
-    "nextsplit": "04.07.26",
-    "pthaw": "P36",
-    "_id": "thaw4",
+    "rock": "1:1000",
     "date": "02.07.26",
+    "notes": "",
     "medium": "mTeSR (5×)",
-    "wells": "1",
-    "notes": "Confirm with Rebecca: does the lab count thaw itself as +1?",
-    "line": "#1 RFP",
+    "pthaw": "P36",
     "pafter": "P37",
+    "nextsplit": "04.07.26",
+    "line": "WTC CAAX",
     "coating": "[coated]",
-    "rock": "1:1000"
+    "_id": "thaw1",
+    "wells": "1"
+   },
+   {
+    "coating": "[coated]",
+    "_id": "thaw2",
+    "wells": "1",
+    "date": "02.07.26",
+    "rock": "1:1000",
+    "pafter": "P28",
+    "nextsplit": "04.07.26",
+    "line": "F1 iPSC",
+    "pthaw": "P27",
+    "medium": "mTeSR (5×)",
+    "notes": ""
+   },
+   {
+    "coating": "[coated]",
+    "wells": "1",
+    "_id": "thaw3",
+    "rock": "1:1000",
+    "date": "02.07.26",
+    "notes": "",
+    "medium": "mTeSR (5×)",
+    "pthaw": "Px+5",
+    "line": "F1.GFP",
+    "nextsplit": "04.07.26",
+    "pafter": "Px+6"
+   },
+   {
+    "coating": "[coated]",
+    "_id": "thaw4",
+    "wells": "1",
+    "date": "02.07.26",
+    "rock": "1:1000",
+    "line": "#1 RFP",
+    "nextsplit": "04.07.26",
+    "pafter": "P37",
+    "pthaw": "P36",
+    "medium": "mTeSR (5×)",
+    "notes": "Confirm with Rebecca: does the lab count thaw itself as +1?"
    },
    {
     "_id": "rms4pfrp844h3"
@@ -519,747 +519,747 @@
   ],
   "experiments": [
    {
-    "problem": "Batch largely lost. Likely cause: coating AND medium changed in the same split (see Methodology Insights).",
-    "_id": "rms542ws0e6h7",
-    "result": "Only WTC CAAX survived clearly; F1 possibly survived. All other wells failed — kept temporarily for visual assessment only.",
     "type": "NPC differentiation",
-    "line": "WTC CAAX · F1",
+    "_id": "rms542ws0e6h7",
+    "did": "Survival check on the previous NPC generation batch.",
+    "problem": "Batch largely lost. Likely cause: coating AND medium changed in the same split (see Methodology Insights).",
     "file": "",
+    "line": "WTC CAAX · F1",
+    "result": "Only WTC CAAX survived clearly; F1 possibly survived. All other wells failed — kept temporarily for visual assessment only.",
     "batch": "",
-    "date": "28.07.26",
-    "did": "Survival check on the previous NPC generation batch."
+    "date": "28.07.26"
    },
    {
-    "result": "Discarded — severe dissociation: cells detached and scattered far from the organoid core.",
-    "_id": "rms542ws0yki3",
-    "problem": "Same suspected cause: simultaneous coating + medium change during splitting.",
-    "did": "Assessed the organoid plates started 23.06 and discarded them.",
     "batch": "",
     "date": "27.07.26",
+    "line": "WTC · D1 · Nr1",
+    "result": "Discarded — severe dissociation: cells detached and scattered far from the organoid core.",
+    "problem": "Same suspected cause: simultaneous coating + medium change during splitting.",
+    "did": "Assessed the organoid plates started 23.06 and discarded them.",
     "file": "",
     "type": "Organoid maintenance",
-    "line": "WTC · D1 · Nr1"
+    "_id": "rms542ws0yki3"
    },
    {
-    "result": "Done.",
     "_id": "rms542ws0pggn",
-    "problem": "",
+    "type": "Maintenance",
     "did": "Media change for all of Andrea’s iPSC lines.",
-    "batch": "",
-    "date": "28.07.26",
+    "problem": "",
     "file": "",
     "line": "Andrea's iPSC lines",
-    "type": "Maintenance"
+    "result": "Done.",
+    "batch": "",
+    "date": "28.07.26"
    },
    {
-    "_id": "rms542ws0wrhq",
+    "file": "",
+    "did": "Started reviewing past lab protocols and the major experimental steps, as groundwork for the methods presentation.",
     "problem": "",
-    "result": "In progress.",
+    "_id": "rms542ws0wrhq",
     "type": "Thesis writing",
-    "line": "",
     "batch": "",
     "date": "28.07.26",
-    "file": "",
-    "did": "Started reviewing past lab protocols and the major experimental steps, as groundwork for the methods presentation."
+    "result": "In progress.",
+    "line": ""
    }
   ],
   "imaging": [
    {
+    "scope": "",
+    "file": "",
+    "dye": "",
+    "modality": "Calcium",
+    "wells": "",
+    "date": "",
+    "fov": "",
+    "line": "WTC / #1 / D2",
+    "result": "",
+    "note": "Ca imaging before fixing (Batch 11 plate).",
+    "stain": "",
+    "dur": "",
+    "age": "",
+    "_id": "rmre11l38g206",
+    "_notes": "",
+    "plate": "Plate 5",
+    "analysis": "done"
+   },
+   {
+    "date": "22.06.26",
+    "line": "WTC / D2 / #1",
+    "fov": "",
+    "result": "",
+    "scope": "",
+    "file": "",
+    "dye": "",
+    "wells": "",
+    "modality": "Confocal",
+    "plate": "Plate 1",
+    "analysis": "done",
+    "note": "Confocal training with Rebecca; plate fixed afterwards.",
+    "stain": "",
+    "dur": "",
+    "age": "",
+    "_id": "rmre11l38jy86"
+   },
+   {
+    "stain": "",
+    "note": "#1 virus organoids + Ca imaging.",
+    "dur": "",
+    "age": "",
+    "_id": "rmre11l386sow",
+    "plate": "Plate 1",
+    "analysis": "done",
+    "scope": "",
+    "file": "",
+    "dye": "",
+    "modality": "Calcium",
+    "wells": "4 organoids",
+    "date": "",
+    "fov": "",
+    "line": "#1",
+    "result": ""
+   },
+   {
+    "dye": "",
+    "modality": "MICA",
+    "wells": "coverslips",
+    "scope": "MICA",
+    "file": "",
+    "fov": "",
+    "line": "NPC coverslips (WTC P3.7, D2GFP P8)",
+    "result": "imaged",
+    "date": "24.04.26",
+    "age": "",
+    "_id": "rmreovuvvtrjy",
+    "stain": "DCX + FOXG1 + DAPI",
+    "note": "NPC coverslip staining (23.04) imaged on MICA.",
+    "dur": "",
+    "plate": "—",
+    "analysis": "done"
+   },
+   {
+    "analysis": "done",
+    "plate": "Rebecca confocal",
+    "_id": "rmreovuvvuaed",
     "age": "",
     "dur": "",
-    "plate": "Plate 5",
-    "line": "WTC / #1 / D2",
-    "dye": "",
-    "file": "",
+    "note": "Confocal + live imaging on Rebecca’s training plate. E11 & E16 carry GFP already (no virus given).",
     "stain": "",
-    "_id": "rmre11l38g206",
+    "result": "imaged",
+    "line": "WTC+D2.GFP (E11) / D2.GFP (E16)",
     "fov": "",
-    "modality": "Calcium",
-    "result": "",
-    "analysis": "done",
-    "wells": "",
-    "note": "Ca imaging before fixing (Batch 11 plate).",
     "date": "",
-    "_notes": "",
+    "wells": "E11, E16",
+    "modality": "Confocal",
+    "dye": "GCaMP6s + mRuby",
+    "file": "",
     "scope": ""
    },
    {
-    "stain": "",
-    "_id": "rmre11l38jy86",
-    "modality": "Confocal",
-    "fov": "",
-    "result": "",
-    "analysis": "done",
-    "note": "Confocal training with Rebecca; plate fixed afterwards.",
-    "wells": "",
-    "date": "22.06.26",
-    "scope": "",
-    "age": "",
     "dur": "",
-    "plate": "Plate 1",
-    "line": "WTC / D2 / #1",
-    "dye": "",
-    "file": ""
-   },
-   {
-    "result": "",
-    "analysis": "done",
     "stain": "",
-    "_id": "rmre11l386sow",
-    "modality": "Calcium",
-    "fov": "",
-    "scope": "",
-    "note": "#1 virus organoids + Ca imaging.",
-    "wells": "4 organoids",
-    "date": "",
-    "plate": "Plate 1",
-    "age": "",
-    "dur": "",
-    "line": "#1",
-    "dye": "",
-    "file": ""
-   },
-   {
-    "scope": "MICA",
-    "note": "NPC coverslip staining (23.04) imaged on MICA.",
-    "wells": "coverslips",
-    "date": "24.04.26",
-    "result": "imaged",
-    "analysis": "done",
-    "stain": "DCX + FOXG1 + DAPI",
-    "_id": "rmreovuvvtrjy",
-    "modality": "MICA",
-    "fov": "",
-    "dye": "",
-    "line": "NPC coverslips (WTC P3.7, D2GFP P8)",
-    "file": "",
-    "plate": "—",
-    "age": "",
-    "dur": ""
-   },
-   {
-    "plate": "Rebecca confocal",
-    "age": "",
-    "dur": "",
-    "line": "WTC+D2.GFP (E11) / D2.GFP (E16)",
-    "dye": "GCaMP6s + mRuby",
-    "file": "",
-    "analysis": "done",
-    "result": "imaged",
-    "_id": "rmreovuvvuaed",
-    "stain": "",
-    "fov": "",
-    "modality": "Confocal",
-    "scope": "",
-    "wells": "E11, E16",
-    "note": "Confocal + live imaging on Rebecca’s training plate. E11 & E16 carry GFP already (no virus given).",
-    "date": ""
-   },
-   {
-    "modality": "Calcium",
-    "fov": "",
-    "stain": "",
-    "_id": "rmreovuvv0v7q",
-    "result": "FAILED — virus/GFP did not express",
-    "analysis": "n/a",
-    "date": "",
     "note": "Could not do Ca imaging on M4 (WTC virus did not work). M4 fixed & stained 10.07.",
-    "wells": "M4",
-    "scope": "",
-    "dur": "",
+    "_id": "rmreovuvv0v7q",
     "age": "",
+    "analysis": "n/a",
     "plate": "Rebecca confocal",
     "file": "",
+    "scope": "",
+    "wells": "M4",
+    "modality": "Calcium",
+    "dye": "",
+    "date": "",
+    "result": "FAILED — virus/GFP did not express",
     "line": "WTC + virus (M4)",
-    "dye": ""
+    "fov": ""
    }
   ],
   "staining": [
    {
+    "_id": "rmreovuvv1d9c",
+    "lot": "",
+    "note": "Counterstain — all panels.",
     "fix": "4% PFA",
+    "usedon": "NPC coverslips (23.04) · organoid stainings",
     "marker": "DAPI",
     "sdil": "—",
-    "lot": "",
-    "perm": "0.3% Triton",
-    "what": "Nucleus (counterstain)",
-    "secondary": "—",
+    "block": "",
     "pdil": "1:1000",
     "host": "—",
-    "usedon": "NPC coverslips (23.04) · organoid stainings",
+    "what": "Nucleus (counterstain)",
     "primary": "—",
-    "note": "Counterstain — all panels.",
     "result": "good",
-    "block": "",
-    "_id": "rmreovuvv1d9c"
+    "secondary": "—",
+    "perm": "0.3% Triton"
    },
    {
-    "what": "Immature / migrating neuron",
-    "fix": "4% PFA",
+    "sdil": "1:1000",
     "marker": "DCX",
-    "sdil": "1:1000",
-    "lot": "",
-    "perm": "0.3% Triton",
-    "result": "imaged",
-    "block": "",
-    "_id": "rmreovuvvyn36",
-    "secondary": "Anti-guinea pig AF647",
-    "pdil": "1:500",
-    "host": "Guinea pig",
     "usedon": "NPC coverslips — WTC P3.7 & D2GFP P8 (23.04.26)",
-    "primary": "[DCX — cat# TBD]",
-    "note": "Imaged on MICA 24.04.26."
-   },
-   {
     "fix": "4% PFA",
-    "marker": "FOXG1",
-    "sdil": "1:1000",
-    "perm": "0.3% Triton",
-    "lot": "",
-    "what": "Forebrain marker",
-    "secondary": "Anti-rabbit AF546",
-    "host": "Rabbit",
-    "pdil": "1:500",
-    "usedon": "NPC coverslips — WTC P3.7 & D2GFP P8 (23.04.26)",
     "note": "Imaged on MICA 24.04.26.",
-    "primary": "[FOXG1 — cat# TBD]",
-    "block": "",
-    "result": "imaged",
-    "_id": "rmreovuvvudot"
-   },
-   {
-    "sdil": "1:1000",
     "lot": "",
+    "_id": "rmreovuvvyn36",
     "perm": "0.3% Triton",
-    "fix": "4% PFA",
-    "marker": "Pax6",
-    "what": "Dorsal forebrain NPC / radial glia",
-    "usedon": "NPC panel (WTC, D2GFP, D2, HPSGFP, Nr1)",
-    "note": "From NPC staining panel.",
-    "primary": "[Pax6 — cat# TBD]",
-    "secondary": "Anti-rabbit AF647",
-    "host": "Rabbit",
+    "secondary": "Anti-guinea pig AF647",
+    "result": "imaged",
+    "what": "Immature / migrating neuron",
+    "primary": "[DCX — cat# TBD]",
+    "host": "Guinea pig",
     "pdil": "1:500",
-    "_id": "rmreovuvv6nfj",
-    "block": "",
-    "result": ""
+    "block": ""
    },
    {
-    "marker": "Ki-67",
-    "fix": "4% PFA",
-    "lot": "5087593",
+    "secondary": "Anti-rabbit AF546",
+    "result": "imaged",
+    "primary": "[FOXG1 — cat# TBD]",
+    "what": "Forebrain marker",
     "perm": "0.3% Triton",
+    "pdil": "1:500",
+    "block": "",
+    "host": "Rabbit",
+    "marker": "FOXG1",
+    "usedon": "NPC coverslips — WTC P3.7 & D2GFP P8 (23.04.26)",
     "sdil": "1:1000",
-    "what": "Proliferation",
+    "_id": "rmreovuvvudot",
+    "fix": "4% PFA",
+    "note": "Imaged on MICA 24.04.26.",
+    "lot": ""
+   },
+   {
+    "host": "Rabbit",
+    "block": "",
+    "pdil": "1:500",
+    "perm": "0.3% Triton",
+    "primary": "[Pax6 — cat# TBD]",
+    "what": "Dorsal forebrain NPC / radial glia",
+    "result": "",
+    "secondary": "Anti-rabbit AF647",
+    "lot": "",
+    "note": "From NPC staining panel.",
+    "fix": "4% PFA",
+    "_id": "rmreovuvv6nfj",
+    "sdil": "1:1000",
+    "usedon": "NPC panel (WTC, D2GFP, D2, HPSGFP, Nr1)",
+    "marker": "Pax6"
+   },
+   {
     "host": "Mouse IgG1",
     "pdil": "1:300",
-    "secondary": "Anti-mouse IgG1 AF546",
-    "note": "BD Biosciences; 1.0 ml / 250 µg; store 4°C; exp 2032-07-31.",
-    "primary": "Purified Mouse Anti-Ki-67 · BD Pharmingen 550609",
-    "usedon": "M4 well (confocal plate) + E14 (Plate 1, 29.04) — 10.07.26",
     "block": "",
+    "perm": "0.3% Triton",
+    "primary": "Purified Mouse Anti-Ki-67 · BD Pharmingen 550609",
+    "what": "Proliferation",
     "result": "",
-    "_id": "rmreovuvv36vw"
+    "secondary": "Anti-mouse IgG1 AF546",
+    "lot": "5087593",
+    "note": "BD Biosciences; 1.0 ml / 250 µg; store 4°C; exp 2032-07-31.",
+    "fix": "4% PFA",
+    "_id": "rmreovuvv36vw",
+    "sdil": "1:1000",
+    "usedon": "M4 well (confocal plate) + E14 (Plate 1, 29.04) — 10.07.26",
+    "marker": "Ki-67"
    },
    {
-    "fix": "4% PFA",
+    "usedon": "M4 well (confocal plate) + E14 (Plate 1, 29.04) — 10.07.26",
     "marker": "GFP",
     "sdil": "1:1000",
-    "perm": "0.3% Triton",
+    "_id": "rmreovuvvyvnt",
+    "fix": "4% PFA",
     "lot": "GFP917979",
-    "what": "GFP+ cells / reporter",
-    "secondary": "Anti-chicken AF488",
-    "host": "Chicken IgY",
-    "pdil": "1:500 [confirm]",
-    "usedon": "M4 well (confocal plate) + E14 (Plate 1, 29.04) — 10.07.26",
     "note": "Aves Labs; 10 mg/ml; 400 µl.",
-    "primary": "Anti-GFP · Aves Labs GFP-1020",
-    "block": "",
     "result": "",
-    "_id": "rmreovuvvyvnt"
+    "secondary": "Anti-chicken AF488",
+    "what": "GFP+ cells / reporter",
+    "primary": "Anti-GFP · Aves Labs GFP-1020",
+    "perm": "0.3% Triton",
+    "block": "",
+    "pdil": "1:500 [confirm]",
+    "host": "Chicken IgY"
    },
    {
-    "what": "Nav1.3 sodium channel",
-    "marker": "SCN3A",
-    "fix": "4% PFA",
-    "lot": "2K46243",
-    "perm": "0.3% Triton",
-    "sdil": "1:1000",
-    "block": "",
-    "result": "",
-    "_id": "rmreovuvvn99s",
     "host": "Rabbit (polyclonal)",
     "pdil": "[confirm]",
-    "secondary": "Anti-rabbit AF647",
-    "note": "SCN3A analysis requested (Rebecca). Host/conc not fully legible on vial photo.",
+    "block": "",
+    "perm": "0.3% Triton",
+    "what": "Nav1.3 sodium channel",
     "primary": "SCN3A Polyclonal · Invitrogen PA5-100688",
-    "usedon": "M4 well (confocal plate) + E14 (Plate 1, 29.04) — 10.07.26"
+    "result": "",
+    "secondary": "Anti-rabbit AF647",
+    "lot": "2K46243",
+    "note": "SCN3A analysis requested (Rebecca). Host/conc not fully legible on vial photo.",
+    "fix": "4% PFA",
+    "_id": "rmreovuvvn99s",
+    "sdil": "1:1000",
+    "usedon": "M4 well (confocal plate) + E14 (Plate 1, 29.04) — 10.07.26",
+    "marker": "SCN3A"
    },
    {
-    "marker": "Negative control",
-    "fix": "4% PFA",
-    "lot": "",
-    "perm": "0.3% Triton",
-    "sdil": "as 1st staining",
-    "what": "Secondary-only (no primary)",
-    "pdil": "—",
-    "host": "—",
     "secondary": "Secondary mix from 1st staining",
-    "primary": "— none —",
-    "note": "2nd-row WTC coverslip was confused: placed into the secondary-antibody solution of the first staining before blocking had even finished, so there is no primary attachment. Kept as a secondary-only negative control.",
-    "usedon": "WTC 2nd-row coverslip (mixed up)",
     "result": "",
+    "primary": "— none —",
+    "what": "Secondary-only (no primary)",
+    "perm": "0.3% Triton",
+    "pdil": "—",
     "block": "incomplete (see note)",
-    "_id": "rmreovuvvnnel"
+    "host": "—",
+    "marker": "Negative control",
+    "usedon": "WTC 2nd-row coverslip (mixed up)",
+    "sdil": "as 1st staining",
+    "_id": "rmreovuvvnnel",
+    "fix": "4% PFA",
+    "note": "2nd-row WTC coverslip was confused: placed into the secondary-antibody solution of the first staining before blocking had even finished, so there is no primary attachment. Kept as a secondary-only negative control.",
+    "lot": ""
    }
   ],
   "treatments": [
    {
-    "_id": "rmre0e3i47nue",
-    "plate": "Plate 18",
-    "by": "",
-    "wells": "W1–3",
-    "note": "2.6 treatment: 195 µL media in Epi, drug added, 65 µL applied per well. W1:1µL · W2:2µL · W3:4µL.",
-    "line": "per condition",
-    "type": "Drug",
     "date": "10.07.26",
     "substance": "EFNB2 (stock 50 µg/mL)",
-    "conc": "1 / 2 / 4 µL per well"
+    "line": "per condition",
+    "plate": "Plate 18",
+    "conc": "1 / 2 / 4 µL per well",
+    "note": "2.6 treatment: 195 µL media in Epi, drug added, 65 µL applied per well. W1:1µL · W2:2µL · W3:4µL.",
+    "by": "",
+    "_id": "rmre0e3i47nue",
+    "type": "Drug",
+    "wells": "W1–3"
    },
    {
-    "substance": "ALLN (stock 5 mM)",
-    "conc": "0.1 / 0.5 / 1 µL per well",
-    "note": "W4:0.1µL · W5:0.5µL · W6:1µL.",
+    "plate": "Plate 18",
     "line": "per condition",
+    "conc": "0.1 / 0.5 / 1 µL per well",
+    "date": "10.07.26",
+    "substance": "ALLN (stock 5 mM)",
+    "by": "",
     "type": "Drug",
     "wells": "W4–6",
-    "by": "",
-    "date": "10.07.26",
-    "plate": "Plate 18",
-    "_id": "rmre0e3i4s2au"
+    "_id": "rmre0e3i4s2au",
+    "note": "W4:0.1µL · W5:0.5µL · W6:1µL."
    },
    {
-    "substance": "Rapamycin",
-    "conc": "0.36µL 2.7µM / 0.36µL 27.4µM / 3.6µL 27.4µM",
-    "note": "W7:0.36µL(2.7µM) · W8:0.36µL(27.4µM) · W9:3.6µL(27.4µM).",
-    "type": "Drug",
-    "line": "per condition",
+    "by": "",
     "wells": "W7–9",
-    "by": "",
-    "date": "10.07.26",
+    "_id": "rmre0e3i4ox0o",
+    "type": "Drug",
+    "note": "W7:0.36µL(2.7µM) · W8:0.36µL(27.4µM) · W9:3.6µL(27.4µM).",
+    "line": "per condition",
     "plate": "Plate 18",
-    "_id": "rmre0e3i4ox0o"
+    "conc": "0.36µL 2.7µM / 0.36µL 27.4µM / 3.6µL 27.4µM",
+    "date": "10.07.26",
+    "substance": "Rapamycin"
    },
    {
-    "_id": "rmre0e3i46ybi",
-    "plate": "Plate 18",
+    "substance": "DMSO (vehicle control)",
     "date": "10.07.26",
-    "line": "control",
-    "type": "Drug",
-    "note": "Vehicle control.",
-    "wells": "W10–11",
-    "by": "",
     "conc": "0.3 / 3 µL per well",
-    "substance": "DMSO (vehicle control)"
+    "plate": "Plate 18",
+    "line": "control",
+    "note": "Vehicle control.",
+    "type": "Drug",
+    "wells": "W10–11",
+    "_id": "rmre0e3i46ybi",
+    "by": ""
    },
    {
-    "plate": "Plate 14",
-    "_id": "rmre0e3i44si8",
-    "substance": "Metformin + EFNB2 + ALLN + Rapamycin + DMSO + water",
-    "conc": "Metformin: 2 mM & 0.2 mM",
-    "line": "3 conditions · 1 of 2 replicate plates",
-    "type": "Drug",
     "note": "Only ONE 17.6 plate was dosed — no time for the second replicate, and live imaging was NOT done. Metformin 2 mM & 0.2 mM (correct). Wells 1–11 = the 3 conditions (cell lines): 2 wells each metformin (2 mM & 0.2 mM), EFNB2, ALLN, Rapamycin, DMSO; 1 well water. EFNB2/ALLN/Rapa conc picked by 2.6 survival.",
     "wells": "wells 1–11 (one plate only)",
+    "type": "Drug",
+    "_id": "rmre0e3i44si8",
     "by": "",
-    "date": "10.07.26"
+    "substance": "Metformin + EFNB2 + ALLN + Rapamycin + DMSO + water",
+    "date": "10.07.26",
+    "conc": "Metformin: 2 mM & 0.2 mM",
+    "line": "3 conditions · 1 of 2 replicate plates",
+    "plate": "Plate 14"
    },
    {
-    "plate": "Plate 9",
-    "_id": "rmre0e3i435gf",
-    "conc": "[titer]",
     "substance": "[vector]",
     "date": "08.07.26",
-    "by": "",
+    "conc": "[titer]",
+    "line": "",
+    "plate": "Plate 9",
+    "note": "Virus to plate 7.5 (Wed 8.7). Careful — change pipette tips.",
+    "_id": "rmre0e3i435gf",
     "wells": "",
     "type": "Virus",
-    "line": "",
-    "note": "Virus to plate 7.5 (Wed 8.7). Careful — change pipette tips."
+    "by": ""
    },
    {
-    "plate": "Plate 10",
-    "_id": "rmre0e3i470v7",
-    "substance": "[vector]",
-    "conc": "[titer]",
-    "by": "",
-    "wells": "",
-    "line": "",
-    "note": "Add virus per plan (5 Aug plate 16.6 / 10 Aug plate 23.6).",
     "type": "Virus",
+    "wells": "",
+    "_id": "rmre0e3i470v7",
+    "by": "",
+    "note": "Add virus per plan (5 Aug plate 16.6 / 10 Aug plate 23.6).",
+    "conc": "[titer]",
+    "line": "",
+    "plate": "Plate 10",
+    "substance": "[vector]",
     "date": "10.08.26"
    },
    {
-    "plate": "Rebecca confocal",
-    "_id": "rmreovuvvh011",
-    "conc": "[titer]",
-    "substance": "[vector]",
     "date": "",
-    "by": "Rebecca",
-    "wells": "M4",
-    "type": "Virus",
+    "substance": "[vector]",
     "line": "WTC",
-    "note": "WTC + virus on confocal-training plate. Virus / GFP did not express → no Ca imaging possible; M4 fixed & stained 10.07. E11 (WTC+D2.GFP) & E16 (D2.GFP) were NOT infected (already GFP+)."
+    "plate": "Rebecca confocal",
+    "conc": "[titer]",
+    "note": "WTC + virus on confocal-training plate. Virus / GFP did not express → no Ca imaging possible; M4 fixed & stained 10.07. E11 (WTC+D2.GFP) & E16 (D2.GFP) were NOT infected (already GFP+).",
+    "by": "Rebecca",
+    "_id": "rmreovuvvh011",
+    "wells": "M4",
+    "type": "Virus"
    }
   ],
   "coatings": [
    {
-    "format": "6",
-    "matrix": "Matrigel",
-    "date": "28.07.2026",
     "note": "",
-    "line": "",
-    "map": {
-     "B1": "coated",
-     "A1": "seeded",
-     "B3": "coated",
-     "A3": "seeded",
-     "B2": "coated",
-     "A2": "seeded"
-    },
-    "_id": "rms4plin1zpc0",
     "runId": "",
+    "label": "",
     "archived": false,
+    "_id": "rms4plin1zpc0",
+    "date": "28.07.2026",
     "content": {
      "A3": {
       "line": "has"
      },
-     "A2": {
-      "line": "hps"
-     },
      "A1": {
       "line": "1 rap",
       "proto": "npc_diff"
+     },
+     "A2": {
+      "line": "hps"
      }
     },
-    "label": "",
+    "line": "",
+    "format": "6",
+    "matrix": "Matrigel",
     "stepDone": {
      "0": "28.07.2026"
+    },
+    "map": {
+     "A3": "seeded",
+     "B2": "coated",
+     "B1": "coated",
+     "A1": "seeded",
+     "A2": "seeded",
+     "B3": "coated"
     }
    }
   ],
   "splits": [],
   "drugs": [
    {
+    "stab": "24–72 h",
     "_id": "drugs0",
-    "form": "Ready 2.5 mg/mL in DMSO",
-    "drug": "Rapamycin",
-    "test": "10 / 100 / 1000 nM (9.1 / 91.4 / 914.5 ng/mL)",
-    "cat": "R8781 · Sigma-Aldrich",
     "store": "−20 °C",
     "note": "",
-    "stab": "24–72 h",
+    "cat": "R8781 · Sigma-Aldrich",
+    "drug": "Rapamycin",
     "stock": "27.4 µM & 2.74 µM in DMSO",
+    "test": "10 / 100 / 1000 nM (9.1 / 91.4 / 914.5 ng/mL)",
+    "form": "Ready 2.5 mg/mL in DMSO",
     "have": "yes"
    },
    {
-    "stock": "5 mM",
-    "have": "yes",
-    "note": "Aldehyde — relatively unstable.",
-    "stab": "4–12 h",
-    "test": "5 / 25 / 50 µM (2 / 10 / 20 µg/mL)",
-    "cat": "208719-5MG · Sigma-Aldrich",
-    "store": "4 °C powder; −20 °C dissolved",
-    "form": "Solid 5 mg; 10 mg/mL in DMSO",
     "_id": "drugs1",
-    "drug": "ALLN"
+    "store": "4 °C powder; −20 °C dissolved",
+    "stab": "4–12 h",
+    "note": "Aldehyde — relatively unstable.",
+    "cat": "208719-5MG · Sigma-Aldrich",
+    "drug": "ALLN",
+    "stock": "5 mM",
+    "test": "5 / 25 / 50 µM (2 / 10 / 20 µg/mL)",
+    "form": "Solid 5 mg; 10 mg/mL in DMSO",
+    "have": "yes"
    },
    {
-    "note": "Protein gradually degrades / adsorbs.",
-    "stab": "12–48 h",
     "stock": "50 µg/mL",
+    "cat": "—",
+    "note": "Protein gradually degrades / adsorbs.",
+    "drug": "EFNB2 (recomb. protein)",
+    "stab": "12–48 h",
+    "store": "",
+    "_id": "drugs2",
     "have": "yes",
     "form": "Recombinant protein",
-    "_id": "drugs2",
-    "drug": "EFNB2 (recomb. protein)",
-    "test": "1 / 2 / 4 µL per well (2.6 plate)",
-    "cat": "—",
-    "store": ""
+    "test": "1 / 2 / 4 µL per well (2.6 plate)"
    },
    {
     "stock": "",
-    "have": "yes",
     "note": "\"Like last time\" = 2 mM and 0.2 mM (confirmed 10.07).",
-    "stab": "",
-    "test": "2 mM & 0.2 mM (as last time)",
     "cat": "[TBD]",
-    "store": "",
+    "drug": "Metformin",
+    "stab": "",
     "_id": "drugs3",
-    "form": "",
-    "drug": "Metformin"
-   },
-   {
-    "test": "1 / 10 / 100 µM (0.35 / 3.49 / 34.9 µg/mL)",
-    "store": "−80 / −20 °C",
-    "cat": "TA9491596779-10MG · Sigma-Aldrich",
-    "form": "Solid 10 mg; DMSO ~10 mM?",
-    "_id": "drugs4",
-    "drug": "Tubastatin A",
-    "stock": "~10 mM (confirm)",
-    "have": "no",
-    "note": "Solubility to confirm.",
-    "stab": "24–72 h"
-   },
-   {
-    "drug": "5-MTHF (5-methyl-THF)",
-    "_id": "drugs5",
-    "form": "Solid; water / PBS (NaOH?) 1–10 mM?",
-    "store": "−80 / −20 °C",
-    "cat": "TA9H9A9A44B2 · Sigma-Aldrich",
-    "test": "0.5 / 5 / 50 µM (0.23 / 2.3 / 23 µg/mL)",
-    "stab": "6–24 h (oxidizes)",
-    "note": "Oxidizes readily — fresh daily if possible.",
-    "have": "no",
-    "stock": "1–10 mM (confirm)"
-   },
-   {
-    "stock": "10–50 mM (confirm)",
-    "have": "no",
-    "note": "",
-    "stab": "24–48 h",
-    "test": "1 / 10 / 100 µM (0.41 / 4.1 / 41 µg/mL)",
     "store": "",
-    "cat": "TA9H9A9A4696-10MG · Sigma-Aldrich",
-    "_id": "drugs6",
-    "form": "DMSO 10–50 mM?",
-    "drug": "Forskolin"
+    "have": "yes",
+    "form": "",
+    "test": "2 mM & 0.2 mM (as last time)"
    },
    {
-    "note": "",
     "stab": "24–72 h",
-    "stock": "10–100 mM (confirm)",
+    "store": "−80 / −20 °C",
+    "_id": "drugs4",
+    "stock": "~10 mM (confirm)",
+    "drug": "Tubastatin A",
+    "cat": "TA9491596779-10MG · Sigma-Aldrich",
+    "note": "Solubility to confirm.",
+    "form": "Solid 10 mg; DMSO ~10 mM?",
+    "test": "1 / 10 / 100 µM (0.35 / 3.49 / 34.9 µg/mL)",
+    "have": "no"
+   },
+   {
+    "stab": "6–24 h (oxidizes)",
+    "_id": "drugs5",
+    "store": "−80 / −20 °C",
+    "stock": "1–10 mM (confirm)",
+    "drug": "5-MTHF (5-methyl-THF)",
+    "cat": "TA9H9A9A44B2 · Sigma-Aldrich",
+    "note": "Oxidizes readily — fresh daily if possible.",
+    "form": "Solid; water / PBS (NaOH?) 1–10 mM?",
+    "test": "0.5 / 5 / 50 µM (0.23 / 2.3 / 23 µg/mL)",
+    "have": "no"
+   },
+   {
+    "form": "DMSO 10–50 mM?",
+    "test": "1 / 10 / 100 µM (0.41 / 4.1 / 41 µg/mL)",
+    "have": "no",
+    "_id": "drugs6",
+    "store": "",
+    "stab": "24–48 h",
+    "stock": "10–50 mM (confirm)",
+    "drug": "Forskolin",
+    "cat": "TA9H9A9A4696-10MG · Sigma-Aldrich",
+    "note": ""
+   },
+   {
     "have": "no",
     "form": "Solid; water 10–100 mM?",
-    "_id": "drugs7",
-    "drug": "Verapamil",
     "test": "5 / 25 / 50 µM (2.27 / 11.35 / 22.7 µg/mL)",
+    "stock": "10–100 mM (confirm)",
     "cat": "TA9H9876F42B-10MG · Sigma-Aldrich",
-    "store": "−80 / −20 °C"
+    "note": "",
+    "drug": "Verapamil",
+    "store": "−80 / −20 °C",
+    "stab": "24–72 h",
+    "_id": "drugs7"
    }
   ],
   "viruses": [
    {
-    "store": "−80 °C (aliquot; avoid freeze–thaw)",
-    "serotype": "Recombinant AAV serotype 1 (rAAV1)",
-    "source": "~Addgene #100843 (pAAV.Syn.GCaMP6s.WPRE.SV40) · GENIE project, Janelia Research Campus",
     "titer": "",
+    "store": "−80 °C (aliquot; avoid freeze–thaw)",
     "_id": "virus0",
-    "payload": "GCaMP6s — ultrasensitive genetically-encoded calcium indicator (GECI); reports intracellular Ca²⁺ dynamics / action potentials",
-    "have": "yes",
-    "name": "rAAV1 · hSyn-GCaMP6s-WPRE-SV40",
     "promoter": "Human Synapsin-1 (hSyn) — neuron-specific expression",
+    "reg": "WPRE + SV40 polyA (enhance expression efficiency)",
+    "serotype": "Recombinant AAV serotype 1 (rAAV1)",
     "note": "Calcium-imaging virus used on organoids (e.g. Rebecca confocal M4, plate 7.5).",
-    "reg": "WPRE + SV40 polyA (enhance expression efficiency)"
+    "source": "~Addgene #100843 (pAAV.Syn.GCaMP6s.WPRE.SV40) · GENIE project, Janelia Research Campus",
+    "name": "rAAV1 · hSyn-GCaMP6s-WPRE-SV40",
+    "have": "yes",
+    "payload": "GCaMP6s — ultrasensitive genetically-encoded calcium indicator (GECI); reports intracellular Ca²⁺ dynamics / action potentials"
    }
   ],
   "reagents": [
    {
-    "conc": "complete after mixing",
-    "name": "mTeSR Plus (basal + 5× supp.)",
+    "note": "iPSC maintenance — no prep beyond mixing supplement.",
     "cat": "Medium",
+    "storage": "4 °C / −20 °C supp.",
+    "name": "mTeSR Plus (basal + 5× supp.)",
     "stock": "yes",
     "company": "STEMCELL Technologies",
-    "storage": "4 °C / −20 °C supp.",
-    "_id": "reag0",
-    "note": "iPSC maintenance — no prep beyond mixing supplement."
+    "conc": "complete after mixing",
+    "_id": "reag0"
    },
    {
     "_id": "reag1",
-    "note": "Single-cell dissociation (passaging, EB/NPC).",
+    "conc": "ready-to-use",
+    "company": "—",
+    "stock": "yes",
     "storage": "−20 °C / 4 °C aliquot",
-    "company": "—",
-    "stock": "yes",
-    "cat": "Dissociation",
     "name": "Accutase",
-    "conc": "ready-to-use"
+    "note": "Single-cell dissociation (passaging, EB/NPC).",
+    "cat": "Dissociation"
    },
    {
-    "note": "Base for FFM / NIM / NPC media.",
-    "_id": "reag2",
-    "storage": "4 °C",
     "company": "—",
-    "stock": "yes",
-    "cat": "Basal",
+    "_id": "reag2",
     "conc": "1×",
-    "name": "DMEM/F12"
+    "cat": "Basal",
+    "note": "Base for FFM / NIM / NPC media.",
+    "stock": "yes",
+    "name": "DMEM/F12",
+    "storage": "4 °C"
    },
    {
+    "note": "1:100 in FFM / NIM.",
     "cat": "Supplement",
     "name": "MEM-NEAA (100×)",
-    "conc": "100×",
-    "company": "—",
-    "stock": "yes",
     "storage": "4 °C",
-    "note": "1:100 in FFM / NIM.",
+    "stock": "yes",
+    "company": "—",
+    "conc": "100×",
     "_id": "reag3"
    },
    {
-    "note": "1:100.",
-    "_id": "reag4",
-    "storage": "4 °C / −20 °C",
-    "company": "—",
     "stock": "yes",
-    "cat": "Supplement",
+    "storage": "4 °C / −20 °C",
     "name": "GlutaMAX (100×)",
-    "conc": "100×"
+    "note": "1:100.",
+    "cat": "Supplement",
+    "_id": "reag4",
+    "conc": "100×",
+    "company": "—"
    },
    {
-    "storage": "−20 °C",
     "_id": "reag5",
-    "note": "1:100 in NIM / NPC.",
-    "cat": "Supplement",
-    "name": "N2 Supplement (100×)",
     "conc": "100×",
     "company": "—",
-    "stock": "yes"
+    "name": "N2 Supplement (100×)",
+    "storage": "−20 °C",
+    "stock": "yes",
+    "note": "1:100 in NIM / NPC.",
+    "cat": "Supplement"
    },
    {
     "company": "—",
-    "stock": "yes",
-    "cat": "Supplement",
-    "conc": "50×",
-    "name": "B-27 (50×, no vitamin A)",
-    "note": "1:50 in NPC medium.",
     "_id": "reag6",
-    "storage": "−20 °C"
+    "conc": "50×",
+    "note": "1:50 in NPC medium.",
+    "cat": "Supplement",
+    "storage": "−20 °C",
+    "name": "B-27 (50×, no vitamin A)",
+    "stock": "yes"
    },
    {
     "note": "1:5 in FFM.",
+    "cat": "Supplement",
+    "stock": "yes",
+    "name": "KnockOut Serum Replacement (KSR)",
+    "storage": "−20 °C",
+    "company": "—",
     "_id": "reag7",
-    "storage": "−20 °C",
-    "company": "—",
-    "stock": "yes",
-    "cat": "Supplement",
-    "conc": "—",
-    "name": "KnockOut Serum Replacement (KSR)"
+    "conc": "—"
    },
    {
-    "_id": "reag8",
-    "note": "1:100.",
-    "storage": "−20 °C",
-    "company": "—",
     "stock": "yes",
-    "cat": "Supplement",
+    "storage": "−20 °C",
     "name": "Antibiotic-Antimycotic (100×)",
-    "conc": "100×"
-   },
-   {
-    "storage": "−20 °C aliquot",
-    "_id": "reag9",
-    "note": "1:1000 fresh in FFM / NIM.",
-    "name": "Noggin",
-    "conc": "stock (≈100 µg/mL)",
-    "cat": "Growth factor",
-    "stock": "yes",
+    "cat": "Supplement",
+    "note": "1:100.",
+    "_id": "reag8",
+    "conc": "100×",
     "company": "—"
    },
    {
-    "storage": "−20 °C aliquot",
+    "company": "—",
+    "_id": "reag9",
+    "conc": "stock (≈100 µg/mL)",
+    "note": "1:1000 fresh in FFM / NIM.",
+    "cat": "Growth factor",
+    "stock": "yes",
+    "name": "Noggin",
+    "storage": "−20 °C aliquot"
+   },
+   {
+    "company": "—",
     "_id": "reag10",
+    "conc": "stock",
     "note": "1:500 fresh in NPC medium.",
     "cat": "Growth factor",
     "name": "FGF2 (bFGF)",
-    "conc": "stock",
-    "company": "—",
-    "stock": "yes"
+    "stock": "yes",
+    "storage": "−20 °C aliquot"
    },
    {
-    "name": "Laminin",
-    "conc": "stock",
     "cat": "Matrix / GF",
+    "note": "1:1000 fresh; also coating.",
+    "name": "Laminin",
     "stock": "yes",
-    "company": "—",
     "storage": "−80 °C aliquot",
-    "_id": "reag11",
-    "note": "1:1000 fresh; also coating."
-   },
-   {
-    "stock": "yes",
     "company": "—",
     "conc": "stock",
-    "name": "Heparin",
-    "cat": "Supplement",
+    "_id": "reag11"
+   },
+   {
     "_id": "reag12",
+    "conc": "stock",
+    "company": "—",
+    "storage": "−20 °C",
+    "name": "Heparin",
+    "stock": "yes",
     "note": "1:1000 in NIM.",
-    "storage": "−20 °C"
+    "cat": "Supplement"
    },
    {
-    "name": "β-mercaptoethanol",
+    "company": "—",
     "conc": "stock",
+    "_id": "reag13",
+    "note": "1:1000 in FFM.",
     "cat": "Supplement",
     "stock": "yes",
-    "company": "—",
     "storage": "4 °C",
-    "_id": "reag13",
-    "note": "1:1000 in FFM."
+    "name": "β-mercaptoethanol"
    },
    {
-    "company": "—",
     "stock": "yes",
-    "cat": "Small molecule",
     "name": "ROCK inhibitor (Y-27632)",
-    "conc": "10 mM stock",
-    "_id": "reag14",
+    "storage": "−20 °C",
+    "cat": "Small molecule",
     "note": "1:1000 (10 µM) on thaw/split day.",
-    "storage": "−20 °C"
-   },
-   {
-    "storage": "−20 °C / 4 °C",
-    "note": "NPC plate coating (with laminin).",
-    "_id": "reag15",
-    "cat": "Coating",
-    "conc": "—",
-    "name": "Poly-L-ornithine (PLO)",
-    "company": "—",
-    "stock": "yes"
-   },
-   {
-    "storage": "RT / 4 °C",
-    "_id": "reag16",
-    "note": "Washes.",
-    "cat": "Buffer",
-    "conc": "1×",
-    "name": "DPBS",
-    "company": "—",
-    "stock": "yes"
-   },
-   {
-    "cat": "Fixative",
-    "conc": "4%",
-    "name": "PFA 4%",
-    "company": "—",
-    "stock": "yes",
-    "storage": "4 °C / −20 °C",
-    "_id": "reag17",
-    "note": "Fixation 15–20 min RT."
-   },
-   {
-    "storage": "RT",
-    "_id": "reag18",
-    "note": "0.3% permeabilisation.",
-    "name": "Triton X-100",
-    "conc": "stock",
-    "cat": "Detergent",
-    "stock": "yes",
+    "_id": "reag14",
+    "conc": "10 mM stock",
     "company": "—"
    },
    {
-    "storage": "−20 °C dark",
+    "name": "Poly-L-ornithine (PLO)",
+    "stock": "yes",
+    "storage": "−20 °C / 4 °C",
+    "cat": "Coating",
+    "note": "NPC plate coating (with laminin).",
+    "conc": "—",
+    "_id": "reag15",
+    "company": "—"
+   },
+   {
+    "conc": "1×",
+    "_id": "reag16",
+    "company": "—",
+    "storage": "RT / 4 °C",
+    "stock": "yes",
+    "name": "DPBS",
+    "cat": "Buffer",
+    "note": "Washes."
+   },
+   {
+    "note": "Fixation 15–20 min RT.",
+    "cat": "Fixative",
+    "name": "PFA 4%",
+    "storage": "4 °C / −20 °C",
+    "stock": "yes",
+    "company": "—",
+    "_id": "reag17",
+    "conc": "4%"
+   },
+   {
+    "cat": "Detergent",
+    "note": "0.3% permeabilisation.",
+    "storage": "RT",
+    "stock": "yes",
+    "name": "Triton X-100",
+    "company": "—",
+    "conc": "stock",
+    "_id": "reag18"
+   },
+   {
+    "company": "—",
+    "conc": "stock",
     "_id": "reag19",
     "note": "1:1000 nuclear counterstain.",
     "cat": "Stain",
     "name": "DAPI",
-    "conc": "stock",
-    "company": "—",
-    "stock": "yes"
+    "stock": "yes",
+    "storage": "−20 °C dark"
    }
   ]
  }
