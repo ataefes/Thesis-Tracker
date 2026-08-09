@@ -1,41 +1,9 @@
 {
- "updated": "2026-08-10T00:02:47+02:00",
+ "updated": "2026-08-10T00:47:38+02:00",
  "today": "2026-08-10",
  "timezone": "Europe/Berlin",
- "count": 29,
+ "count": 25,
  "items": [
-  {
-   "date": "2026-08-09",
-   "title": "F1-GFP — Day 6: NIM + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-09",
-   "title": "HPS — Day 6: NIM + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-09",
-   "title": "F1 — Day 6: NIM + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-09",
-   "title": "#1.RFP — Day 4: Half-media change — FFM + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
   {
    "date": "2026-08-10",
    "title": "F1-GFP — Day 7: Dissociate EBs; plate 6 EBs/well in IDM-A + Noggin",
