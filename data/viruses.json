@@ -1,21 +1,21 @@
 {
- "updated": "2026-08-09T01:51:39+02:00",
+ "updated": "2026-08-09T03:00:40+02:00",
  "source_updateTime": "2026-08-08T14:42:04.877930Z",
  "table": "viruses",
  "records": 1,
  "rows": [
   {
-   "titer": "",
-   "reg": "WPRE + SV40 polyA (enhance expression efficiency)",
-   "_id": "virus0",
-   "serotype": "Recombinant AAV serotype 1 (rAAV1)",
-   "name": "rAAV1 · hSyn-GCaMP6s-WPRE-SV40",
    "note": "Calcium-imaging virus used on organoids (e.g. Rebecca confocal M4, plate 7.5).",
-   "store": "−80 °C (aliquot; avoid freeze–thaw)",
-   "source": "~Addgene #100843 (pAAV.Syn.GCaMP6s.WPRE.SV40) · GENIE project, Janelia Research Campus",
    "have": "yes",
+   "serotype": "Recombinant AAV serotype 1 (rAAV1)",
+   "titer": "",
    "payload": "GCaMP6s — ultrasensitive genetically-encoded calcium indicator (GECI); reports intracellular Ca²⁺ dynamics / action potentials",
-   "promoter": "Human Synapsin-1 (hSyn) — neuron-specific expression"
+   "name": "rAAV1 · hSyn-GCaMP6s-WPRE-SV40",
+   "_id": "virus0",
+   "reg": "WPRE + SV40 polyA (enhance expression efficiency)",
+   "source": "~Addgene #100843 (pAAV.Syn.GCaMP6s.WPRE.SV40) · GENIE project, Janelia Research Campus",
+   "promoter": "Human Synapsin-1 (hSyn) — neuron-specific expression",
+   "store": "−80 °C (aliquot; avoid freeze–thaw)"
   }
  ]
 }
