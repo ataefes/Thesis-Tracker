@@ -1,33 +1,9 @@
 {
- "updated": "2026-08-09T14:01:09+02:00",
+ "updated": "2026-08-09T15:12:53+02:00",
  "today": "2026-08-09",
  "timezone": "Europe/Berlin",
- "count": 32,
+ "count": 29,
  "items": [
-  {
-   "date": "2026-08-08",
-   "title": "F1-GFP — Day 5: Switch to NIM + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-08",
-   "title": "HPS — Day 5: Switch to NIM + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-08",
-   "title": "F1 — Day 5: Switch to NIM + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
   {
    "date": "2026-08-09",
    "title": "F1-GFP — Day 6: NIM + Noggin",
