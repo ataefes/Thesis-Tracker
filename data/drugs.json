@@ -1,104 +1,104 @@
 {
- "updated": "2026-08-10T12:59:02+02:00",
+ "updated": "2026-08-10T13:48:15+02:00",
  "source_updateTime": "2026-08-10T09:49:47.407276Z",
  "table": "drugs",
  "records": 8,
  "rows": [
   {
-   "note": "",
-   "stab": "24–72 h",
-   "form": "Ready 2.5 mg/mL in DMSO",
    "test": "10 / 100 / 1000 nM (9.1 / 91.4 / 914.5 ng/mL)",
+   "form": "Ready 2.5 mg/mL in DMSO",
+   "stock": "27.4 µM & 2.74 µM in DMSO",
    "cat": "R8781 · Sigma-Aldrich",
-   "_id": "drugs0",
+   "stab": "24–72 h",
    "have": "yes",
    "store": "−20 °C",
-   "drug": "Rapamycin",
-   "stock": "27.4 µM & 2.74 µM in DMSO"
+   "note": "",
+   "_id": "drugs0",
+   "drug": "Rapamycin"
   },
   {
-   "_id": "drugs1",
-   "cat": "208719-5MG · Sigma-Aldrich",
-   "form": "Solid 5 mg; 10 mg/mL in DMSO",
-   "test": "5 / 25 / 50 µM (2 / 10 / 20 µg/mL)",
-   "stab": "4–12 h",
-   "note": "Aldehyde — relatively unstable.",
    "stock": "5 mM",
-   "drug": "ALLN",
+   "cat": "208719-5MG · Sigma-Aldrich",
+   "test": "5 / 25 / 50 µM (2 / 10 / 20 µg/mL)",
+   "form": "Solid 5 mg; 10 mg/mL in DMSO",
+   "stab": "4–12 h",
+   "have": "yes",
    "store": "4 °C powder; −20 °C dissolved",
-   "have": "yes"
+   "note": "Aldehyde — relatively unstable.",
+   "_id": "drugs1",
+   "drug": "ALLN"
   },
   {
-   "note": "Protein gradually degrades / adsorbs.",
-   "stab": "12–48 h",
+   "stock": "50 µg/mL",
+   "cat": "—",
    "test": "1 / 2 / 4 µL per well (2.6 plate)",
    "form": "Recombinant protein",
-   "cat": "—",
-   "_id": "drugs2",
+   "stab": "12–48 h",
    "have": "yes",
+   "note": "Protein gradually degrades / adsorbs.",
    "store": "",
-   "drug": "EFNB2 (recomb. protein)",
-   "stock": "50 µg/mL"
+   "_id": "drugs2",
+   "drug": "EFNB2 (recomb. protein)"
   },
   {
+   "drug": "Metformin",
+   "note": "\"Like last time\" = 2 mM and 0.2 mM (confirmed 10.07).",
+   "store": "",
+   "_id": "drugs3",
+   "stab": "",
+   "have": "yes",
    "test": "2 mM & 0.2 mM (as last time)",
    "form": "",
-   "stab": "",
-   "note": "\"Like last time\" = 2 mM and 0.2 mM (confirmed 10.07).",
-   "_id": "drugs3",
-   "cat": "[TBD]",
-   "store": "",
-   "have": "yes",
    "stock": "",
-   "drug": "Metformin"
+   "cat": "[TBD]"
   },
   {
    "drug": "Tubastatin A",
-   "stock": "~10 mM (confirm)",
-   "have": "no",
-   "store": "−80 / −20 °C",
    "_id": "drugs4",
-   "cat": "TA9491596779-10MG · Sigma-Aldrich",
    "note": "Solubility to confirm.",
+   "store": "−80 / −20 °C",
+   "have": "no",
+   "stab": "24–72 h",
    "form": "Solid 10 mg; DMSO ~10 mM?",
    "test": "1 / 10 / 100 µM (0.35 / 3.49 / 34.9 µg/mL)",
-   "stab": "24–72 h"
+   "cat": "TA9491596779-10MG · Sigma-Aldrich",
+   "stock": "~10 mM (confirm)"
   },
   {
+   "_id": "drugs5",
    "store": "−80 / −20 °C",
-   "have": "no",
-   "stock": "1–10 mM (confirm)",
+   "note": "Oxidizes readily — fresh daily if possible.",
    "drug": "5-MTHF (5-methyl-THF)",
+   "cat": "TA9H9A9A44B2 · Sigma-Aldrich",
+   "stock": "1–10 mM (confirm)",
    "form": "Solid; water / PBS (NaOH?) 1–10 mM?",
    "test": "0.5 / 5 / 50 µM (0.23 / 2.3 / 23 µg/mL)",
-   "stab": "6–24 h (oxidizes)",
-   "note": "Oxidizes readily — fresh daily if possible.",
-   "_id": "drugs5",
-   "cat": "TA9H9A9A44B2 · Sigma-Aldrich"
+   "have": "no",
+   "stab": "6–24 h (oxidizes)"
   },
   {
-   "_id": "drugs6",
+   "stock": "10–50 mM (confirm)",
    "cat": "TA9H9A9A4696-10MG · Sigma-Aldrich",
-   "note": "",
    "test": "1 / 10 / 100 µM (0.41 / 4.1 / 41 µg/mL)",
    "form": "DMSO 10–50 mM?",
    "stab": "24–48 h",
-   "stock": "10–50 mM (confirm)",
-   "drug": "Forskolin",
    "have": "no",
-   "store": ""
+   "store": "",
+   "note": "",
+   "_id": "drugs6",
+   "drug": "Forskolin"
   },
   {
-   "store": "−80 / −20 °C",
-   "have": "no",
+   "cat": "TA9H9876F42B-10MG · Sigma-Aldrich",
    "stock": "10–100 mM (confirm)",
-   "drug": "Verapamil",
    "form": "Solid; water 10–100 mM?",
    "test": "5 / 25 / 50 µM (2.27 / 11.35 / 22.7 µg/mL)",
+   "have": "no",
    "stab": "24–72 h",
-   "note": "",
    "_id": "drugs7",
-   "cat": "TA9H9876F42B-10MG · Sigma-Aldrich"
+   "note": "",
+   "store": "−80 / −20 °C",
+   "drug": "Verapamil"
   }
  ]
 }
