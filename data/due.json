@@ -1,41 +1,9 @@
 {
- "updated": "2026-08-11T09:52:09+02:00",
+ "updated": "2026-08-11T10:44:20+02:00",
  "today": "2026-08-11",
  "timezone": "Europe/Berlin",
- "count": 27,
+ "count": 23,
  "items": [
-  {
-   "date": "2026-08-10",
-   "title": "F1-GFP — Day 7: Dissociate EBs; plate 6 EBs/well in IDM-A + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-10",
-   "title": "HPS — Day 7: Dissociate EBs; plate 6 EBs/well in IDM-A + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-10",
-   "title": "F1 — Day 7: Dissociate EBs; plate 6 EBs/well in IDM-A + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-10",
-   "title": "#1.RFP — Day 5: Switch to NIM + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
   {
    "date": "2026-08-10",
    "title": "Add virus — plate 23.6",
