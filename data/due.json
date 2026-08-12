@@ -1,8 +1,8 @@
 {
- "updated": "2026-08-12T10:09:30+02:00",
+ "updated": "2026-08-12T11:30:25+02:00",
  "today": "2026-08-12",
  "timezone": "Europe/Berlin",
- "count": 23,
+ "count": 19,
  "items": [
   {
    "date": "2026-08-10",
@@ -10,38 +10,6 @@
    "source": "schedule",
    "overdue": true,
    "days_from_today": -2,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-11",
-   "title": "F1-GFP — Day 8: Media change (IDM-A + Noggin)",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-11",
-   "title": "HPS — Day 8: Media change (IDM-A + Noggin)",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-11",
-   "title": "F1 — Day 8: Media change (IDM-A + Noggin)",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-11",
-   "title": "#1.RFP — Day 6: NIM + Noggin",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
    "notes": ""
   },
   {
