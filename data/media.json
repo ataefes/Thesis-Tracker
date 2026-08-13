@@ -1,48 +1,48 @@
 {
- "updated": "2026-08-13T21:42:41+02:00",
+ "updated": "2026-08-13T22:20:21+02:00",
  "source_updateTime": "2026-08-13T14:14:23.788667Z",
  "table": "media",
  "records": 5,
  "rows": [
   {
-   "add": "ROCK (Y-27632) 1:1000 — thaw day only",
-   "storage": "4 °C; thaw 5× supplement, aliquot",
-   "notes": "iPSC maintenance",
    "comp": "40 mL basal + 10 mL 5× supplement = 50 mL",
+   "notes": "iPSC maintenance",
    "_id": "media0",
-   "name": "mTeSR Plus (complete)"
+   "name": "mTeSR Plus (complete)",
+   "add": "ROCK (Y-27632) 1:1000 — thaw day only",
+   "storage": "4 °C; thaw 5× supplement, aliquot"
   },
   {
+   "notes": "Days 2–4 (differentiation protocol)",
    "comp": "DMEM/F12 38.45 mL + KSR 10 mL (1:5) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + β-ME 50 µL (1:1000) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
-   "_id": "media1",
-   "name": "FFM — Forebrain First Medium",
+   "storage": "4 °C",
    "add": "Noggin 1:1000 (100 ng/mL) — add fresh before use",
-   "storage": "4 °C",
-   "notes": "Days 2–4 (differentiation protocol)"
+   "_id": "media1",
+   "name": "FFM — Forebrain First Medium"
   },
   {
-   "add": "Noggin 1:1000 — add fresh",
-   "notes": "Days 5–6 (differentiation protocol)",
-   "storage": "4 °C",
    "comp": "DMEM/F12 47.95 mL + N2 500 µL (1:100) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + Anti/Anti 500 µL (1:100) + Heparin 50 µL (1:1000) ≈ 50 mL",
+   "notes": "Days 5–6 (differentiation protocol)",
    "_id": "media2",
-   "name": "NIM — Neural Induction Medium"
+   "name": "NIM — Neural Induction Medium",
+   "storage": "4 °C",
+   "add": "Noggin 1:1000 — add fresh"
   },
   {
-   "name": "NPC medium",
-   "comp": "DMEM/F12 + GlutaMAX base ~48 mL + N2 500 µL (1:100) + B-27 (50×, no vit A) 1000 µL (1:50) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
-   "_id": "media3",
    "notes": "From Day 14 onward",
+   "comp": "DMEM/F12 + GlutaMAX base ~48 mL + N2 500 µL (1:100) + B-27 (50×, no vit A) 1000 µL (1:50) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
+   "name": "NPC medium",
+   "_id": "media3",
    "storage": "4 °C",
    "add": "Filter-sterilise, then FGF2 1:500 + Laminin 1:1000"
   },
   {
-   "notes": "",
-   "storage": "",
-   "add": "",
    "name": "",
    "_id": "media4",
-   "comp": ""
+   "add": "",
+   "storage": "",
+   "comp": "",
+   "notes": ""
   }
  ]
 }
