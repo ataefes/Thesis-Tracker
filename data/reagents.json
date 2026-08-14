@@ -1,208 +1,208 @@
 {
- "updated": "2026-08-14T18:23:35+02:00",
+ "updated": "2026-08-14T19:24:08+02:00",
  "source_updateTime": "2026-08-14T16:08:24.423207Z",
  "table": "reagents",
  "records": 20,
  "rows": [
   {
-   "company": "STEMCELL Technologies",
-   "stock": "yes",
-   "_id": "reag0",
    "note": "iPSC maintenance — no prep beyond mixing supplement.",
    "storage": "4 °C / −20 °C supp.",
-   "name": "mTeSR Plus (basal + 5× supp.)",
+   "_id": "reag0",
+   "conc": "complete after mixing",
+   "company": "STEMCELL Technologies",
    "cat": "Medium",
-   "conc": "complete after mixing"
-  },
-  {
-   "name": "Accutase",
-   "conc": "ready-to-use",
-   "_id": "reag1",
-   "stock": "yes",
-   "cat": "Dissociation",
-   "company": "—",
-   "storage": "−20 °C / 4 °C aliquot",
-   "note": "Single-cell dissociation (passaging, EB/NPC)."
-  },
-  {
-   "name": "DMEM/F12",
-   "company": "—",
-   "_id": "reag2",
-   "storage": "4 °C",
-   "conc": "1×",
-   "stock": "yes",
-   "cat": "Basal",
-   "note": "Base for FFM / NIM / NPC media."
-  },
-  {
-   "storage": "4 °C",
-   "stock": "yes",
-   "_id": "reag3",
-   "company": "—",
-   "note": "1:100 in FFM / NIM.",
-   "name": "MEM-NEAA (100×)",
-   "cat": "Supplement",
-   "conc": "100×"
-  },
-  {
-   "company": "—",
-   "name": "GlutaMAX (100×)",
-   "conc": "100×",
-   "storage": "4 °C / −20 °C",
-   "_id": "reag4",
-   "cat": "Supplement",
-   "note": "1:100.",
+   "name": "mTeSR Plus (basal + 5× supp.)",
    "stock": "yes"
   },
   {
-   "note": "1:100 in NIM / NPC.",
+   "note": "Single-cell dissociation (passaging, EB/NPC).",
+   "_id": "reag1",
+   "conc": "ready-to-use",
+   "name": "Accutase",
+   "storage": "−20 °C / 4 °C aliquot",
+   "stock": "yes",
+   "company": "—",
+   "cat": "Dissociation"
+  },
+  {
+   "note": "Base for FFM / NIM / NPC media.",
+   "_id": "reag2",
+   "conc": "1×",
+   "cat": "Basal",
+   "storage": "4 °C",
+   "stock": "yes",
+   "name": "DMEM/F12",
+   "company": "—"
+  },
+  {
+   "_id": "reag3",
+   "company": "—",
+   "name": "MEM-NEAA (100×)",
+   "storage": "4 °C",
+   "note": "1:100 in FFM / NIM.",
+   "cat": "Supplement",
+   "conc": "100×",
+   "stock": "yes"
+  },
+  {
+   "cat": "Supplement",
+   "name": "GlutaMAX (100×)",
+   "company": "—",
+   "conc": "100×",
+   "stock": "yes",
+   "note": "1:100.",
+   "_id": "reag4",
+   "storage": "4 °C / −20 °C"
+  },
+  {
    "company": "—",
    "cat": "Supplement",
    "storage": "−20 °C",
    "stock": "yes",
+   "name": "N2 Supplement (100×)",
    "_id": "reag5",
    "conc": "100×",
-   "name": "N2 Supplement (100×)"
+   "note": "1:100 in NIM / NPC."
   },
   {
-   "name": "B-27 (50×, no vitamin A)",
    "conc": "50×",
-   "_id": "reag6",
    "cat": "Supplement",
-   "storage": "−20 °C",
    "note": "1:50 in NPC medium.",
    "stock": "yes",
-   "company": "—"
+   "_id": "reag6",
+   "company": "—",
+   "storage": "−20 °C",
+   "name": "B-27 (50×, no vitamin A)"
   },
   {
-   "cat": "Supplement",
-   "storage": "−20 °C",
+   "stock": "yes",
    "conc": "—",
-   "stock": "yes",
-   "company": "—",
-   "name": "KnockOut Serum Replacement (KSR)",
    "note": "1:5 in FFM.",
-   "_id": "reag7"
-  },
-  {
-   "name": "Antibiotic-Antimycotic (100×)",
-   "conc": "100×",
-   "stock": "yes",
-   "_id": "reag8",
-   "company": "—",
    "cat": "Supplement",
-   "storage": "−20 °C",
-   "note": "1:100."
-  },
-  {
    "company": "—",
-   "name": "Noggin",
-   "_id": "reag9",
-   "storage": "−20 °C aliquot",
-   "stock": "yes",
-   "conc": "stock (≈100 µg/mL)",
-   "note": "1:1000 fresh in FFM / NIM.",
-   "cat": "Growth factor"
-  },
-  {
-   "stock": "yes",
-   "note": "1:500 fresh in NPC medium.",
-   "cat": "Growth factor",
-   "company": "—",
-   "_id": "reag10",
-   "conc": "stock",
-   "storage": "−20 °C aliquot",
-   "name": "FGF2 (bFGF)"
-  },
-  {
-   "_id": "reag11",
-   "company": "—",
-   "storage": "−80 °C aliquot",
-   "note": "1:1000 fresh; also coating.",
-   "name": "Laminin",
-   "stock": "yes",
-   "conc": "stock",
-   "cat": "Matrix / GF"
-  },
-  {
-   "cat": "Supplement",
-   "stock": "yes",
-   "note": "1:1000 in NIM.",
-   "conc": "stock",
-   "storage": "−20 °C",
-   "name": "Heparin",
-   "_id": "reag12",
-   "company": "—"
-  },
-  {
-   "name": "β-mercaptoethanol",
-   "conc": "stock",
-   "_id": "reag13",
-   "company": "—",
-   "cat": "Supplement",
-   "note": "1:1000 in FFM.",
-   "stock": "yes",
-   "storage": "4 °C"
-  },
-  {
-   "stock": "yes",
-   "note": "1:1000 (10 µM) on thaw/split day.",
-   "cat": "Small molecule",
-   "company": "—",
-   "_id": "reag14",
-   "conc": "10 mM stock",
-   "name": "ROCK inhibitor (Y-27632)",
+   "_id": "reag7",
+   "name": "KnockOut Serum Replacement (KSR)",
    "storage": "−20 °C"
   },
   {
-   "note": "NPC plate coating (with laminin).",
-   "cat": "Coating",
+   "storage": "−20 °C",
+   "cat": "Supplement",
+   "stock": "yes",
+   "company": "—",
+   "name": "Antibiotic-Antimycotic (100×)",
+   "conc": "100×",
+   "_id": "reag8",
+   "note": "1:100."
+  },
+  {
+   "stock": "yes",
+   "conc": "stock (≈100 µg/mL)",
+   "note": "1:1000 fresh in FFM / NIM.",
+   "cat": "Growth factor",
+   "storage": "−20 °C aliquot",
+   "_id": "reag9",
+   "company": "—",
+   "name": "Noggin"
+  },
+  {
+   "storage": "−20 °C aliquot",
+   "stock": "yes",
+   "name": "FGF2 (bFGF)",
+   "company": "—",
+   "cat": "Growth factor",
+   "conc": "stock",
+   "_id": "reag10",
+   "note": "1:500 fresh in NPC medium."
+  },
+  {
+   "cat": "Matrix / GF",
+   "company": "—",
+   "storage": "−80 °C aliquot",
+   "name": "Laminin",
+   "_id": "reag11",
+   "conc": "stock",
+   "stock": "yes",
+   "note": "1:1000 fresh; also coating."
+  },
+  {
+   "cat": "Supplement",
+   "company": "—",
+   "name": "Heparin",
+   "storage": "−20 °C",
+   "conc": "stock",
+   "_id": "reag12",
+   "stock": "yes",
+   "note": "1:1000 in NIM."
+  },
+  {
+   "cat": "Supplement",
+   "storage": "4 °C",
+   "name": "β-mercaptoethanol",
+   "company": "—",
+   "conc": "stock",
+   "_id": "reag13",
+   "stock": "yes",
+   "note": "1:1000 in FFM."
+  },
+  {
+   "name": "ROCK inhibitor (Y-27632)",
+   "_id": "reag14",
+   "storage": "−20 °C",
+   "note": "1:1000 (10 µM) on thaw/split day.",
+   "cat": "Small molecule",
+   "company": "—",
+   "stock": "yes",
+   "conc": "10 mM stock"
+  },
+  {
    "stock": "yes",
    "conc": "—",
+   "cat": "Coating",
+   "note": "NPC plate coating (with laminin).",
    "company": "—",
-   "_id": "reag15",
+   "storage": "−20 °C / 4 °C",
    "name": "Poly-L-ornithine (PLO)",
-   "storage": "−20 °C / 4 °C"
+   "_id": "reag15"
   },
   {
    "conc": "1×",
-   "name": "DPBS",
    "cat": "Buffer",
-   "_id": "reag16",
-   "storage": "RT / 4 °C",
    "note": "Washes.",
+   "_id": "reag16",
+   "stock": "yes",
+   "storage": "RT / 4 °C",
    "company": "—",
-   "stock": "yes"
+   "name": "DPBS"
   },
   {
    "storage": "4 °C / −20 °C",
+   "note": "Fixation 15–20 min RT.",
+   "stock": "yes",
+   "_id": "reag17",
    "conc": "4%",
    "company": "—",
-   "stock": "yes",
-   "name": "PFA 4%",
    "cat": "Fixative",
-   "_id": "reag17",
-   "note": "Fixation 15–20 min RT."
+   "name": "PFA 4%"
   },
   {
+   "cat": "Detergent",
    "company": "—",
+   "stock": "yes",
+   "storage": "RT",
    "name": "Triton X-100",
    "conc": "stock",
-   "storage": "RT",
    "_id": "reag18",
-   "stock": "yes",
-   "cat": "Detergent",
    "note": "0.3% permeabilisation."
   },
   {
-   "company": "—",
-   "name": "DAPI",
-   "_id": "reag19",
    "storage": "−20 °C dark",
-   "stock": "yes",
    "conc": "stock",
+   "company": "—",
    "cat": "Stain",
-   "note": "1:1000 nuclear counterstain."
+   "note": "1:1000 nuclear counterstain.",
+   "stock": "yes",
+   "name": "DAPI",
+   "_id": "reag19"
   }
  ]
 }
