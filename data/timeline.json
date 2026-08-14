@@ -1,72 +1,72 @@
 {
- "updated": "2026-08-14T14:05:21+02:00",
- "source_updateTime": "2026-08-13T20:45:44.889869Z",
+ "updated": "2026-08-14T15:38:30+02:00",
+ "source_updateTime": "2026-08-14T13:37:28.936580Z",
  "table": "timeline",
  "records": 8,
  "rows": [
   {
-   "period": "Until 10 July",
-   "note": "",
    "checked": "",
+   "period": "Until 10 July",
+   "status": "in progress",
    "_id": "rmre11l389p7t",
-   "goal": "Slide: neuronal reconstruction + slide: SCN3A data",
-   "status": "in progress"
+   "note": "",
+   "goal": "Slide: neuronal reconstruction + slide: SCN3A data"
   },
   {
-   "status": "in progress",
    "goal": "Drug treatments (2.6 & 17.6 plates) + live imaging",
    "_id": "rmre11l38av00",
    "note": "See Schedule / Drug-Virus Log",
-   "checked": "",
-   "period": "July"
+   "period": "July",
+   "status": "in progress",
+   "checked": ""
   },
   {
-   "status": "planned",
+   "checked": "",
+   "note": "",
    "goal": "Change 7.5 → BrainPhys & calcium-image plate 7.5; staining + reconstruction nr1",
-   "_id": "rmre11l38znna",
-   "checked": "",
-   "note": "",
-   "period": "July"
+   "status": "planned",
+   "period": "July",
+   "_id": "rmre11l38znna"
   },
   {
-   "period": "Aug",
-   "note": "",
    "checked": "",
-   "_id": "rmre11l3828if",
    "goal": "Virus to plates 16.6 & 23.6, then calcium imaging",
-   "status": "planned"
+   "note": "",
+   "status": "planned",
+   "_id": "rmre11l3828if",
+   "period": "Aug"
   },
   {
-   "note": "",
    "checked": "",
+   "note": "",
    "period": "(parallel)",
    "status": "planned",
-   "goal": "Stain NPCs (Pax6 rb-647 + Ki67 msIgG1-546) & cerebral organoid; analyse first stainings (Nestin/DAPI) & SCN3A data",
-   "_id": "rmre11l38d18s"
+   "_id": "rmre11l38d18s",
+   "goal": "Stain NPCs (Pax6 rb-647 + Ki67 msIgG1-546) & cerebral organoid; analyse first stainings (Nestin/DAPI) & SCN3A data"
   },
   {
    "goal": "Ca-imaging theory + literature; collect catalogue & lot numbers; write protocols; keep lab book current",
+   "checked": "",
    "_id": "rmre11l385nae",
-   "status": "planned",
-   "period": "(parallel)",
    "note": "",
-   "checked": ""
+   "status": "planned",
+   "period": "(parallel)"
   },
   {
-   "_id": "rmre11l38rtix",
-   "goal": "Stain GFP, Synapsin, Gephyrin/Homer1 → activity, morphology & synaptic density in one process",
+   "note": "",
    "status": "planned",
    "period": "New batch CAO (Jun/Jul)",
-   "note": "",
+   "goal": "Stain GFP, Synapsin, Gephyrin/Homer1 → activity, morphology & synaptic density in one process",
+   "_id": "rmre11l38rtix",
    "checked": ""
   },
   {
-   "_id": "rmre11l38npyg",
+   "note": "",
    "goal": "DCHS1 late phenotype in two batches",
-   "status": "planned",
-   "period": "By end of October",
    "checked": "",
-   "note": ""
+   "_id": "rmre11l38npyg",
+   "status": "planned",
+   "period": "By end of October"
   }
  ]
 }

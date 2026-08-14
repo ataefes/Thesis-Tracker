@@ -1,8 +1,8 @@
 {
- "updated": "2026-08-14T14:05:21+02:00",
+ "updated": "2026-08-14T15:38:30+02:00",
  "today": "2026-08-14",
  "timezone": "Europe/Berlin",
- "count": 13,
+ "count": 15,
  "items": [
   {
    "date": "2026-08-10",
@@ -91,6 +91,22 @@
    "overdue": false,
    "days_from_today": 3,
    "notes": ""
+  },
+  {
+   "date": "2026-08-18",
+   "title": "Look into litterature and presentation so to know what and why you are doing? What is the research question/ hypothesis? What esperiments we perform in order to answer those question.  Do a Presetnation about that. (Rebecca)",
+   "source": "schedule",
+   "overdue": false,
+   "days_from_today": 4,
+   "notes": "From Rebecca"
+  },
+  {
+   "date": "2026-08-18",
+   "title": "Look into litterature and presentation so to know what and why you are doing? What is the research question/ hypothesis? What esperiments we perform in order to answer those question.  Do a Presetnation about that. (Rebecca)",
+   "source": "schedule",
+   "overdue": false,
+   "days_from_today": 4,
+   "notes": "From Rebecca"
   },
   {
    "date": "2026-08-19",
