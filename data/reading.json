@@ -1,35 +1,35 @@
 {
- "updated": "2026-08-15T21:53:52+02:00",
+ "updated": "2026-08-15T22:12:22+02:00",
  "source_updateTime": "2026-08-14T16:08:24.423207Z",
  "table": "reading",
  "records": 3,
  "rows": [
   {
-   "topic": "ACO protocol / basis of the system",
    "read": "no",
-   "section": "",
-   "prio": "high",
    "takeaway": "",
    "_id": "reading0",
-   "source": "[Cappello lab — ACO method paper]"
+   "source": "[Cappello lab — ACO method paper]",
+   "section": "",
+   "prio": "high",
+   "topic": "ACO protocol / basis of the system"
   },
   {
    "topic": "Gene function, migration, PCP",
-   "read": "no",
-   "takeaway": "",
-   "section": "",
    "prio": "high",
+   "takeaway": "",
    "_id": "reading1",
+   "read": "no",
+   "section": "",
    "source": "[DCHS1 / FAT4 — cortical development]"
   },
   {
-   "topic": "Ca imaging analysis approach",
    "read": "no",
-   "section": "",
    "takeaway": "",
-   "prio": "medium",
    "_id": "reading2",
-   "source": "[Calcium imaging in organoids — review]"
+   "source": "[Calcium imaging in organoids — review]",
+   "section": "",
+   "prio": "medium",
+   "topic": "Ca imaging analysis approach"
   }
  ]
 }
