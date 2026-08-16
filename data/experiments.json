@@ -1,52 +1,52 @@
 {
- "updated": "2026-08-16T19:31:44+02:00",
+ "updated": "2026-08-16T19:53:51+02:00",
  "source_updateTime": "2026-08-16T17:10:12.033619Z",
  "table": "experiments",
  "records": 4,
  "rows": [
   {
-   "file": "",
-   "did": "Survival check on the previous NPC generation batch.",
+   "problem": "Batch largely lost. Likely cause: coating AND medium changed in the same split (see Methodology Insights).",
    "type": "NPC differentiation",
    "_id": "rms542ws0e6h7",
-   "batch": "",
-   "date": "28.07.26",
-   "line": "WTC CAAX · F1",
    "result": "Only WTC CAAX survived clearly; F1 possibly survived. All other wells failed — kept temporarily for visual assessment only.",
-   "problem": "Batch largely lost. Likely cause: coating AND medium changed in the same split (see Methodology Insights)."
+   "file": "",
+   "line": "WTC CAAX · F1",
+   "did": "Survival check on the previous NPC generation batch.",
+   "batch": "",
+   "date": "28.07.26"
   },
   {
-   "batch": "",
-   "date": "27.07.26",
-   "type": "Organoid maintenance",
-   "file": "",
-   "problem": "Same suspected cause: simultaneous coating + medium change during splitting.",
-   "_id": "rms542ws0yki3",
-   "did": "Assessed the organoid plates started 23.06 and discarded them.",
    "line": "WTC · D1 · Nr1",
-   "result": "Discarded — severe dissociation: cells detached and scattered far from the organoid core."
+   "_id": "rms542ws0yki3",
+   "file": "",
+   "date": "27.07.26",
+   "result": "Discarded — severe dissociation: cells detached and scattered far from the organoid core.",
+   "problem": "Same suspected cause: simultaneous coating + medium change during splitting.",
+   "type": "Organoid maintenance",
+   "batch": "",
+   "did": "Assessed the organoid plates started 23.06 and discarded them."
   },
   {
-   "problem": "",
-   "type": "Maintenance",
-   "result": "Done.",
-   "file": "",
    "date": "28.07.26",
-   "_id": "rms542ws0pggn",
+   "batch": "",
+   "line": "Andrea's iPSC lines",
    "did": "Media change for all of Andrea’s iPSC lines.",
-   "batch": "",
-   "line": "Andrea's iPSC lines"
+   "file": "",
+   "_id": "rms542ws0pggn",
+   "result": "Done.",
+   "type": "Maintenance",
+   "problem": ""
   },
   {
-   "line": "",
    "batch": "",
-   "result": "In progress.",
-   "did": "Started reviewing past lab protocols and the major experimental steps, as groundwork for the methods presentation.",
    "date": "28.07.26",
-   "problem": "",
-   "_id": "rms542ws0wrhq",
+   "line": "",
+   "did": "Started reviewing past lab protocols and the major experimental steps, as groundwork for the methods presentation.",
    "file": "",
-   "type": "Thesis writing"
+   "_id": "rms542ws0wrhq",
+   "result": "In progress.",
+   "type": "Thesis writing",
+   "problem": ""
   }
  ]
 }
