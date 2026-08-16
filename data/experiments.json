@@ -1,52 +1,52 @@
 {
- "updated": "2026-08-16T21:14:33+02:00",
+ "updated": "2026-08-16T21:34:20+02:00",
  "source_updateTime": "2026-08-16T17:10:12.033619Z",
  "table": "experiments",
  "records": 4,
  "rows": [
   {
-   "batch": "",
-   "problem": "Batch largely lost. Likely cause: coating AND medium changed in the same split (see Methodology Insights).",
-   "line": "WTC CAAX · F1",
+   "file": "",
    "_id": "rms542ws0e6h7",
-   "date": "28.07.26",
-   "did": "Survival check on the previous NPC generation batch.",
-   "type": "NPC differentiation",
-   "result": "Only WTC CAAX survived clearly; F1 possibly survived. All other wells failed — kept temporarily for visual assessment only.",
-   "file": ""
-  },
-  {
-   "date": "27.07.26",
-   "result": "Discarded — severe dissociation: cells detached and scattered far from the organoid core.",
-   "file": "",
-   "type": "Organoid maintenance",
-   "did": "Assessed the organoid plates started 23.06 and discarded them.",
-   "problem": "Same suspected cause: simultaneous coating + medium change during splitting.",
    "batch": "",
-   "_id": "rms542ws0yki3",
-   "line": "WTC · D1 · Nr1"
+   "did": "Survival check on the previous NPC generation batch.",
+   "date": "28.07.26",
+   "result": "Only WTC CAAX survived clearly; F1 possibly survived. All other wells failed — kept temporarily for visual assessment only.",
+   "line": "WTC CAAX · F1",
+   "type": "NPC differentiation",
+   "problem": "Batch largely lost. Likely cause: coating AND medium changed in the same split (see Methodology Insights)."
   },
   {
-   "type": "Maintenance",
+   "line": "WTC · D1 · Nr1",
+   "problem": "Same suspected cause: simultaneous coating + medium change during splitting.",
+   "type": "Organoid maintenance",
+   "_id": "rms542ws0yki3",
    "file": "",
-   "_id": "rms542ws0pggn",
-   "did": "Media change for all of Andrea’s iPSC lines.",
-   "date": "28.07.26",
-   "problem": "",
-   "result": "Done.",
-   "line": "Andrea's iPSC lines",
+   "result": "Discarded — severe dissociation: cells detached and scattered far from the organoid core.",
+   "date": "27.07.26",
+   "did": "Assessed the organoid plates started 23.06 and discarded them.",
    "batch": ""
   },
   {
+   "type": "Maintenance",
+   "problem": "",
+   "line": "Andrea's iPSC lines",
+   "result": "Done.",
+   "batch": "",
+   "did": "Media change for all of Andrea’s iPSC lines.",
+   "date": "28.07.26",
+   "_id": "rms542ws0pggn",
+   "file": ""
+  },
+  {
    "line": "",
-   "_id": "rms542ws0wrhq",
-   "did": "Started reviewing past lab protocols and the major experimental steps, as groundwork for the methods presentation.",
+   "type": "Thesis writing",
    "problem": "",
    "file": "",
-   "type": "Thesis writing",
-   "result": "In progress.",
+   "_id": "rms542ws0wrhq",
    "batch": "",
-   "date": "28.07.26"
+   "did": "Started reviewing past lab protocols and the major experimental steps, as groundwork for the methods presentation.",
+   "date": "28.07.26",
+   "result": "In progress."
   }
  ]
 }
