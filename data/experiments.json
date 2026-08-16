@@ -1,52 +1,52 @@
 {
- "updated": "2026-08-16T23:54:22+02:00",
+ "updated": "2026-08-17T00:11:28+02:00",
  "source_updateTime": "2026-08-16T17:10:12.033619Z",
  "table": "experiments",
  "records": 4,
  "rows": [
   {
-   "line": "WTC CAAX · F1",
-   "batch": "",
-   "file": "",
-   "_id": "rms542ws0e6h7",
-   "problem": "Batch largely lost. Likely cause: coating AND medium changed in the same split (see Methodology Insights).",
    "did": "Survival check on the previous NPC generation batch.",
-   "date": "28.07.26",
+   "line": "WTC CAAX · F1",
+   "file": "",
    "type": "NPC differentiation",
-   "result": "Only WTC CAAX survived clearly; F1 possibly survived. All other wells failed — kept temporarily for visual assessment only."
-  },
-  {
-   "result": "Discarded — severe dissociation: cells detached and scattered far from the organoid core.",
-   "date": "27.07.26",
-   "type": "Organoid maintenance",
-   "did": "Assessed the organoid plates started 23.06 and discarded them.",
    "batch": "",
-   "file": "",
-   "line": "WTC · D1 · Nr1",
-   "_id": "rms542ws0yki3",
-   "problem": "Same suspected cause: simultaneous coating + medium change during splitting."
-  },
-  {
-   "did": "Media change for all of Andrea’s iPSC lines.",
-   "line": "Andrea's iPSC lines",
-   "file": "",
-   "batch": "",
-   "problem": "",
-   "_id": "rms542ws0pggn",
-   "result": "Done.",
    "date": "28.07.26",
-   "type": "Maintenance"
+   "result": "Only WTC CAAX survived clearly; F1 possibly survived. All other wells failed — kept temporarily for visual assessment only.",
+   "problem": "Batch largely lost. Likely cause: coating AND medium changed in the same split (see Methodology Insights).",
+   "_id": "rms542ws0e6h7"
   },
   {
-   "result": "In progress.",
+   "batch": "",
+   "did": "Assessed the organoid plates started 23.06 and discarded them.",
+   "problem": "Same suspected cause: simultaneous coating + medium change during splitting.",
+   "line": "WTC · D1 · Nr1",
+   "date": "27.07.26",
+   "result": "Discarded — severe dissociation: cells detached and scattered far from the organoid core.",
+   "_id": "rms542ws0yki3",
+   "file": "",
+   "type": "Organoid maintenance"
+  },
+  {
+   "date": "28.07.26",
+   "type": "Maintenance",
+   "file": "",
+   "_id": "rms542ws0pggn",
+   "batch": "",
+   "line": "Andrea's iPSC lines",
+   "did": "Media change for all of Andrea’s iPSC lines.",
+   "problem": "",
+   "result": "Done."
+  },
+  {
+   "did": "Started reviewing past lab protocols and the major experimental steps, as groundwork for the methods presentation.",
+   "line": "",
    "date": "28.07.26",
    "type": "Thesis writing",
-   "did": "Started reviewing past lab protocols and the major experimental steps, as groundwork for the methods presentation.",
-   "_id": "rms542ws0wrhq",
-   "problem": "",
-   "line": "",
+   "file": "",
+   "result": "In progress.",
    "batch": "",
-   "file": ""
+   "_id": "rms542ws0wrhq",
+   "problem": ""
   }
  ]
 }
