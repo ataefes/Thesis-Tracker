@@ -1,49 +1,9 @@
 {
- "updated": "2026-08-18T00:42:22+02:00",
+ "updated": "2026-08-18T00:59:25+02:00",
  "today": "2026-08-18",
  "timezone": "Europe/Berlin",
- "count": 11,
+ "count": 5,
  "items": [
-  {
-   "date": "2026-08-10",
-   "title": "Add virus — plate 23.6",
-   "source": "schedule",
-   "overdue": true,
-   "days_from_today": -8,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-13",
-   "title": "Calcium imaging — plate 16.6 (13 & 14 Aug)",
-   "source": "schedule",
-   "overdue": true,
-   "days_from_today": -5,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-17",
-   "title": "F1-GFP — Day 14: Dissociate; replate on PLO/laminin in NPC medium",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-17",
-   "title": "HPS — Day 14: Dissociate; replate on PLO/laminin in NPC medium",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
-  {
-   "date": "2026-08-17",
-   "title": "F1 — Day 14: Dissociate; replate on PLO/laminin in NPC medium",
-   "source": "protocol",
-   "overdue": true,
-   "days_from_today": -1,
-   "notes": ""
-  },
   {
    "date": "2026-08-17",
    "title": "#1.RFP — Day 12: Media change (IDM-A + Noggin)",
@@ -59,14 +19,6 @@
    "overdue": true,
    "days_from_today": -1,
    "notes": ""
-  },
-  {
-   "date": "2026-08-18",
-   "title": "Look into litterature and presentation so to know what and why you are doing? What is the research question/ hypothesis? What esperiments we perform in order to answer those question.  Do a Presetnation about that. (Rebecca)",
-   "source": "schedule",
-   "overdue": false,
-   "days_from_today": 0,
-   "notes": "From Rebecca"
   },
   {
    "date": "2026-08-18",
