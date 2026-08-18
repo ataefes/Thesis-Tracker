@@ -1,17 +1,17 @@
 {
- "updated": "2026-08-18T22:59:24+02:00",
+ "updated": "2026-08-18T23:27:03+02:00",
  "source_updateTime": "2026-08-18T11:56:49.245649Z",
  "table": "insights",
  "records": 1,
  "rows": [
   {
-   "evidence": "NPC batch (previous generation): only WTC CAAX clearly survived, F1 possibly — all other wells failed. Organoid plates started 23.06 (WTC, D1, Nr1) had to be discarded on 27.07 with severe dissociation, cells scattered far from the organoid core. Counter-example: David’s cells, where coating and medium were changed across different sequential splits, adapted and survived markedly better.",
-   "topic": "Staggered transitions when changing culture conditions",
-   "insight": "Changing the matrix coating AND the culture medium in the same split imposes lethal, cumulative stress — cells get no time to adapt to either change. Transitions must be staggered: change the coating at one split, then the medium at a later split (or vice versa).",
-   "status": "to include",
    "section": "Methodology + Discussion",
+   "insight": "Changing the matrix coating AND the culture medium in the same split imposes lethal, cumulative stress — cells get no time to adapt to either change. Transitions must be staggered: change the coating at one split, then the medium at a later split (or vice versa).",
    "date": "28.07.26",
-   "_id": "rms542ws0rn1s"
+   "_id": "rms542ws0rn1s",
+   "status": "to include",
+   "evidence": "NPC batch (previous generation): only WTC CAAX clearly survived, F1 possibly — all other wells failed. Organoid plates started 23.06 (WTC, D1, Nr1) had to be discarded on 27.07 with severe dissociation, cells scattered far from the organoid core. Counter-example: David’s cells, where coating and medium were changed across different sequential splits, adapted and survived markedly better.",
+   "topic": "Staggered transitions when changing culture conditions"
   }
  ]
 }
