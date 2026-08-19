@@ -1,48 +1,48 @@
 {
- "updated": "2026-08-20T00:15:03+02:00",
+ "updated": "2026-08-20T00:43:25+02:00",
  "source_updateTime": "2026-08-19T14:42:24.255522Z",
  "table": "media",
  "records": 5,
  "rows": [
   {
-   "_id": "media0",
-   "storage": "4 °C; thaw 5× supplement, aliquot",
    "name": "mTeSR Plus (complete)",
+   "notes": "iPSC maintenance",
+   "_id": "media0",
    "add": "ROCK (Y-27632) 1:1000 — thaw day only",
    "comp": "40 mL basal + 10 mL 5× supplement = 50 mL",
-   "notes": "iPSC maintenance"
+   "storage": "4 °C; thaw 5× supplement, aliquot"
   },
   {
-   "_id": "media1",
    "comp": "DMEM/F12 38.45 mL + KSR 10 mL (1:5) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + β-ME 50 µL (1:1000) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
    "notes": "Days 2–4 (differentiation protocol)",
    "storage": "4 °C",
    "name": "FFM — Forebrain First Medium",
+   "_id": "media1",
    "add": "Noggin 1:1000 (100 ng/mL) — add fresh before use"
   },
   {
-   "storage": "4 °C",
+   "comp": "DMEM/F12 47.95 mL + N2 500 µL (1:100) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + Anti/Anti 500 µL (1:100) + Heparin 50 µL (1:1000) ≈ 50 mL",
    "name": "NIM — Neural Induction Medium",
    "notes": "Days 5–6 (differentiation protocol)",
-   "add": "Noggin 1:1000 — add fresh",
-   "_id": "media2",
-   "comp": "DMEM/F12 47.95 mL + N2 500 µL (1:100) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + Anti/Anti 500 µL (1:100) + Heparin 50 µL (1:1000) ≈ 50 mL"
-  },
-  {
-   "add": "Filter-sterilise, then FGF2 1:500 + Laminin 1:1000",
    "storage": "4 °C",
-   "name": "NPC medium",
-   "notes": "From Day 14 onward",
-   "_id": "media3",
-   "comp": "DMEM/F12 + GlutaMAX base ~48 mL + N2 500 µL (1:100) + B-27 (50×, no vit A) 1000 µL (1:50) + Anti/Anti 500 µL (1:100) ≈ 50 mL"
+   "_id": "media2",
+   "add": "Noggin 1:1000 — add fresh"
   },
   {
-   "notes": "",
+   "notes": "From Day 14 onward",
+   "add": "Filter-sterilise, then FGF2 1:500 + Laminin 1:1000",
+   "name": "NPC medium",
+   "_id": "media3",
+   "comp": "DMEM/F12 + GlutaMAX base ~48 mL + N2 500 µL (1:100) + B-27 (50×, no vit A) 1000 µL (1:50) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
+   "storage": "4 °C"
+  },
+  {
    "add": "",
-   "comp": "",
-   "storage": "",
+   "_id": "media4",
+   "notes": "",
    "name": "",
-   "_id": "media4"
+   "comp": "",
+   "storage": ""
   }
  ]
 }
