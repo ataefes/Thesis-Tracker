@@ -1,63 +1,67 @@
 {
- "updated": "2026-08-19T23:17:16+02:00",
+ "updated": "2026-08-19T23:47:40+02:00",
  "source_updateTime": "2026-08-19T14:42:24.255522Z",
  "table": "runs",
  "records": 10,
  "rows": [
   {
-   "start": "06.07.26",
+   "protocol": "npc_diff",
+   "_id": "rmrdi7se92vr2",
+   "name": "F1.GFP",
+   "done": "0",
+   "notes": "NPC differentiation NOT continued for F1.GFP — cancelled. Steps stay listed here but are removed from Today.",
    "cancelled": true,
+   "start": "06.07.26",
    "stepEdits": {
     "7": {
      "shift": 2
     }
-   },
-   "protocol": "npc_diff",
-   "done": "0",
-   "notes": "NPC differentiation NOT continued for F1.GFP — cancelled. Steps stay listed here but are removed from Today.",
-   "_id": "rmrdi7se92vr2",
-   "name": "F1.GFP"
+   }
   },
   {
+   "protocol": "npc_diff",
    "stepEdits": {
-    "12": {
+    "6": {
+     "note": "Switched to NIM+Noggin here (one day late). Holding one extra day on NIM+Noggin before dissociating."
+    },
+    "10": {
      "shift": 1
     },
     "8": {
      "shift": 1
     },
+    "5": {
+     "note": "Missed the Day-5 switch — actually moved to NIM+Noggin on Day 6."
+    },
     "7": {
      "note": "Delayed one day: dissociate on 16 Jul (Day 8) instead of 15 Jul, after the extra day on NIM+Noggin.",
      "shift": 1
     },
-    "10": {
+    "12": {
      "shift": 1
-    },
-    "5": {
-     "note": "Missed the Day-5 switch — actually moved to NIM+Noggin on Day 6."
-    },
-    "6": {
-     "note": "Switched to NIM+Noggin here (one day late). Holding one extra day on NIM+Noggin before dissociating."
     }
    },
-   "protocol": "npc_diff",
-   "name": "F1",
    "notes": "D0 = Wed 8 Jul (split 5 Jul). [NIM+Noggin switched one day late (Day 6); held one extra day, so dissociation moved to Day 8 (16 Jul) and later steps slip one day.]",
-   "done": "0,2,4,6,5,7,8,10,12,14",
+   "name": "F1",
+   "start": "08.07.26",
    "_id": "rmrdi7se9qwz3",
-   "start": "08.07.26"
+   "done": "0,2,4,6,5,7,8,10,12,14"
   },
   {
-   "notes": "Extra experiment — #1.RFP at 9000 cells/well, likely for another project. Higher-density variant: Day-3 media change is done with hES media (differs from the standard 2000-cell protocol). D0 = Wed 8 Jul (split 5 Jul).",
-   "name": "#1.RFP (9000 cells)",
-   "_id": "rmrdi7se9325s",
-   "start": "08.07.26",
-   "protocol": "npc_diff_9000",
    "done": "0,3",
+   "name": "#1.RFP (9000 cells)",
+   "protocol": "npc_diff_9000",
+   "start": "08.07.26",
+   "_id": "rmrdi7se9325s",
+   "notes": "Extra experiment — #1.RFP at 9000 cells/well, likely for another project. Higher-density variant: Day-3 media change is done with hES media (differs from the standard 2000-cell protocol). D0 = Wed 8 Jul (split 5 Jul).",
    "cancelled": true
   },
   {
-   "done": "0,2,4,5,6,7,8,10,12,14",
+   "protocol": "npc_diff",
+   "notes": "D0 = Fri 10 Jul (split → 3 wells Mon 6 Jul; confluency check ~Thu 9 Jul).",
+   "start": "10.07.26",
+   "name": "HPS",
+   "_id": "rmrdi7se9uz2c",
    "stepEdits": {
     "10": {
      "shift": 1
@@ -66,16 +70,13 @@
      "shift": 1
     }
    },
-   "start": "10.07.26",
-   "notes": "D0 = Fri 10 Jul (split → 3 wells Mon 6 Jul; confluency check ~Thu 9 Jul).",
-   "protocol": "npc_diff",
-   "name": "HPS",
-   "_id": "rmrdi7se9uz2c"
+   "done": "0,2,4,5,6,7,8,10,12,14"
   },
   {
    "done": "0,2,4,5,6,7,8,10,12,14",
+   "name": "WTC CAAX",
+   "protocol": "npc_diff",
    "start": "10.07.26",
-   "notes": "D0 = Fri 10 Jul (split → 3 wells Mon 6 Jul; confluency check ~Thu 9 Jul).",
    "stepEdits": {
     "10": {
      "shift": 1
@@ -85,12 +86,9 @@
     }
    },
    "_id": "rmrdi7se9qvzx",
-   "protocol": "npc_diff",
-   "name": "WTC CAAX"
+   "notes": "D0 = Fri 10 Jul (split → 3 wells Mon 6 Jul; confluency check ~Thu 9 Jul)."
   },
   {
-   "done": "0,2,4,6,5,7,8,10,12,14",
-   "start": "08.07.26",
    "stepEdits": {
     "10": {
      "shift": 1
@@ -98,60 +96,62 @@
     "6": {
      "note": "Switched to NIM+Noggin here (one day late). Holding one extra day on NIM+Noggin before dissociating."
     },
-    "5": {
-     "note": "Missed the Day-5 switch — actually moved to NIM+Noggin on Day 6."
+    "7": {
+     "note": "Delayed one day: dissociate on 16 Jul (Day 8) instead of 15 Jul, after the extra day on NIM+Noggin.",
+     "shift": 1
     },
     "12": {
      "shift": 1
     },
-    "7": {
-     "shift": 1,
-     "note": "Delayed one day: dissociate on 16 Jul (Day 8) instead of 15 Jul, after the extra day on NIM+Noggin."
+    "5": {
+     "note": "Missed the Day-5 switch — actually moved to NIM+Noggin on Day 6."
     },
     "8": {
      "shift": 1
     }
    },
-   "notes": "#1.RFP on the standard NPC differentiation protocol (2000 cells/well). D0 = Wed 8 Jul (split 5 Jul). [NIM+Noggin switched one day late (Day 6); held one extra day, so dissociation moved to Day 8 (16 Jul) and later steps slip one day.]",
-   "protocol": "npc_diff",
+   "_id": "rmrew5gipc5nx",
    "name": "#1.RFP (2000 cells)",
-   "_id": "rmrew5gipc5nx"
+   "protocol": "npc_diff",
+   "done": "0,2,4,6,5,7,8,10,12,14",
+   "notes": "#1.RFP on the standard NPC differentiation protocol (2000 cells/well). D0 = Wed 8 Jul (split 5 Jul). [NIM+Noggin switched one day late (Day 6); held one extra day, so dissociation moved to Day 8 (16 Jul) and later steps slip one day.]",
+   "start": "08.07.26"
   },
   {
-   "name": "F1-GFP",
-   "lines": "",
-   "_id": "rmsek42u6z4ce",
-   "done": "0,2,4,5,6,7,8,10,12",
-   "protocol": "npc_diff",
-   "notes": "",
-   "start": "03.08.2026"
-  },
-  {
-   "protocol": "npc_diff",
-   "lines": "",
    "start": "03.08.2026",
-   "done": "0,2,4,5,6,7,8,10,12",
+   "lines": "",
    "notes": "",
+   "done": "0,2,4,5,6,7,8,10,12",
+   "name": "F1-GFP",
+   "_id": "rmsek42u6z4ce",
+   "protocol": "npc_diff"
+  },
+  {
    "name": "HPS",
+   "lines": "",
+   "done": "0,2,4,5,6,7,8,10,12",
+   "protocol": "npc_diff",
+   "start": "03.08.2026",
+   "notes": "",
    "_id": "rmsek44a5fwvm"
   },
   {
-   "lines": "",
    "_id": "rmsek73rnlu5u",
-   "notes": "",
+   "lines": "",
+   "done": "0,2,4,5,6,7,8,10,12",
    "name": "F1",
    "start": "03.08.2026",
-   "done": "0,2,4,5,6,7,8,10,12",
-   "protocol": "npc_diff"
+   "protocol": "npc_diff",
+   "notes": ""
   },
   {
-   "_id": "rmshpejbwtieu",
-   "lines": "",
-   "notes": "",
-   "name": "#1.RFP",
    "start": "05.08.2026",
-   "done": "0,2,4,5,6,7,8,10",
-   "protocol": "npc_diff"
+   "lines": "",
+   "_id": "rmshpejbwtieu",
+   "notes": "",
+   "protocol": "npc_diff",
+   "name": "#1.RFP",
+   "done": "0,2,4,5,6,7,8,10"
   }
  ]
 }
