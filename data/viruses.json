@@ -1,47 +1,47 @@
 {
- "updated": "2026-08-20T17:56:16+02:00",
+ "updated": "2026-08-20T18:27:09+02:00",
  "source_updateTime": "2026-08-20T09:56:30.196693Z",
  "table": "viruses",
  "records": 3,
  "rows": [
   {
    "have": "yes",
-   "store": "−80 °C (aliquot; avoid freeze–thaw)",
-   "name": "rAAV1 · hSyn-GCaMP6s-WPRE-SV40",
-   "reg": "WPRE + SV40 polyA (enhance expression efficiency)",
-   "_id": "virus0",
    "serotype": "Recombinant AAV serotype 1 (rAAV1)",
+   "_id": "virus0",
+   "source": "~Addgene #100843 (pAAV.Syn.GCaMP6s.WPRE.SV40) · GENIE project, Janelia Research Campus",
+   "name": "rAAV1 · hSyn-GCaMP6s-WPRE-SV40",
    "payload": "GCaMP6s — ultrasensitive genetically-encoded calcium indicator (GECI); reports intracellular Ca²⁺ dynamics / action potentials",
    "titer": "",
-   "promoter": "Human Synapsin-1 (hSyn) — neuron-specific expression",
-   "source": "~Addgene #100843 (pAAV.Syn.GCaMP6s.WPRE.SV40) · GENIE project, Janelia Research Campus",
-   "note": "Calcium-imaging virus used on organoids (e.g. Rebecca confocal M4, plate 7.5)."
+   "note": "Calcium-imaging virus used on organoids (e.g. Rebecca confocal M4, plate 7.5).",
+   "reg": "WPRE + SV40 polyA (enhance expression efficiency)",
+   "store": "−80 °C (aliquot; avoid freeze–thaw)",
+   "promoter": "Human Synapsin-1 (hSyn) — neuron-specific expression"
   },
   {
+   "store": "−80 °C (aliquot on dry ice; avoid freeze–thaw)",
    "note": "Second GCaMP6s vial in the freezer — same construct family as virus0, separate vial / lot 260626 (26.06.26). [Confirm titer and whether this is the vial actually used on the recent plates.]",
    "serotype": "AAV1 (vial label: v2AAV1o)",
-   "store": "−80 °C (aliquot on dry ice; avoid freeze–thaw)",
-   "_id": "rmsolsah59g7n",
-   "reg": "WPRE + SV40 polyA",
    "titer": "",
-   "promoter": "Synapsin (syn) — neuron-specific expression",
+   "_id": "rmsolsah59g7n",
    "have": "yes",
    "source": "Vial label: v2AAV1o-syn-GCaMP6s WPRE-SV40_260626",
    "name": "v2AAV1o · syn-GCaMP6s-WPRE-SV40 (lot 260626)",
+   "promoter": "Synapsin (syn) — neuron-specific expression",
+   "reg": "WPRE + SV40 polyA",
    "payload": "GCaMP6s — genetically-encoded calcium indicator"
   },
   {
-   "name": "v2AAV1o · hSyn-mCherry (lot 100726)",
    "serotype": "AAV1 (vial label: v2AAV1o)",
-   "payload": "mCherry — red fluorescent reporter (structural label, not a calcium indicator)",
+   "note": "Red counterpart to the GCaMP6s vials — useful as a morphology / infection-efficiency reporter and as a second colour alongside GFP lines. [Confirm titer and intended plates.]",
    "source": "Vial label: v2AAV1o-hSyn-mCherry 100726",
+   "reg": "—",
+   "name": "v2AAV1o · hSyn-mCherry (lot 100726)",
+   "payload": "mCherry — red fluorescent reporter (structural label, not a calcium indicator)",
+   "store": "−80 °C (aliquot on dry ice; avoid freeze–thaw)",
    "have": "yes",
    "titer": "",
-   "_id": "rmsoly0nsbjyx",
-   "reg": "—",
-   "store": "−80 °C (aliquot on dry ice; avoid freeze–thaw)",
-   "note": "Red counterpart to the GCaMP6s vials — useful as a morphology / infection-efficiency reporter and as a second colour alongside GFP lines. [Confirm titer and intended plates.]",
-   "promoter": "Human Synapsin-1 (hSyn) — neuron-specific expression"
+   "promoter": "Human Synapsin-1 (hSyn) — neuron-specific expression",
+   "_id": "rmsoly0nsbjyx"
   }
  ]
 }
