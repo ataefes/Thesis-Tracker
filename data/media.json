@@ -1,48 +1,48 @@
 {
- "updated": "2026-08-20T20:56:19+02:00",
+ "updated": "2026-08-20T21:26:11+02:00",
  "source_updateTime": "2026-08-20T09:56:30.196693Z",
  "table": "media",
  "records": 5,
  "rows": [
   {
-   "comp": "40 mL basal + 10 mL 5× supplement = 50 mL",
-   "add": "ROCK (Y-27632) 1:1000 — thaw day only",
-   "notes": "iPSC maintenance",
    "_id": "media0",
+   "storage": "4 °C; thaw 5× supplement, aliquot",
+   "comp": "40 mL basal + 10 mL 5× supplement = 50 mL",
    "name": "mTeSR Plus (complete)",
-   "storage": "4 °C; thaw 5× supplement, aliquot"
+   "add": "ROCK (Y-27632) 1:1000 — thaw day only",
+   "notes": "iPSC maintenance"
   },
   {
    "comp": "DMEM/F12 38.45 mL + KSR 10 mL (1:5) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + β-ME 50 µL (1:1000) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
-   "storage": "4 °C",
    "add": "Noggin 1:1000 (100 ng/mL) — add fresh before use",
+   "storage": "4 °C",
    "_id": "media1",
-   "name": "FFM — Forebrain First Medium",
-   "notes": "Days 2–4 (differentiation protocol)"
+   "notes": "Days 2–4 (differentiation protocol)",
+   "name": "FFM — Forebrain First Medium"
   },
   {
-   "storage": "4 °C",
-   "_id": "media2",
    "name": "NIM — Neural Induction Medium",
-   "add": "Noggin 1:1000 — add fresh",
+   "_id": "media2",
    "notes": "Days 5–6 (differentiation protocol)",
+   "storage": "4 °C",
+   "add": "Noggin 1:1000 — add fresh",
    "comp": "DMEM/F12 47.95 mL + N2 500 µL (1:100) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + Anti/Anti 500 µL (1:100) + Heparin 50 µL (1:1000) ≈ 50 mL"
   },
   {
    "notes": "From Day 14 onward",
-   "storage": "4 °C",
-   "comp": "DMEM/F12 + GlutaMAX base ~48 mL + N2 500 µL (1:100) + B-27 (50×, no vit A) 1000 µL (1:50) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
    "add": "Filter-sterilise, then FGF2 1:500 + Laminin 1:1000",
+   "name": "NPC medium",
+   "comp": "DMEM/F12 + GlutaMAX base ~48 mL + N2 500 µL (1:100) + B-27 (50×, no vit A) 1000 µL (1:50) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
    "_id": "media3",
-   "name": "NPC medium"
+   "storage": "4 °C"
   },
   {
-   "storage": "",
-   "notes": "",
-   "comp": "",
-   "add": "",
    "_id": "media4",
-   "name": ""
+   "comp": "",
+   "storage": "",
+   "name": "",
+   "add": "",
+   "notes": ""
   }
  ]
 }
