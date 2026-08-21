@@ -1,33 +1,33 @@
 {
- "updated": "2026-08-21T21:58:10+02:00",
+ "updated": "2026-08-21T22:24:30+02:00",
  "source_updateTime": "2026-08-21T08:48:48.074032Z",
  "table": "questions",
  "records": 3,
  "rows": [
   {
-   "_id": "questions0",
-   "ask": "Rebecca / Claude",
-   "date": "23.06.2026",
    "q": "Background is high; I don't fully understand the cause or how to reduce it",
-   "answer": "→ test blocking, antibody dilution, autofluorescence separately",
+   "_id": "questions0",
    "status": "open",
+   "date": "23.06.2026",
+   "answer": "→ test blocking, antibody dilution, autofluorescence separately",
+   "ask": "Rebecca / Claude",
    "topic": "Staining — background"
   },
   {
+   "status": "researching",
+   "answer": "",
    "q": "How STED differs from confocal & what the depletion laser does",
    "_id": "questions1",
-   "answer": "",
-   "status": "researching",
-   "ask": "Kellner training",
    "date": "23.06.2026",
+   "ask": "Kellner training",
    "topic": "STED principle"
   },
   {
    "topic": "Staining",
-   "q": "we already staiend the confocal training plate with anti-gfp ckicken and scn2a now also with ki67 is it problem that 2 times staining?",
    "date": "09.07.2026",
-   "_id": "rmre4viezxf1q",
-   "ask": "Rebecca"
+   "ask": "Rebecca",
+   "q": "we already staiend the confocal training plate with anti-gfp ckicken and scn2a now also with ki67 is it problem that 2 times staining?",
+   "_id": "rmre4viezxf1q"
   }
  ]
 }
