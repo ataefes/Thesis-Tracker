@@ -1,140 +1,140 @@
 {
- "updated": "2026-08-22T19:55:53+02:00",
+ "updated": "2026-08-22T20:18:30+02:00",
  "source_updateTime": "2026-08-22T16:09:54.721951Z",
  "table": "log",
  "records": 19,
  "rows": [
   {
    "at": 1783697410683,
-   "tag": "task",
+   "action": "done",
+   "title": "Prepared a hES media for #1.RFP 9000 EB",
    "id": "sched:rmrf3drztj191",
-   "action": "done",
-   "title": "Prepared a hES media for #1.RFP 9000 EB"
+   "tag": "task"
   },
   {
-   "action": "done",
-   "at": 1783766321523,
    "id": "sched:rmre11l38kziq",
-   "title": "Media change — all organoids (careful with 7.5 virus plate; change pipette tips)",
-   "tag": "task"
-  },
-  {
-   "title": "Drug treatment — 2.6 plate: add EFNB2 + ALLN + Rapamycin to media",
-   "at": 1783815799842,
+   "tag": "task",
    "action": "done",
-   "id": "sched:rmre11l38qwxr",
-   "tag": "task"
+   "title": "Media change — all organoids (careful with 7.5 virus plate; change pipette tips)",
+   "at": 1783766321523
   },
   {
-   "at": 1783815804342,
+   "action": "done",
+   "tag": "task",
+   "at": 1783815799842,
+   "title": "Drug treatment — 2.6 plate: add EFNB2 + ALLN + Rapamycin to media",
+   "id": "sched:rmre11l38qwxr"
+  },
+  {
    "action": "skipped",
+   "tag": "task",
    "title": "Drug treatment — 17.6 plates (both): add EFNB2 + Metformin",
-   "id": "sched:rmre11l38y72h",
-   "tag": "task"
+   "at": 1783815804342,
+   "id": "sched:rmre11l38y72h"
   },
   {
-   "title": "Live imaging — 17.6 plate",
    "at": 1783815805917,
    "action": "skipped",
-   "id": "sched:rmre11l389nwh",
-   "tag": "task"
-  },
-  {
-   "title": "Drugs + live imaging — 19.6 plate (Rebecca)",
-   "id": "sched:rmre11l38blht",
    "tag": "task",
-   "at": 1783957649412,
-   "action": "done"
-  },
-  {
-   "id": "sched:rmre11l38mjc6",
-   "at": 1783958236635,
-   "title": "Fix plate 2.6 + media change",
-   "action": "done",
-   "tag": "task"
-  },
-  {
    "title": "Live imaging — 17.6 plate",
-   "at": 1784018814834,
-   "id": "sched:rmre11l38i0m8",
+   "id": "sched:rmre11l389nwh"
+  },
+  {
+   "action": "done",
+   "tag": "task",
+   "id": "sched:rmre11l38blht",
+   "title": "Drugs + live imaging — 19.6 plate (Rebecca)",
+   "at": 1783957649412
+  },
+  {
+   "action": "done",
+   "tag": "task",
+   "at": 1783958236635,
+   "id": "sched:rmre11l38mjc6",
+   "title": "Fix plate 2.6 + media change"
+  },
+  {
    "action": "skipped",
-   "tag": "task"
+   "tag": "task",
+   "id": "sched:rmre11l38i0m8",
+   "title": "Live imaging — 17.6 plate",
+   "at": 1784018814834
   },
   {
    "id": "sched:rmre11l38373y",
    "title": "Live imaging — 19.6 plate",
    "tag": "task",
-   "at": 1784110552238,
-   "action": "done"
+   "action": "done",
+   "at": 1784110552238
   },
   {
    "tag": "task",
    "id": "sched:rmre11l38pcpr",
    "action": "done",
-   "title": "Live imaging — 17.6 plate",
-   "at": 1784129744374
+   "at": 1784129744374,
+   "title": "Live imaging — 17.6 plate"
   },
   {
+   "tag": "task",
    "id": "sched:rmre11l38md8q",
+   "at": 1784129745655,
    "title": "Change plate 7.5 → BrainPhys for Ca imaging + media change",
-   "action": "done",
-   "tag": "task",
-   "at": 1784129745655
-  },
-  {
-   "action": "done",
-   "at": 1784222257554,
-   "tag": "task",
-   "title": "Live imaging — 19.6 plate",
-   "id": "sched:rmre11l382qf9"
-  },
-  {
-   "tag": "coating",
-   "action": "done",
-   "id": "sched:rms56ef7arlcn",
-   "at": 1785275305881,
-   "title": "Coat plates for the 5-line NPC thaw (F1, F1 GFP, WTC CAAX RFP, Nr1 RFP, HPS)"
-  },
-  {
-   "at": 1785345452894,
-   "tag": "task",
-   "action": "skipped",
-   "id": "sched:rmre11l38r6bm",
-   "title": "Calcium imaging — plate 7.5"
-  },
-  {
-   "tag": "task",
-   "title": "Media change + confluence check (with supervisor) — split if needed",
-   "id": "sched:rms542ws0db0x",
-   "at": 1785444815016,
    "action": "done"
   },
   {
+   "id": "sched:rmre11l382qf9",
+   "tag": "task",
+   "action": "done",
+   "at": 1784222257554,
+   "title": "Live imaging — 19.6 plate"
+  },
+  {
+   "id": "sched:rms56ef7arlcn",
+   "at": 1785275305881,
+   "title": "Coat plates for the 5-line NPC thaw (F1, F1 GFP, WTC CAAX RFP, Nr1 RFP, HPS)",
+   "tag": "coating",
+   "action": "done"
+  },
+  {
+   "id": "sched:rmre11l38r6bm",
+   "at": 1785345452894,
+   "tag": "task",
+   "action": "skipped",
+   "title": "Calcium imaging — plate 7.5"
+  },
+  {
+   "at": 1785444815016,
+   "tag": "task",
+   "action": "done",
+   "title": "Media change + confluence check (with supervisor) — split if needed",
+   "id": "sched:rms542ws0db0x"
+  },
+  {
    "at": 1785841812529,
-   "title": "PRIORITY — Thaw 5 NPC cell lines: F1, F1 GFP, WTC CAAX RFP, Nr1 RFP, HPS",
    "id": "sched:rms542ws0qayi",
    "action": "done",
-   "tag": "task"
-  },
-  {
    "tag": "task",
-   "id": "sched:rms542ws0pnln",
-   "action": "done",
-   "title": "DEADLINE — Methods presentation: all techniques & major protocol steps executed so far",
-   "at": 1785841812896
+   "title": "PRIORITY — Thaw 5 NPC cell lines: F1, F1 GFP, WTC CAAX RFP, Nr1 RFP, HPS"
   },
   {
-   "id": "sched:rmre11l38jyea",
+   "at": 1785841812896,
+   "title": "DEADLINE — Methods presentation: all techniques & major protocol steps executed so far",
+   "tag": "task",
    "action": "done",
+   "id": "sched:rms542ws0pnln"
+  },
+  {
+   "action": "done",
+   "id": "sched:rmre11l38jyea",
    "tag": "task",
    "at": 1786178720347,
    "title": "Add virus — plate 16.6"
   },
   {
-   "action": "skipped",
-   "id": "sched:rmre11l38fhz3",
    "tag": "task",
+   "action": "skipped",
    "title": "Change to BrainPhys — plate 16.6",
+   "id": "sched:rmre11l38fhz3",
    "at": 1786625079347
   }
  ]
