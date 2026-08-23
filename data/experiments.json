@@ -1,51 +1,51 @@
 {
- "updated": "2026-08-23T22:14:25+02:00",
+ "updated": "2026-08-23T22:40:13+02:00",
  "source_updateTime": "2026-08-22T16:09:54.721951Z",
  "table": "experiments",
  "records": 4,
  "rows": [
   {
-   "result": "Only WTC CAAX survived clearly; F1 possibly survived. All other wells failed — kept temporarily for visual assessment only.",
-   "did": "Survival check on the previous NPC generation batch.",
    "_id": "rms542ws0e6h7",
-   "batch": "",
-   "type": "NPC differentiation",
-   "line": "WTC CAAX · F1",
-   "file": "",
    "date": "28.07.26",
-   "problem": "Batch largely lost. Likely cause: coating AND medium changed in the same split (see Methodology Insights)."
+   "batch": "",
+   "did": "Survival check on the previous NPC generation batch.",
+   "result": "Only WTC CAAX survived clearly; F1 possibly survived. All other wells failed — kept temporarily for visual assessment only.",
+   "type": "NPC differentiation",
+   "problem": "Batch largely lost. Likely cause: coating AND medium changed in the same split (see Methodology Insights).",
+   "file": "",
+   "line": "WTC CAAX · F1"
   },
   {
-   "result": "Discarded — severe dissociation: cells detached and scattered far from the organoid core.",
-   "batch": "",
-   "date": "27.07.26",
    "did": "Assessed the organoid plates started 23.06 and discarded them.",
-   "_id": "rms542ws0yki3",
-   "file": "",
    "problem": "Same suspected cause: simultaneous coating + medium change during splitting.",
+   "date": "27.07.26",
+   "batch": "",
    "line": "WTC · D1 · Nr1",
+   "file": "",
+   "result": "Discarded — severe dissociation: cells detached and scattered far from the organoid core.",
+   "_id": "rms542ws0yki3",
    "type": "Organoid maintenance"
   },
   {
-   "type": "Maintenance",
-   "line": "Andrea's iPSC lines",
-   "file": "",
-   "date": "28.07.26",
    "did": "Media change for all of Andrea’s iPSC lines.",
+   "batch": "",
+   "date": "28.07.26",
+   "result": "Done.",
+   "file": "",
+   "line": "Andrea's iPSC lines",
    "_id": "rms542ws0pggn",
    "problem": "",
-   "result": "Done.",
-   "batch": ""
+   "type": "Maintenance"
   },
   {
-   "problem": "",
-   "batch": "",
-   "line": "",
-   "did": "Started reviewing past lab protocols and the major experimental steps, as groundwork for the methods presentation.",
-   "_id": "rms542ws0wrhq",
    "file": "",
+   "line": "",
    "type": "Thesis writing",
+   "did": "Started reviewing past lab protocols and the major experimental steps, as groundwork for the methods presentation.",
+   "batch": "",
    "date": "28.07.26",
+   "_id": "rms542ws0wrhq",
+   "problem": "",
    "result": "In progress."
   }
  ]
