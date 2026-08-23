@@ -1,104 +1,104 @@
 {
- "updated": "2026-08-23T08:47:43+02:00",
+ "updated": "2026-08-23T09:25:29+02:00",
  "source_updateTime": "2026-08-22T16:09:54.721951Z",
  "table": "treatments",
  "records": 8,
  "rows": [
   {
-   "by": "",
-   "substance": "EFNB2 (stock 50 µg/mL)",
-   "plate": "Plate 18",
-   "conc": "1 / 2 / 4 µL per well",
+   "date": "10.07.26",
    "wells": "W1–3",
+   "type": "Drug",
+   "line": "per condition",
+   "conc": "1 / 2 / 4 µL per well",
    "note": "2.6 treatment: 195 µL media in Epi, drug added, 65 µL applied per well. W1:1µL · W2:2µL · W3:4µL.",
+   "by": "",
+   "plate": "Plate 18",
+   "_id": "rmre0e3i47nue",
+   "substance": "EFNB2 (stock 50 µg/mL)"
+  },
+  {
+   "substance": "ALLN (stock 5 mM)",
+   "wells": "W4–6",
    "line": "per condition",
    "type": "Drug",
    "date": "10.07.26",
-   "_id": "rmre0e3i47nue"
-  },
-  {
    "conc": "0.1 / 0.5 / 1 µL per well",
    "_id": "rmre0e3i4s2au",
    "plate": "Plate 18",
-   "date": "10.07.26",
-   "substance": "ALLN (stock 5 mM)",
-   "by": "",
-   "wells": "W4–6",
-   "type": "Drug",
    "note": "W4:0.1µL · W5:0.5µL · W6:1µL.",
-   "line": "per condition"
+   "by": ""
   },
   {
-   "note": "W7:0.36µL(2.7µM) · W8:0.36µL(27.4µM) · W9:3.6µL(27.4µM).",
-   "line": "per condition",
-   "by": "",
-   "plate": "Plate 18",
    "substance": "Rapamycin",
-   "type": "Drug",
    "date": "10.07.26",
    "wells": "W7–9",
+   "type": "Drug",
+   "line": "per condition",
    "conc": "0.36µL 2.7µM / 0.36µL 27.4µM / 3.6µL 27.4µM",
-   "_id": "rmre0e3i4ox0o"
+   "note": "W7:0.36µL(2.7µM) · W8:0.36µL(27.4µM) · W9:3.6µL(27.4µM).",
+   "_id": "rmre0e3i4ox0o",
+   "plate": "Plate 18",
+   "by": ""
   },
   {
+   "plate": "Plate 18",
    "by": "",
    "conc": "0.3 / 3 µL per well",
-   "_id": "rmre0e3i46ybi",
-   "plate": "Plate 18",
-   "wells": "W10–11",
    "date": "10.07.26",
-   "note": "Vehicle control.",
-   "line": "control",
    "type": "Drug",
-   "substance": "DMSO (vehicle control)"
+   "line": "control",
+   "note": "Vehicle control.",
+   "substance": "DMSO (vehicle control)",
+   "wells": "W10–11",
+   "_id": "rmre0e3i46ybi"
   },
   {
-   "line": "3 conditions · 1 of 2 replicate plates",
-   "note": "Only ONE 17.6 plate was dosed — no time for the second replicate, and live imaging was NOT done. Metformin 2 mM & 0.2 mM (correct). Wells 1–11 = the 3 conditions (cell lines): 2 wells each metformin (2 mM & 0.2 mM), EFNB2, ALLN, Rapamycin, DMSO; 1 well water. EFNB2/ALLN/Rapa conc picked by 2.6 survival.",
-   "by": "",
-   "plate": "Plate 14",
-   "type": "Drug",
    "date": "10.07.26",
+   "line": "3 conditions · 1 of 2 replicate plates",
    "wells": "wells 1–11 (one plate only)",
+   "type": "Drug",
    "substance": "Metformin + EFNB2 + ALLN + Rapamycin + DMSO + water",
    "conc": "Metformin: 2 mM & 0.2 mM",
-   "_id": "rmre0e3i44si8"
+   "note": "Only ONE 17.6 plate was dosed — no time for the second replicate, and live imaging was NOT done. Metformin 2 mM & 0.2 mM (correct). Wells 1–11 = the 3 conditions (cell lines): 2 wells each metformin (2 mM & 0.2 mM), EFNB2, ALLN, Rapamycin, DMSO; 1 well water. EFNB2/ALLN/Rapa conc picked by 2.6 survival.",
+   "plate": "Plate 14",
+   "_id": "rmre0e3i44si8",
+   "by": ""
   },
   {
-   "type": "Virus",
    "note": "Virus to plate 7.5 (Wed 8.7). Careful — change pipette tips.",
-   "line": "",
+   "by": "",
    "wells": "",
-   "date": "08.07.26",
-   "plate": "Plate 9",
    "_id": "rmre0e3i435gf",
    "conc": "[titer]",
    "substance": "[vector]",
-   "by": ""
+   "date": "08.07.26",
+   "line": "",
+   "type": "Virus",
+   "plate": "Plate 9"
   },
   {
-   "plate": "Plate 10",
+   "by": "",
+   "wells": "",
+   "substance": "[vector]",
    "conc": "[titer]",
+   "date": "10.08.26",
+   "line": "",
    "type": "Virus",
    "_id": "rmre0e3i470v7",
-   "wells": "",
-   "note": "Add virus per plan (5 Aug plate 16.6 / 10 Aug plate 23.6).",
-   "line": "",
-   "date": "10.08.26",
-   "substance": "[vector]",
-   "by": ""
+   "plate": "Plate 10",
+   "note": "Add virus per plan (5 Aug plate 16.6 / 10 Aug plate 23.6)."
   },
   {
-   "by": "Rebecca",
-   "plate": "Rebecca confocal",
-   "substance": "[vector]",
-   "conc": "[titer]",
-   "line": "WTC",
-   "wells": "M4",
-   "note": "WTC + virus on confocal-training plate. Virus / GFP did not express → no Ca imaging possible; M4 fixed & stained 10.07. E11 (WTC+D2.GFP) & E16 (D2.GFP) were NOT infected (already GFP+).",
-   "type": "Virus",
    "_id": "rmreovuvvh011",
-   "date": ""
+   "note": "WTC + virus on confocal-training plate. Virus / GFP did not express → no Ca imaging possible; M4 fixed & stained 10.07. E11 (WTC+D2.GFP) & E16 (D2.GFP) were NOT infected (already GFP+).",
+   "wells": "M4",
+   "date": "",
+   "substance": "[vector]",
+   "type": "Virus",
+   "line": "WTC",
+   "conc": "[titer]",
+   "by": "Rebecca",
+   "plate": "Rebecca confocal"
   }
  ]
 }
