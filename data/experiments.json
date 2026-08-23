@@ -1,52 +1,52 @@
 {
- "updated": "2026-08-23T10:19:10+02:00",
+ "updated": "2026-08-23T10:54:56+02:00",
  "source_updateTime": "2026-08-22T16:09:54.721951Z",
  "table": "experiments",
  "records": 4,
  "rows": [
   {
-   "batch": "",
-   "did": "Survival check on the previous NPC generation batch.",
+   "result": "Only WTC CAAX survived clearly; F1 possibly survived. All other wells failed — kept temporarily for visual assessment only.",
    "_id": "rms542ws0e6h7",
    "file": "",
-   "result": "Only WTC CAAX survived clearly; F1 possibly survived. All other wells failed — kept temporarily for visual assessment only.",
-   "date": "28.07.26",
+   "type": "NPC differentiation",
    "problem": "Batch largely lost. Likely cause: coating AND medium changed in the same split (see Methodology Insights).",
+   "batch": "",
+   "did": "Survival check on the previous NPC generation batch.",
    "line": "WTC CAAX · F1",
-   "type": "NPC differentiation"
+   "date": "28.07.26"
   },
   {
-   "result": "Discarded — severe dissociation: cells detached and scattered far from the organoid core.",
-   "file": "",
-   "did": "Assessed the organoid plates started 23.06 and discarded them.",
-   "_id": "rms542ws0yki3",
-   "batch": "",
-   "date": "27.07.26",
-   "type": "Organoid maintenance",
    "line": "WTC · D1 · Nr1",
-   "problem": "Same suspected cause: simultaneous coating + medium change during splitting."
-  },
-  {
-   "type": "Maintenance",
-   "line": "Andrea's iPSC lines",
-   "date": "28.07.26",
-   "result": "Done.",
-   "problem": "",
-   "did": "Media change for all of Andrea’s iPSC lines.",
-   "_id": "rms542ws0pggn",
-   "file": "",
-   "batch": ""
-  },
-  {
-   "line": "",
-   "type": "Thesis writing",
-   "date": "28.07.26",
-   "result": "In progress.",
-   "problem": "",
+   "date": "27.07.26",
    "batch": "",
+   "did": "Assessed the organoid plates started 23.06 and discarded them.",
+   "result": "Discarded — severe dissociation: cells detached and scattered far from the organoid core.",
+   "type": "Organoid maintenance",
+   "problem": "Same suspected cause: simultaneous coating + medium change during splitting.",
    "file": "",
-   "did": "Started reviewing past lab protocols and the major experimental steps, as groundwork for the methods presentation.",
-   "_id": "rms542ws0wrhq"
+   "_id": "rms542ws0yki3"
+  },
+  {
+   "date": "28.07.26",
+   "line": "Andrea's iPSC lines",
+   "did": "Media change for all of Andrea’s iPSC lines.",
+   "problem": "",
+   "file": "",
+   "type": "Maintenance",
+   "batch": "",
+   "result": "Done.",
+   "_id": "rms542ws0pggn"
+  },
+  {
+   "_id": "rms542ws0wrhq",
+   "type": "Thesis writing",
+   "problem": "",
+   "file": "",
+   "result": "In progress.",
+   "batch": "",
+   "line": "",
+   "date": "28.07.26",
+   "did": "Started reviewing past lab protocols and the major experimental steps, as groundwork for the methods presentation."
   }
  ]
 }
