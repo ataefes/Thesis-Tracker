@@ -1,48 +1,48 @@
 {
- "updated": "2026-08-23T09:25:29+02:00",
+ "updated": "2026-08-23T09:54:40+02:00",
  "source_updateTime": "2026-08-22T16:09:54.721951Z",
  "table": "media",
  "records": 5,
  "rows": [
   {
-   "notes": "iPSC maintenance",
-   "storage": "4 °C; thaw 5× supplement, aliquot",
    "_id": "media0",
+   "storage": "4 °C; thaw 5× supplement, aliquot",
    "add": "ROCK (Y-27632) 1:1000 — thaw day only",
-   "name": "mTeSR Plus (complete)",
-   "comp": "40 mL basal + 10 mL 5× supplement = 50 mL"
+   "notes": "iPSC maintenance",
+   "comp": "40 mL basal + 10 mL 5× supplement = 50 mL",
+   "name": "mTeSR Plus (complete)"
   },
   {
-   "name": "FFM — Forebrain First Medium",
    "comp": "DMEM/F12 38.45 mL + KSR 10 mL (1:5) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + β-ME 50 µL (1:1000) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
-   "add": "Noggin 1:1000 (100 ng/mL) — add fresh before use",
-   "notes": "Days 2–4 (differentiation protocol)",
+   "name": "FFM — Forebrain First Medium",
    "_id": "media1",
-   "storage": "4 °C"
+   "storage": "4 °C",
+   "add": "Noggin 1:1000 (100 ng/mL) — add fresh before use",
+   "notes": "Days 2–4 (differentiation protocol)"
   },
   {
+   "_id": "media2",
+   "comp": "DMEM/F12 47.95 mL + N2 500 µL (1:100) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + Anti/Anti 500 µL (1:100) + Heparin 50 µL (1:1000) ≈ 50 mL",
+   "name": "NIM — Neural Induction Medium",
    "storage": "4 °C",
    "add": "Noggin 1:1000 — add fresh",
-   "notes": "Days 5–6 (differentiation protocol)",
-   "_id": "media2",
-   "name": "NIM — Neural Induction Medium",
-   "comp": "DMEM/F12 47.95 mL + N2 500 µL (1:100) + GlutaMAX 500 µL (1:100) + MEM-NEAA 500 µL (1:100) + Anti/Anti 500 µL (1:100) + Heparin 50 µL (1:1000) ≈ 50 mL"
+   "notes": "Days 5–6 (differentiation protocol)"
   },
   {
-   "_id": "media3",
-   "comp": "DMEM/F12 + GlutaMAX base ~48 mL + N2 500 µL (1:100) + B-27 (50×, no vit A) 1000 µL (1:50) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
-   "name": "NPC medium",
    "storage": "4 °C",
    "add": "Filter-sterilise, then FGF2 1:500 + Laminin 1:1000",
-   "notes": "From Day 14 onward"
+   "name": "NPC medium",
+   "notes": "From Day 14 onward",
+   "comp": "DMEM/F12 + GlutaMAX base ~48 mL + N2 500 µL (1:100) + B-27 (50×, no vit A) 1000 µL (1:50) + Anti/Anti 500 µL (1:100) ≈ 50 mL",
+   "_id": "media3"
   },
   {
+   "comp": "",
    "storage": "",
-   "_id": "media4",
-   "notes": "",
-   "add": "",
    "name": "",
-   "comp": ""
+   "notes": "",
+   "_id": "media4",
+   "add": ""
   }
  ]
 }
