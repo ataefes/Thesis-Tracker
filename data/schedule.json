@@ -1,189 +1,189 @@
 {
- "updated": "2026-08-25T10:07:13+02:00",
+ "updated": "2026-08-25T10:57:29+02:00",
  "source_updateTime": "2026-08-22T16:09:54.721951Z",
  "table": "schedule",
  "records": 25,
  "rows": [
   {
-   "notes": "From Rebecca",
-   "date": "18.08.2026",
-   "task": "Look into litterature and presentation so to know what and why you are doing? What is the research question/ hypothesis? What esperiments we perform in order to answer those question.  Do a Presetnation about that. (Rebecca)",
-   "coating": "—",
    "_id": "rmssy15igy677",
-   "cat": "task"
-  },
-  {
-   "date": "18.08.2026",
-   "_id": "rmssy14u18wyt",
-   "cat": "task",
    "coating": "—",
+   "date": "18.08.2026",
    "notes": "From Rebecca",
+   "cat": "task",
    "task": "Look into litterature and presentation so to know what and why you are doing? What is the research question/ hypothesis? What esperiments we perform in order to answer those question.  Do a Presetnation about that. (Rebecca)"
   },
   {
+   "notes": "From Rebecca",
+   "cat": "task",
    "coating": "—",
-   "date": "10.07.2026",
-   "_id": "rmrf3drztj191",
-   "notes": "",
-   "task": "Prepared a hES media for #1.RFP 9000 EB"
+   "task": "Look into litterature and presentation so to know what and why you are doing? What is the research question/ hypothesis? What esperiments we perform in order to answer those question.  Do a Presetnation about that. (Rebecca)",
+   "_id": "rmssy14u18wyt",
+   "date": "18.08.2026"
   },
   {
-   "notes": "Re-dose ONLY the wells Rebecca already dosed (she gave 2.6 the drugs on Wed 08.07). Check 2.6 viability first; if all organoids alive use mid + highest conc. Details in Drug / Virus Log.",
-   "date": "10.07.26",
-   "task": "Drug treatment — 2.6 plate: add EFNB2 + ALLN + Rapamycin to media",
+   "task": "Prepared a hES media for #1.RFP 9000 EB",
+   "date": "10.07.2026",
    "coating": "—",
+   "notes": "",
+   "_id": "rmrf3drztj191"
+  },
+  {
+   "task": "Drug treatment — 2.6 plate: add EFNB2 + ALLN + Rapamycin to media",
+   "date": "10.07.26",
+   "coating": "—",
+   "notes": "Re-dose ONLY the wells Rebecca already dosed (she gave 2.6 the drugs on Wed 08.07). Check 2.6 viability first; if all organoids alive use mid + highest conc. Details in Drug / Virus Log.",
    "_id": "rmre11l38qwxr"
   },
   {
-   "task": "Drug treatment — 17.6 plates (both): add EFNB2 + Metformin",
+   "date": "10.07.26",
    "_id": "rmre11l38y72h",
+   "task": "Drug treatment — 17.6 plates (both): add EFNB2 + Metformin",
    "coating": "—",
-   "notes": "Both plates, all cell lines (Rebecca-labeled wells 1–11). 2 wells each: metformin (2 mM & 0.2 mM), EFNB2, ALLN, Rapamycin, DMSO; 1 well water. Take one 17.6 plate to live imaging and mark it.",
-   "date": "10.07.26"
+   "notes": "Both plates, all cell lines (Rebecca-labeled wells 1–11). 2 wells each: metformin (2 mM & 0.2 mM), EFNB2, ALLN, Rapamycin, DMSO; 1 well water. Take one 17.6 plate to live imaging and mark it."
   },
   {
+   "date": "10.07.26",
+   "_id": "rmre11l389nwh",
    "task": "Live imaging — 17.6 plate",
    "coating": "—",
-   "_id": "rmre11l389nwh",
-   "notes": "Imaging days 10 / 13 / 15 July.",
-   "date": "10.07.26"
+   "notes": "Imaging days 10 / 13 / 15 July."
   },
   {
+   "date": "10.07.26",
+   "coating": "—",
    "_id": "rmre11l38kziq",
    "notes": "",
-   "task": "Media change — all organoids (careful with 7.5 virus plate; change pipette tips)",
-   "coating": "—",
-   "date": "10.07.26"
+   "task": "Media change — all organoids (careful with 7.5 virus plate; change pipette tips)"
   },
   {
-   "coating": "—",
-   "_id": "rmre11l38blht",
    "task": "Drugs + live imaging — 19.6 plate (Rebecca)",
    "date": "12.07.26",
-   "notes": "Rebecca; imaging days 12 / 14 / 16 July."
-  },
-  {
-   "notes": "",
-   "task": "Fix plate 2.6 + media change",
-   "_id": "rmre11l38mjc6",
-   "date": "13.07.26",
+   "_id": "rmre11l38blht",
+   "notes": "Rebecca; imaging days 12 / 14 / 16 July.",
    "coating": "—"
   },
   {
-   "task": "Live imaging — 17.6 plate",
-   "notes": "",
+   "task": "Fix plate 2.6 + media change",
+   "coating": "—",
+   "date": "13.07.26",
+   "_id": "rmre11l38mjc6",
+   "notes": ""
+  },
+  {
+   "date": "13.07.26",
    "_id": "rmre11l38i0m8",
-   "coating": "—",
-   "date": "13.07.26"
-  },
-  {
-   "coating": "—",
-   "task": "Live imaging — 19.6 plate",
-   "notes": "",
-   "_id": "rmre11l38373y",
-   "date": "14.07.26"
-  },
-  {
-   "task": "Change plate 7.5 → BrainPhys for Ca imaging + media change",
-   "notes": "",
-   "coating": "—",
-   "date": "15.07.26",
-   "_id": "rmre11l38md8q"
-  },
-  {
    "task": "Live imaging — 17.6 plate",
-   "coating": "—",
-   "_id": "rmre11l38pcpr",
    "notes": "",
+   "coating": "—"
+  },
+  {
+   "coating": "—",
+   "notes": "",
+   "task": "Live imaging — 19.6 plate",
+   "date": "14.07.26",
+   "_id": "rmre11l38373y"
+  },
+  {
+   "coating": "—",
+   "notes": "",
+   "task": "Change plate 7.5 → BrainPhys for Ca imaging + media change",
+   "_id": "rmre11l38md8q",
    "date": "15.07.26"
   },
   {
-   "task": "Live imaging — 19.6 plate",
+   "_id": "rmre11l38pcpr",
    "notes": "",
-   "date": "16.07.26",
-   "_id": "rmre11l382qf9",
-   "coating": "—"
+   "coating": "—",
+   "date": "15.07.26",
+   "task": "Live imaging — 17.6 plate"
   },
   {
+   "notes": "",
+   "_id": "rmre11l382qf9",
+   "date": "16.07.26",
    "coating": "—",
-   "date": "17.07.26",
+   "task": "Live imaging — 19.6 plate"
+  },
+  {
    "task": "Calcium imaging — plate 7.5",
+   "date": "17.07.26",
+   "coating": "—",
    "_id": "rmre11l38r6bm",
    "notes": "Ata to set up."
   },
   {
    "task": "Add virus — plate 16.6",
-   "notes": "",
-   "coating": "—",
+   "date": "05.08.26",
    "_id": "rmre11l38jyea",
-   "date": "05.08.26"
-  },
-  {
-   "task": "Add virus — plate 23.6",
-   "coating": "—",
    "notes": "",
-   "date": "10.08.26",
-   "_id": "rmre11l38rio3"
+   "coating": "—"
   },
   {
    "coating": "—",
+   "task": "Add virus — plate 23.6",
+   "notes": "",
+   "_id": "rmre11l38rio3",
+   "date": "10.08.26"
+  },
+  {
    "date": "12.08.26",
    "_id": "rmre11l38fhz3",
    "task": "Change to BrainPhys — plate 16.6",
+   "coating": "—",
    "notes": ""
   },
   {
-   "coating": "—",
-   "task": "Calcium imaging — plate 16.6 (13 & 14 Aug)",
-   "notes": "",
    "_id": "rmre11l38vlyr",
-   "date": "13.08.26"
+   "notes": "",
+   "date": "13.08.26",
+   "task": "Calcium imaging — plate 16.6 (13 & 14 Aug)",
+   "coating": "—"
   },
   {
+   "coating": "—",
+   "notes": "",
+   "task": "Change to BrainPhys — plate 23.6",
    "date": "17.08.26",
-   "notes": "",
-   "_id": "rmre11l38mdtf",
-   "coating": "—",
-   "task": "Change to BrainPhys — plate 23.6"
+   "_id": "rmre11l38mdtf"
   },
   {
    "coating": "—",
-   "_id": "rmre11l385uay",
-   "task": "Calcium imaging — plate 23.6 (19 & 20 Aug)",
    "notes": "",
+   "task": "Calcium imaging — plate 23.6 (19 & 20 Aug)",
+   "_id": "rmre11l385uay",
    "date": "19.08.26"
   },
   {
    "cat": "task",
+   "coating": "Coated 28.07 — see its own row",
    "_id": "rms542ws0qayi",
-   "task": "PRIORITY — Thaw 5 NPC cell lines: F1, F1 GFP, WTC CAAX RFP, Nr1 RFP, HPS",
    "notes": "5 lines: 1) F1  2) F1 GFP  3) WTC CAAX RFP  4) Nr1 RFP  5) HPS. Log each thaw in iPSC Thaw & Culture (passage, medium, ROCK 1:1000, wells). Keep coating and medium unchanged from the last successful condition — do NOT change both at once (see Methodology Insights).",
-   "date": "29.07.26",
-   "coating": "Coated 28.07 — see its own row"
+   "task": "PRIORITY — Thaw 5 NPC cell lines: F1, F1 GFP, WTC CAAX RFP, Nr1 RFP, HPS",
+   "date": "29.07.26"
   },
   {
-   "date": "29.07.26",
-   "notes": "Co-working with supervisor. Check confluence on the surviving lines (WTC CAAX, F1?) and split only if ready. If a condition must change, change coating OR medium at this split, never both.",
-   "cat": "task",
+   "coating": "—",
    "_id": "rms542ws0db0x",
+   "notes": "Co-working with supervisor. Check confluence on the surviving lines (WTC CAAX, F1?) and split only if ready. If a condition must change, change coating OR medium at this split, never both.",
+   "date": "29.07.26",
    "task": "Media change + confluence check (with supervisor) — split if needed",
+   "cat": "task"
+  },
+  {
+   "cat": "task",
+   "notes": "Concise summary presentation. Goal: structure and outline the practical workflows as the foundation for the thesis Methodology section. Source material: Protocol Reference + My Runs + Experiment Log.",
+   "task": "DEADLINE — Methods presentation: all techniques & major protocol steps executed so far",
+   "_id": "rms542ws0pnln",
+   "date": "31.07.26",
    "coating": "—"
   },
   {
-   "task": "DEADLINE — Methods presentation: all techniques & major protocol steps executed so far",
-   "cat": "task",
-   "_id": "rms542ws0pnln",
-   "notes": "Concise summary presentation. Goal: structure and outline the practical workflows as the foundation for the thesis Methodology section. Source material: Protocol Reference + My Runs + Experiment Log.",
-   "coating": "—",
-   "date": "31.07.26"
-  },
-  {
-   "date": "28.07.26",
-   "task": "Coat plates for the 5-line NPC thaw (F1, F1 GFP, WTC CAAX RFP, Nr1 RFP, HPS)",
-   "coating": "yes",
    "cat": "coating",
-   "_id": "rms56ef7arlcn",
-   "notes": "One day before thawing. Use the same matrix as the last successful condition — do not change coating and medium in the same step."
+   "task": "Coat plates for the 5-line NPC thaw (F1, F1 GFP, WTC CAAX RFP, Nr1 RFP, HPS)",
+   "date": "28.07.26",
+   "coating": "yes",
+   "notes": "One day before thawing. Use the same matrix as the last successful condition — do not change coating and medium in the same step.",
+   "_id": "rms56ef7arlcn"
   }
  ]
 }
