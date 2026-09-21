@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-21T22:35:09+02:00",
- "today": "2026-09-21",
+ "updated": "2026-09-22T01:36:34+02:00",
+ "today": "2026-09-22",
  "timezone": "Europe/Berlin",
  "count": 7,
  "items": [
@@ -9,7 +9,7 @@
    "title": "Add virus — plate 23.6",
    "source": "schedule",
    "overdue": true,
-   "days_from_today": -42,
+   "days_from_today": -43,
    "notes": ""
   },
   {
@@ -17,7 +17,7 @@
    "title": "Calcium imaging — plate 16.6 (13 & 14 Aug)",
    "source": "schedule",
    "overdue": true,
-   "days_from_today": -39,
+   "days_from_today": -40,
    "notes": ""
   },
   {
@@ -25,7 +25,7 @@
    "title": "Change to BrainPhys — plate 23.6",
    "source": "schedule",
    "overdue": true,
-   "days_from_today": -35,
+   "days_from_today": -36,
    "notes": ""
   },
   {
@@ -33,7 +33,7 @@
    "title": "Look into litterature and presentation so to know what and why you are doing? What is the research question/ hypothesis? What esperiments we perform in order to answer those question.  Do a Presetnation about that. (Rebecca)",
    "source": "schedule",
    "overdue": true,
-   "days_from_today": -34,
+   "days_from_today": -35,
    "notes": "From Rebecca"
   },
   {
@@ -41,7 +41,7 @@
    "title": "Look into litterature and presentation so to know what and why you are doing? What is the research question/ hypothesis? What esperiments we perform in order to answer those question.  Do a Presetnation about that. (Rebecca)",
    "source": "schedule",
    "overdue": true,
-   "days_from_today": -34,
+   "days_from_today": -35,
    "notes": "From Rebecca"
   },
   {
@@ -49,7 +49,7 @@
    "title": "#1.RFP — Day 14: Dissociate; replate on PLO/laminin in NPC medium",
    "source": "protocol",
    "overdue": true,
-   "days_from_today": -33,
+   "days_from_today": -34,
    "notes": ""
   },
   {
@@ -57,7 +57,7 @@
    "title": "Calcium imaging — plate 23.6 (19 & 20 Aug)",
    "source": "schedule",
    "overdue": true,
-   "days_from_today": -33,
+   "days_from_today": -34,
    "notes": ""
   }
  ],
