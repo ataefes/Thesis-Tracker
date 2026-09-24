@@ -1,192 +1,192 @@
 {
- "updated": "2026-09-24T12:16:36+02:00",
+ "updated": "2026-09-24T17:18:59+02:00",
  "source_updateTime": "2026-08-30T22:55:31.057177Z",
  "table": "timeline",
  "records": 23,
  "rows": [
   {
-   "goal": "Identify the neurons for the SCN3A analysis — via MAP2 or the hSyn virus",
    "note": "Work package 1 of 6 (Rebecca, 20.08).",
    "_id": "rmt1ci7qf9cmm",
+   "period": "Thesis requirement",
+   "goal": "Identify the neurons for the SCN3A analysis — via MAP2 or the hSyn virus",
    "checked": "",
-   "status": "planned",
-   "period": "Thesis requirement"
+   "status": "planned"
   },
   {
-   "goal": "Staining for morphological reconstruction — first plate 7.5 with the RFP virus, then Rebecca’s older plates with the GCaMP virus",
+   "period": "Thesis requirement",
    "note": "Work package 2. Ask Rebecca before each staining — we go through staining + samples together.",
    "_id": "rmt1ci7qfeqp4",
-   "checked": "",
    "status": "planned",
-   "period": "Thesis requirement"
+   "goal": "Staining for morphological reconstruction — first plate 7.5 with the RFP virus, then Rebecca’s older plates with the GCaMP virus",
+   "checked": ""
   },
   {
-   "goal": "Sodium-channel staining + analysis",
+   "status": "planned",
    "note": "Work package 3.",
    "_id": "rmt1ci7qfdp4z",
-   "status": "planned",
    "period": "Thesis requirement",
-   "checked": ""
+   "checked": "",
+   "goal": "Sodium-channel staining + analysis"
   },
   {
-   "period": "Thesis requirement",
-   "status": "planned",
-   "_id": "rmt1ci7qf9fk9",
    "checked": "",
+   "status": "planned",
    "note": "Work package 4 — includes re-using her existing image set.",
-   "goal": "General marker staining + analysis, plus analysis of the images Rebecca took from a previous batch"
+   "period": "Thesis requirement",
+   "goal": "General marker staining + analysis, plus analysis of the images Rebecca took from a previous batch",
+   "_id": "rmt1ci7qf9fk9"
   },
   {
-   "checked": "",
-   "status": "planned",
-   "period": "Thesis requirement",
    "note": "Work package 5.",
-   "goal": "Plate NPCs on coverslips → fix → stain NPC markers → analysis",
-   "_id": "rmt1ci7qfzr4b"
-  },
-  {
-   "checked": "",
    "period": "Thesis requirement",
-   "_id": "rmt1ci7qfrxew",
+   "_id": "rmt1ci7qfzr4b",
+   "goal": "Plate NPCs on coverslips → fix → stain NPC markers → analysis",
+   "checked": "",
+   "status": "planned"
+  },
+  {
+   "note": "Work package 6. Scheduling of all six is mine to plan.",
    "status": "planned",
-   "goal": "Activity analysis via calcium imaging",
-   "note": "Work package 6. Scheduling of all six is mine to plan."
+   "checked": "",
+   "_id": "rmt1ci7qfrxew",
+   "period": "Thesis requirement",
+   "goal": "Activity analysis via calcium imaging"
   },
   {
-   "checked": "",
-   "period": "ongoing",
-   "_id": "rmt1ci7qfqkke",
    "status": "in progress",
-   "note": "October is tight; drafts sent early get corrected in parallel.",
-   "goal": "Start writing parts early — send each finished piece to Rebecca for proofreading"
+   "goal": "Start writing parts early — send each finished piece to Rebecca for proofreading",
+   "period": "ongoing",
+   "checked": "",
+   "_id": "rmt1ci7qfqkke",
+   "note": "October is tight; drafts sent early get corrected in parallel."
   },
   {
-   "_id": "rmt1ci7qfe8nr",
-   "checked": "",
    "period": "21.09 – 04.10.26",
    "note": "No bench work in this window.",
-   "goal": "Completely out of the lab — writing only",
-   "status": "planned"
+   "checked": "",
+   "_id": "rmt1ci7qfe8nr",
+   "status": "planned",
+   "goal": "Completely out of the lab — writing only"
   },
   {
-   "period": "05.10 – 18.10.26",
    "status": "planned",
+   "goal": "Last calcium imaging + analysis of the current batch",
+   "period": "05.10 – 18.10.26",
    "checked": "",
    "_id": "rmt1ci7qfbux2",
-   "note": "Rebecca corrects whatever is already written during this window.",
-   "goal": "Last calcium imaging + analysis of the current batch"
+   "note": "Rebecca corrects whatever is already written during this window."
   },
   {
+   "status": "planned",
    "checked": "",
+   "note": "",
    "period": "23.10.26",
-   "status": "planned",
-   "note": "",
-   "_id": "rmt1ci7qf1hty",
-   "goal": "Send thesis to Rebecca for correction"
+   "goal": "Send thesis to Rebecca for correction",
+   "_id": "rmt1ci7qf1hty"
   },
   {
-   "note": "Feedback on both thesis + presentation follows.",
+   "checked": "",
    "goal": "Send presentation to Rebecca",
-   "status": "planned",
-   "_id": "rmt1ci7qf6zb1",
    "period": "26.10.26",
-   "checked": ""
+   "_id": "rmt1ci7qf6zb1",
+   "note": "Feedback on both thesis + presentation follows.",
+   "status": "planned"
   },
   {
-   "period": "until 30.10.26",
-   "_id": "rmt1ci7qfhwdg",
-   "status": "planned",
-   "goal": "Implement all of Rebecca’s feedback",
    "note": "",
+   "status": "planned",
+   "_id": "rmt1ci7qfhwdg",
+   "period": "until 30.10.26",
+   "checked": "",
+   "goal": "Implement all of Rebecca’s feedback"
+  },
+  {
+   "_id": "rmt1ci7qfcqt0",
+   "goal": "Give the presentation + send the thesis to Silvia",
+   "period": "30.10.26",
+   "status": "planned",
+   "note": "Mail said “30.1” — read as 30.10. Confirm the date with Silvia (school holidays coming up).",
    "checked": ""
   },
   {
-   "goal": "Give the presentation + send the thesis to Silvia",
-   "note": "Mail said “30.1” — read as 30.10. Confirm the date with Silvia (school holidays coming up).",
-   "status": "planned",
-   "checked": "",
-   "_id": "rmt1ci7qfcqt0",
-   "period": "30.10.26"
-  },
-  {
-   "note": "Leaves 1–2 days to implement as much as possible.",
-   "goal": "Target: Silvia’s feedback back",
-   "status": "planned",
    "period": "03.11.26",
-   "checked": "",
-   "_id": "rmt1ci7qf0wpu"
+   "note": "Leaves 1–2 days to implement as much as possible.",
+   "_id": "rmt1ci7qf0wpu",
+   "status": "planned",
+   "goal": "Target: Silvia’s feedback back",
+   "checked": ""
   },
   {
+   "note": "",
    "_id": "rmt1ci7qfjm9o",
+   "status": "planned",
    "checked": "",
    "goal": "Implement Silvia’s feedback → final submission",
-   "note": "",
-   "period": "04 – 05.11.26",
-   "status": "planned"
+   "period": "04 – 05.11.26"
   },
   {
    "goal": "Slide: neuronal reconstruction + slide: SCN3A data",
-   "_id": "rmre11l389p7t",
-   "note": "",
-   "status": "in progress",
    "period": "Until 10 July",
+   "_id": "rmre11l389p7t",
+   "status": "in progress",
+   "checked": "",
+   "note": ""
+  },
+  {
+   "note": "See Schedule / Drug-Virus Log",
+   "period": "July",
+   "_id": "rmre11l38av00",
+   "status": "in progress",
+   "goal": "Drug treatments (2.6 & 17.6 plates) + live imaging",
    "checked": ""
   },
   {
-   "status": "in progress",
-   "period": "July",
-   "goal": "Drug treatments (2.6 & 17.6 plates) + live imaging",
-   "note": "See Schedule / Drug-Virus Log",
-   "checked": "",
-   "_id": "rmre11l38av00"
-  },
-  {
-   "period": "July",
    "status": "planned",
-   "_id": "rmre11l38znna",
    "checked": "",
+   "goal": "Change 7.5 → BrainPhys & calcium-image plate 7.5; staining + reconstruction nr1",
+   "period": "July",
    "note": "",
-   "goal": "Change 7.5 → BrainPhys & calcium-image plate 7.5; staining + reconstruction nr1"
+   "_id": "rmre11l38znna"
   },
   {
    "note": "",
-   "goal": "Virus to plates 16.6 & 23.6, then calcium imaging",
+   "period": "Aug",
    "_id": "rmre11l3828if",
+   "goal": "Virus to plates 16.6 & 23.6, then calcium imaging",
    "checked": "",
-   "status": "planned",
-   "period": "Aug"
+   "status": "planned"
   },
   {
+   "_id": "rmre11l38d18s",
    "status": "planned",
-   "note": "",
    "goal": "Stain NPCs (Pax6 rb-647 + Ki67 msIgG1-546) & cerebral organoid; analyse first stainings (Nestin/DAPI) & SCN3A data",
-   "period": "(parallel)",
    "checked": "",
-   "_id": "rmre11l38d18s"
+   "note": "",
+   "period": "(parallel)"
   },
   {
-   "note": "",
+   "_id": "rmre11l385nae",
    "goal": "Ca-imaging theory + literature; collect catalogue & lot numbers; write protocols; keep lab book current",
    "checked": "",
-   "status": "planned",
    "period": "(parallel)",
-   "_id": "rmre11l385nae"
+   "note": "",
+   "status": "planned"
   },
   {
-   "_id": "rmre11l38rtix",
-   "checked": "",
-   "goal": "Stain GFP, Synapsin, Gephyrin/Homer1 → activity, morphology & synaptic density in one process",
-   "note": "",
    "period": "New batch CAO (Jun/Jul)",
-   "status": "planned"
+   "_id": "rmre11l38rtix",
+   "note": "",
+   "checked": "",
+   "status": "planned",
+   "goal": "Stain GFP, Synapsin, Gephyrin/Homer1 → activity, morphology & synaptic density in one process"
   },
   {
-   "_id": "rmre11l38npyg",
-   "note": "",
-   "goal": "DCHS1 late phenotype in two batches",
-   "checked": "",
    "period": "By end of October",
-   "status": "planned"
+   "note": "",
+   "status": "planned",
+   "_id": "rmre11l38npyg",
+   "goal": "DCHS1 late phenotype in two batches",
+   "checked": ""
   }
  ]
 }
