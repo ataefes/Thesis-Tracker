@@ -1,33 +1,33 @@
 {
- "updated": "2026-10-07T11:14:17+02:00",
+ "updated": "2026-10-07T18:29:56+02:00",
  "source_updateTime": "2026-09-27T20:16:41.589369Z",
  "table": "supervisor",
  "records": 2,
  "rows": [
   {
-   "priority": "normal",
-   "at": 1786711756872,
+   "draft": false,
    "_id": "rmssy1qvckw8k",
+   "detail": "",
+   "at": 1786711756872,
    "duration": "",
-   "link": "",
-   "done": false,
    "by": "Rebecca",
    "text": "Look into litterature and presentation so to know what and why you are doing? What is the research question/ hypothesis? What esperiments we perform in order to answer those question.  Do a Presetnation about that.",
+   "link": "",
+   "done": false,
    "deadline": "18.08.2026",
-   "draft": false,
-   "detail": ""
+   "priority": "normal"
   },
   {
-   "link": "s:imaging",
    "duration": "",
+   "link": "s:imaging",
+   "text": "remove your Data from the MICA. Transfer it to your hard drive. Make sure it got transferred and afterards delete it form the MICA",
+   "draft": false,
+   "priority": "high",
+   "at": 1785404978798,
    "_id": "rms7c0ygenv1z",
    "done": true,
-   "priority": "high",
-   "detail": "",
-   "text": "remove your Data from the MICA. Transfer it to your hard drive. Make sure it got transferred and afterards delete it form the MICA",
-   "at": 1785404978798,
-   "draft": false,
    "deadline": "",
+   "detail": "",
    "by": "Rebecca"
   }
  ]
