@@ -1,34 +1,34 @@
 {
- "updated": "2026-10-08T09:22:07+02:00",
- "source_updateTime": "2026-09-27T20:16:41.589369Z",
+ "updated": "2026-10-08T16:44:06+02:00",
+ "source_updateTime": "2026-10-08T14:44:05.624824Z",
  "table": "supervisor",
  "records": 2,
  "rows": [
   {
-   "detail": "",
-   "link": "",
    "done": false,
-   "deadline": "18.08.2026",
    "at": 1786711756872,
-   "_id": "rmssy1qvckw8k",
-   "duration": "",
    "draft": false,
    "by": "Rebecca",
+   "deadline": "18.08.2026",
+   "duration": "",
+   "_id": "rmssy1qvckw8k",
    "text": "Look into litterature and presentation so to know what and why you are doing? What is the research question/ hypothesis? What esperiments we perform in order to answer those question.  Do a Presetnation about that.",
-   "priority": "normal"
+   "link": "",
+   "priority": "normal",
+   "detail": ""
   },
   {
-   "duration": "",
-   "at": 1785404978798,
-   "done": true,
-   "link": "s:imaging",
    "priority": "high",
-   "text": "remove your Data from the MICA. Transfer it to your hard drive. Make sure it got transferred and afterards delete it form the MICA",
-   "detail": "",
+   "done": true,
+   "duration": "",
    "deadline": "",
-   "draft": false,
+   "by": "Rebecca",
+   "detail": "",
    "_id": "rms7c0ygenv1z",
-   "by": "Rebecca"
+   "draft": false,
+   "link": "s:imaging",
+   "text": "remove your Data from the MICA. Transfer it to your hard drive. Make sure it got transferred and afterards delete it form the MICA",
+   "at": 1785404978798
   }
  ]
 }
